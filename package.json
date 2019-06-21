@@ -1,0 +1,33 @@
+{
+  "name": "gen2",
+  "version": "1.0.0",
+  "description": "ask a manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlexYouLike/gen2.git"
+  },
+  "author": "David Tessier, Julien Cadeau, Naima Iberraken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexYouLike/gen2/issues"
+  },
+  "homepage": "https://github.com/AlexYouLike/gen2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-changed": "^4.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0"
+  }
+}
