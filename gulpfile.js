@@ -72,10 +72,6 @@ const cssConfig = {
 		require('usedcss')({				// removes unused selectors
 			html 		: ['index.html']
 		}),
-		require('postcss-assets')({			// can resolve image URL paths and info in the CSS files
-			loadPaths	: ['images/'],
-			basePath	: dir.build
-		}),
 		require('autoprefixer')({ 			// postCSS plugin adds vendor prefixes according to caniuse.com
 			browsers	: ['> 1%']
 		}),
@@ -90,9 +86,10 @@ function css() {
 		.pipe(postcss(cssConfig.postCSS))								 // applies plugins in postCSS array
 		.pipe(sourcemaps ? sourcemaps.write() : noop())					 // if sourcemaps, then append to css file
 		.pipe(size({ showFiles:true  }))								 // display final size of css file
-		.pipe(gulp.dest(cssConfig.build));								 // files saved to gulp.dest build folder
+		.pipe(gulp.dest(cssConfig.build))								 // files saved to gulp.dest build folder
+		.pipe(browsersync ? browsersync.reload({ stream:true }) : noop());
 }
-
+/*
 function concatCSS() {
 	return gulp.src(cssConfig.build)
 		.pipe(sourcemaps ? sourcemaps.init(cssConfig.srcMaps) : noop())
@@ -102,7 +99,7 @@ function concatCSS() {
 		.pipe(cleancss())
 		.pipe(gulp.dest(cssConfig.src))
 }
-
+*/
 
 /*************** js section ****************/
 const jsConfig = {
@@ -135,13 +132,13 @@ function watch() {
 	gulp.watch(cssConfig.watch, css)
 	gulp.watch(jsConfig.src, javascripting);
 	gulp.watch(imgConfig.src, images);
-	gulp.watch(['./index.html', jsConfig.build + 'supp-gen.js', cssConfig.watch + 'style.min.css']).on('change', browsersync.reload);
+	gulp.watch(['./index.html', jsConfig.build + 'supp-gen.js', 'style.css']).on('change', browsersync.reload);
 }
 
 /************ exports section *************/
 exports.images			= images;
 exports.css 			= gulp.series(images, css);
-exports.concatCSS		= concatCSS;
+//exports.concatCSS		= concatCSS;
 exports.javascripting	= javascripting;
 exports.watch			= watch;
 
