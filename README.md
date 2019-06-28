@@ -1,4 +1,8 @@
 # gen2
 ask a manager
 
-command --> gulp
+npm install -g gulp-cli
+
+npm install
+
+gulp
