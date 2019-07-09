@@ -39,6 +39,12 @@ $ npm install
 
 ---
 
+## Features
+- What are the `features` in your repo ?
+- Edit this section ! ! !
+
+---
+
 ## Team
 
 | <a href="https://github.com/AlexYouLike" target="_blank">**Alexandra Castillo**</a> | <a href="http://github.com/david-ayl" target="_blank">**David Tessier**</a> | <a href="http://github.com/Fred-ayl" target="_blank">**Fred Pires**</a> | <a href="http://github.com/JC-Adyoulike" target="_blank">**Julien Cadeau**</a> |
