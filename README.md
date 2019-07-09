@@ -52,3 +52,6 @@ $ npm install
 
 - **I have a question. Who should I ask ?**
     - Send an email to either manager -- David Tessier or Julien Cadeau
+
+- **Is it normal to have both a proxy and a port for the BrowserSyncPlugin in webpack.config.js ?**
+    - Yes. In order to use awesome features of both [Webpack Dev Server](https://github.com/webpack/webpack-dev-server) and [BrowserSync](https://www.npmjs.com/package/browser-sync-webpack-plugin), we exploit BrowserSync's [proxy option](http://www.browsersync.io/docs/options/#option-proxy). We basically proxy the output from the Webpack Dev Server through BrowserSync to get the best out of both.
