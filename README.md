@@ -1,6 +1,11 @@
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/LZnxJxY/social-widget-300x250-screenshot.png" alt="social-widget-300x250-screenshot" border="0"></a>
+<p align="center">
+  <a href="admin.adyoulike.com">
+    <img src="/git_imgs/soc-story-logo.gif?raw=true" width="350"/>
+  </a>
+</p>
 
 # Catalog de Stories 
+
 
 > A single page HTML site displaying social widget demos
 
@@ -15,6 +20,22 @@
 - [Features](#features)
 - [Team](#team)
 - [FAQ](#faq)
+
+---
+
+## Installation
+- All the `code` required to get started
+```shell
+$ git clone git@github.com:Adyoulike/gen2.git
+$ cd gen2
+$ npm install
+```
+
+<p align="center"><img src="/git_imgs/git-npm-install.gif?raw=true"/></p>
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/AdYouLike/gen2`
 
 ---
 
