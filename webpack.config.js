@@ -6,8 +6,8 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        app: './src/index.js',
-        print: './src/print.js'
+        app: './src/script/index.js',
+        print: './src/script/print.js'
     },
     devtool: 'inline-source-map',
     devServer: {
@@ -17,7 +17,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Output Management',
-			template: './dist/index.html'
+			template: './src/view/index.html'
         }),
         new BrowserSyncPlugin({
             host: 'localhost',
