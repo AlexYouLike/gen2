@@ -1,0 +1,17 @@
+
+.shape{
+  width:25%;
+  height:200px;
+  &.shape--blue{
+    background-color:blue;
+  }
+  &.shape--red{
+    background-color:red;
+  }
+  &.shape--green{
+    background-color:green;
+  }
+  &.shape--orange{
+    background-color:orange;
+  }
+}
