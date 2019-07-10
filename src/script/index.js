@@ -5,6 +5,10 @@ import storylog from '../json/catalogData.json';
 
 console.log(storylog);
 
+function createDivs () {
+
+}
+
 var Catalog = function (element) {
   this.format = Array.from(document.querySelectorAll('.js-format input'));
   this.country = Array.from(document.querySelectorAll('.js-colors button'));
