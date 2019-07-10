@@ -43,6 +43,26 @@ $ npm install
 - What are the `features` in your repo ?
 - Edit this section ! ! !
 
+### Front End Section
+- All `html` and `scss` files can be found in the `src` directory
+
+> Path to html files
+```shell
+$ cd src/view
+```
+> Path to scss files
+```shell
+$ cd src/styles
+```
+
+- The main  `scss` file is `appStyles.scss`
+
+You can either create new scss files in the styles directory, and then import them to the `appStyles` file via 
+```scss
+@import 'path of your scss file'
+```
+or you can just code directly in the `appStyles.scss` file.
+
 ---
 
 ## Team
