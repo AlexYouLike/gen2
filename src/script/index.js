@@ -5,8 +5,20 @@ import storylog from '../json/catalogData.json';
 
 console.log(storylog);
 
-function createDivs () {
+const CreateDivs = function () {
+	var i = 0;
+	var count = storylog.length;
 
+	while (i < 10)
+	{
+		var fig = document.createElement("figure");
+		fig.classList.add("col-4@sm");
+		fig.classList.add("picture-item");
+		fig.setAttribute('data-groups', '["' + storylog[i].format + '", "' + storylog[i].geo + '"]');
+		fig.innerHTML = storylog[i].brand_name;
+		document.getElementById("test").appendChild(fig);
+		i++;
+	}
 }
 
 var Catalog = function (element) {
@@ -40,6 +52,6 @@ Catalog.prototype._bindEventListeners = function () {
 };
 
 document.addEventListener('DOMContentLoaded', function() {
-	window.demo = new Demo(document.querySelector('.js-shuffle'));
+	window.demo = new CreateDivs(document.querySelector('.js-shuffle'));
 });
 
