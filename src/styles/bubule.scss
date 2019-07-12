@@ -1,3 +1,5 @@
+@import 'mixins';
+
 .bubule{
     display: flex;
     padding: 15px;
@@ -20,97 +22,34 @@
   }
   
   .bubule1{
-    background-image:url(../image/travel.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/travel.jpg');
   }
   
   .bubule2{
-    background-image:url(../image/fashion.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/fashion.jpg');
   }
   
   .bubule3{
-    background-image:url(../image/food.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/food.jpg');
+
   }
   
   .bubule4{
-    background-image:url(../image/car.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/car.jpg');
   }
   
   .bubule5{
-   background-image:url(../image/tech.jpg);
-   background-size: cover;
-   cursor: pointer;
-   overflow:hidden;
-   -webkit-border-radius:50px;
-   -moz-border-radius:50px;
-   border-radius:50px;
-   width:90px;
-   height:90px;
+   @include bubule('../image/tech.jpg');
   }
   
   .bubule6{
-    background-image:url(../image/woman.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/woman.jpg');
   }
   
   .bubule7{
-    background-image:url(../image/healthy.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/healthy.jpg');
   }
   
   .bubule8{
-    background-image:url(../image/sport.jpg);
-    background-size: cover;
-    cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    @include bubule('../image/sport.jpg');
   }

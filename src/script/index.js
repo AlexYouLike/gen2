@@ -2,7 +2,9 @@ import _ from 'lodash';
 import '../styles/appStyles.scss';
 import Shuffle from 'shufflejs';
 import catalog from '../json/catalogData.json';
+import sidebar from './sidebar';
 
+sidebar();
 
 var Demo = function (element) {
   this.shapes = Array.from(document.querySelectorAll('.js-shapes input'));

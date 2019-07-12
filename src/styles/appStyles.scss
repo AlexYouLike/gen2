@@ -1,6 +1,8 @@
 @import 'themeColors';
-@import 'tiles';
 @import 'bubule';
+@import 'menu';
+@import 'header';
+@import 'wrapper';
 
 $theme-font: verdana, sans-serif;
 
@@ -11,3 +13,8 @@ body {
         color: $themeColor-Dark;
     }
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
