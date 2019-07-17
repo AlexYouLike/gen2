@@ -3,72 +3,159 @@ import '../styles/appStyles.scss';
 import Shuffle from 'shufflejs';
 import storylog from '../json/catalogData.json';
 
+
 console.log(storylog);
 
-var CreateDivs = function (index) {
-	var outterDiv = document.createElement("figure"),
-		aspectOut = document.createElement("div"),
-		aspectInn = document.createElement("div"),
-		image	  = document.createElement("img"),
-		mainConta = document.getElementById("main_container");
+function setAttributes(el, attrs) {
+  for(var key in attrs) {
+    el.setAttribute(key, attrs[key]);
+  }
+}
 
-	mainConta.appendChild(outterDiv);
-	outterDiv.appendChild(aspectOut);
-	aspectOut.appendChild(aspectInn);
-	aspectInn.appendChild(image);
-
-	outterDiv.classList.add('col-3@xs', 'col-3@sm', 'format', 'shuffle-item');
-	aspectOut.classList.add('aspect', 'aspect--16x9');
-	aspectInn.classList.add("aspect__inner");
-
-	image.setAttribute('data-format', storylog[index].format.toLowerCase());
-	image.setAttribute('data-realm', storylog[index].geo.toLowerCase());
-	image.setAttribute('data-category', storylog[index].category.toLowerCase());
-	image.setAttribute('data-groups', "['" + storylog[index].geo + "']");
-	image.src = storylog[index].thumbnail;
-
-	outterDiv.innerHTML = storylog[index].format;
+for(var i = 0; i < 30; i++) {
+	let div = document.createElement('div')
+	setAttributes(div, {
+		'class': 'whatever',
+		'data-shape': ['circle', 'diamond', 'triangle', 'square'][Math.floor(Math.random() * 4)],
+		'data-color': ['green', 'blue', 'red', 'orange'][Math.floor(Math.random() * 4)]
+	})
+	document.getElementById('main_container').appendChild(div)
 }
 
 
+var StoryShuffle = function (element) {
+  this.shapes = Array.from(document.querySelectorAll('.js-shapes input'));
+  this.colors = Array.from(document.querySelectorAll('.js-colors button'));
 
-const MakeShuffle = function () {
+  this.shuffle = new Shuffle(element, {
+    easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)', // easeOutQuart
+    sizer: '.the-sizer',
+  });
 
-	var i = 0;
+  this.filters = {
+    shapes: [],
+    colors: [],
+  };
 
-	while (i < 10) {
-		CreateDivs(i);
-		i++;
-	}
+  this._bindEventListeners();
+};
 
-	var sizer = document.createElement("div");
-	document.getElementById("main_container").appendChild(sizer);
-	sizer.classList.add('col-1@sm', 'my-sizer-element');
+/**
+ * Bind event listeners for when the filters change.
+ */
+StoryShuffle.prototype._bindEventListeners = function () {
+  this._onShapeChange = this._handleShapeChange.bind(this);
+  this._onColorChange = this._handleColorChange.bind(this);
 
-	var elem = document.querySelector('.my-shuffle-container');
-	var sizer = document.querySelector('.my-sizer-element');
-	var shuffInstance = new Shuffle(elem, {
-		itemSelector: '.shuffle-item',
-		sizer: sizer
-	});
-	console.log(shuffInstance);
-	var redi = document.getElementById('cb-redirect');
-	const checks = document.querySelectorAll('.ib > input');
-	for (const check of checks) {
-		check.addEventListener('click', function (ev) {
-			shuffInstance.filter(ev.target.value);
-		})
-	}
+  this.shapes.forEach(function (input) {
+    input.addEventListener('change', this._onShapeChange);
+  }, this);
 
-	if (redi.checked == true)
-		console.log('yo');
-	else
-		console.log('no');
-	// shuffInstance.filter('UK');
-}
+  this.colors.forEach(function (button) {
+    button.addEventListener('click', this._onColorChange);
+  }, this);
+};
 
-document.addEventListener('DOMContentLoaded', function() {
-	window.demo = new MakeShuffle(document.querySelector('.js-shuffle'));
+/**
+ * Get the values of each checked input.
+ * @return {Array.<string>}
+ */
+StoryShuffle.prototype._getCurrentShapeFilters = function () {
+  return this.shapes.filter(function (input) {
+    return input.checked;
+  }).map(function (input) {
+    return input.value;
+  });
+};
 
+/**
+ * Get the values of each `active` button.
+ * @return {Array.<string>}
+ */
+StoryShuffle.prototype._getCurrentColorFilters = function () {
+  return this.colors.filter(function (button) {
+    return button.classList.contains('active');
+  }).map(function (button) {
+    return button.getAttribute('data-value');
+  });
+};
+
+/**
+ * A shape input check state changed, update the current filters and filte.r
+ */
+StoryShuffle.prototype._handleShapeChange = function () {
+  this.filters.shapes = this._getCurrentShapeFilters();
+  this.filter();
+};
+
+/**
+ * A color button was clicked. Update filters and display.
+ * @param {Event} evt Click event object.
+ */
+StoryShuffle.prototype._handleColorChange = function (evt) {
+  var button = evt.currentTarget;
+
+  // Treat these buttons like radio buttons where only 1 can be selected.
+  if (button.classList.contains('active')) {
+    button.classList.remove('active');
+  } else {
+    this.colors.forEach(function (btn) {
+      btn.classList.remove('active');
+    });
+
+    button.classList.add('active');
+  }
+
+  this.filters.colors = this._getCurrentColorFilters();
+  this.filter();
+};
+
+/**
+ * Filter shuffle based on the current state of filters.
+ */
+StoryShuffle.prototype.filter = function () {
+  if (this.hasActiveFilters()) {
+    this.shuffle.filter(this.itemPassesFilters.bind(this));
+  } else {
+    this.shuffle.filter(Shuffle.ALL_ITEMS);
+  }
+};
+
+/**
+ * If any of the arrays in the `filters` property have a length of more than zero,
+ * that means there is an active filter.
+ * @return {boolean}
+ */
+StoryShuffle.prototype.hasActiveFilters = function () {
+  return Object.keys(this.filters).some(function (key) {
+    return this.filters[key].length > 0;
+  }, this);
+};
+
+/**
+ * Determine whether an element passes the current filters.
+ * @param {Element} element Element to test.
+ * @return {boolean} Whether it satisfies all current filters.
+ */
+StoryShuffle.prototype.itemPassesFilters = function (element) {
+  var shapes = this.filters.shapes;
+  var colors = this.filters.colors;
+  var shape = element.getAttribute('data-shape');
+  var color = element.getAttribute('data-color');
+
+  // If there are active shape filters and this shape is not in that array.
+  if (shapes.length > 0 && !shapes.includes(shape)) {
+    return false;
+  }
+
+  // If there are active color filters and this color is not in that array.
+  if (colors.length > 0 && !colors.includes(color)) {
+    return false;
+  }
+
+  return true;
+};
+
+document.addEventListener('DOMContentLoaded', function () {
+  window.StoryShuffle = new StoryShuffle(document.querySelector('.js-shuffle'));
 });
-
