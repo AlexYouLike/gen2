@@ -5,53 +5,70 @@ import storylog from '../json/catalogData.json';
 
 console.log(storylog);
 
-const CreateDivs = function () {
-	var i = 0;
-	var count = storylog.length;
+var CreateDivs = function (index) {
+	var outterDiv = document.createElement("figure"),
+		aspectOut = document.createElement("div"),
+		aspectInn = document.createElement("div"),
+		image	  = document.createElement("img"),
+		mainConta = document.getElementById("main_container");
 
-	while (i < 10)
-	{
-		var fig = document.createElement("figure");
-		fig.classList.add("col-4@sm");
-		fig.classList.add("picture-item");
-		fig.setAttribute('data-groups', '["' + storylog[i].format + '", "' + storylog[i].geo + '"]');
-		fig.innerHTML = storylog[i].brand_name;
-		document.getElementById("test").appendChild(fig);
-		i++;
-	}
+	mainConta.appendChild(outterDiv);
+	outterDiv.appendChild(aspectOut);
+	aspectOut.appendChild(aspectInn);
+	aspectInn.appendChild(image);
+
+	outterDiv.classList.add('col-3@xs', 'col-3@sm', 'format', 'shuffle-item');
+	aspectOut.classList.add('aspect', 'aspect--16x9');
+	aspectInn.classList.add("aspect__inner");
+
+	image.setAttribute('data-format', storylog[index].format.toLowerCase());
+	image.setAttribute('data-realm', storylog[index].geo.toLowerCase());
+	image.setAttribute('data-category', storylog[index].category.toLowerCase());
+	image.setAttribute('data-groups', "['" + storylog[index].geo + "']");
+	image.src = storylog[index].thumbnail;
+
+	outterDiv.innerHTML = storylog[index].format;
 }
 
-var Catalog = function (element) {
-  this.format = Array.from(document.querySelectorAll('.js-format input'));
-  this.country = Array.from(document.querySelectorAll('.js-colors button'));
 
-  this.shuffle = new Shuffle(element, {
-    easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)', // easeOutQuart
-    sizer: '.the-sizer',
-  });
 
-  this.filters = {
-    format: [],
-    country: [],
-  };
+const MakeShuffle = function () {
 
-  this._bindEventListeners();
-};
+	var i = 0;
 
-Catalog.prototype._bindEventListeners = function () {
-  this._onFormatChange = this._handleFormatChange.bind(this);
-  this._onCountryChange = this._handleCountryChange.bind(this);
+	while (i < 10) {
+		CreateDivs(i);
+		i++;
+	}
 
-  this.format.forEach(function (input) {
-    input.addEventListener('change', this._onFormatChange);
-  }, this);
+	var sizer = document.createElement("div");
+	document.getElementById("main_container").appendChild(sizer);
+	sizer.classList.add('col-1@sm', 'my-sizer-element');
 
-  this.country.forEach(function (button) {
-    button.addEventListener('click', this._onCountryChange);
-  }, this);
-};
+	var elem = document.querySelector('.my-shuffle-container');
+	var sizer = document.querySelector('.my-sizer-element');
+	var shuffInstance = new Shuffle(elem, {
+		itemSelector: '.shuffle-item',
+		sizer: sizer
+	});
+	console.log(shuffInstance);
+	var redi = document.getElementById('cb-redirect');
+	const checks = document.querySelectorAll('.ib > input');
+	for (const check of checks) {
+		check.addEventListener('click', function (ev) {
+			shuffInstance.filter(ev.target.value);
+		})
+	}
+
+	if (redi.checked == true)
+		console.log('yo');
+	else
+		console.log('no');
+	// shuffInstance.filter('UK');
+}
 
 document.addEventListener('DOMContentLoaded', function() {
-	window.demo = new CreateDivs(document.querySelector('.js-shuffle'));
+	window.demo = new MakeShuffle(document.querySelector('.js-shuffle'));
+
 });
 
