@@ -7,11 +7,48 @@ import storylog from '../json/catalogData.json';
 console.log(storylog);
 
 function setAttributes(el, attrs) {
-  for(var key in attrs) {
-    el.setAttribute(key, attrs[key]);
-  }
+	for(var key in attrs) {
+		el.setAttribute(key, attrs[key]);
+	}
 }
 
+
+	for(var i = 0; i < storylog.length; i++) {
+		let fig = document.createElement('figure');
+		fig.classList.add('js-item', 'img-item', 'col-3@sm', 'col-3@xs');
+
+		let divOut = document.createElement('div');
+		divOut.classList.add('aspect', 'aspect--16x9');
+
+		let divInn = document.createElement('div');
+		divInn.classList.add('aspect__inner');
+
+		let image = document.createElement('img');
+		image.src = storylog[i].thumbnail;
+
+		let figcaption = document.createElement('figcaption');
+		figcaption.innerHTML = storylog[i].brand_name;
+
+		setAttributes(fig, {
+			'data-shape': storylog[i].format.toLowerCase(),
+			'data-color': storylog[i].geo.toLowerCase(),
+			'data-category': storylog[i].category.toLowerCase()
+		})
+
+		fig.appendChild(divOut);
+		divOut.appendChild(divInn);
+		divInn.appendChild(image);
+		fig.appendChild(figcaption);
+
+		document.getElementById('main_container').appendChild(fig);
+	}
+
+//let sizer = document.createElement('div');
+//sizer.classList.add('col-1@sm the-sizer')
+//document.getElementById('main_container').appendChild(sizer);
+
+
+/*
 for(var i = 0; i < 30; i++) {
 	let div = document.createElement('div')
 	setAttributes(div, {
@@ -21,104 +58,115 @@ for(var i = 0; i < 30; i++) {
 	})
 	document.getElementById('main_container').appendChild(div)
 }
+*/
+
 
 
 var StoryShuffle = function (element) {
-  this.shapes = Array.from(document.querySelectorAll('.js-shapes input'));
-  this.colors = Array.from(document.querySelectorAll('.js-colors button'));
+	this.formats = Array.from(document.querySelectorAll('.js-shapes input'));
+	this.countries = Array.from(document.querySelectorAll('.js-colors button'));
 
-  this.shuffle = new Shuffle(element, {
-    easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)', // easeOutQuart
-    sizer: '.the-sizer',
-  });
+	this.shuffle = new Shuffle(element, {
+		easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)', // easeOutQuart
+		sizer: '.the-sizer',
+	});
 
-  this.filters = {
-    shapes: [],
-    colors: [],
-  };
+	this.filters = {
+		formats: [],
+		countries: [],
+	};
 
-  this._bindEventListeners();
+	this._bindEventListeners();
+};
+
+
+StoryShuffle.prototype._createHTMLBlocks = function () {
+
+
+	// ELEMENT CREATION LOGIC GOES HERE
+
+
 };
 
 /**
  * Bind event listeners for when the filters change.
  */
 StoryShuffle.prototype._bindEventListeners = function () {
-  this._onShapeChange = this._handleShapeChange.bind(this);
-  this._onColorChange = this._handleColorChange.bind(this);
+	this._onFormatChange = this._handleFormatChange.bind(this);
+	this._onCountryChange = this._handleCountryChange.bind(this);
 
-  this.shapes.forEach(function (input) {
-    input.addEventListener('change', this._onShapeChange);
-  }, this);
+	this.formats.forEach(function (input) {
+		input.addEventListener('change', this._onFormatChange);
+	}, this);
 
-  this.colors.forEach(function (button) {
-    button.addEventListener('click', this._onColorChange);
-  }, this);
+	this.countries.forEach(function (button) {
+		button.addEventListener('click', this._onCountryChange);
+	}, this);
 };
 
 /**
  * Get the values of each checked input.
  * @return {Array.<string>}
  */
-StoryShuffle.prototype._getCurrentShapeFilters = function () {
-  return this.shapes.filter(function (input) {
-    return input.checked;
-  }).map(function (input) {
-    return input.value;
-  });
+StoryShuffle.prototype._getCurrentFormatFilters = function () {
+	return this.formats.filter(function (input) {
+		return input.checked;
+	}).map(function (input) {
+		return input.value;
+	});
 };
 
 /**
  * Get the values of each `active` button.
  * @return {Array.<string>}
  */
-StoryShuffle.prototype._getCurrentColorFilters = function () {
-  return this.colors.filter(function (button) {
-    return button.classList.contains('active');
-  }).map(function (button) {
-    return button.getAttribute('data-value');
-  });
+StoryShuffle.prototype._getCurrentCountryFilters = function () {
+	return this.countries.filter(function (button) {
+		return button.classList.contains('active');
+	}).map(function (button) {
+		return button.getAttribute('data-value');
+	});
 };
 
 /**
  * A shape input check state changed, update the current filters and filte.r
  */
-StoryShuffle.prototype._handleShapeChange = function () {
-  this.filters.shapes = this._getCurrentShapeFilters();
-  this.filter();
+StoryShuffle.prototype._handleFormatChange = function () {
+	this.filters.formats = this._getCurrentFormatFilters();
+	this.filter();
 };
 
 /**
  * A color button was clicked. Update filters and display.
  * @param {Event} evt Click event object.
  */
-StoryShuffle.prototype._handleColorChange = function (evt) {
-  var button = evt.currentTarget;
+StoryShuffle.prototype._handleCountryChange = function (evt) {
+	var button = evt.currentTarget;
 
-  // Treat these buttons like radio buttons where only 1 can be selected.
-  if (button.classList.contains('active')) {
-    button.classList.remove('active');
-  } else {
-    this.colors.forEach(function (btn) {
-      btn.classList.remove('active');
-    });
+	// Treat these buttons like radio buttons where only 1 can be selected.
+	if (button.classList.contains('active')) {
+		button.classList.remove('active');
+	} else {
+		this.countries.forEach(function (btn) {
+			btn.classList.remove('active');
+		});
 
-    button.classList.add('active');
-  }
+		button.classList.add('active');
+	}
 
-  this.filters.colors = this._getCurrentColorFilters();
-  this.filter();
+	this.filters.countries = this._getCurrentCountryFilters();
+	this.filter();
 };
 
 /**
  * Filter shuffle based on the current state of filters.
  */
 StoryShuffle.prototype.filter = function () {
-  if (this.hasActiveFilters()) {
-    this.shuffle.filter(this.itemPassesFilters.bind(this));
-  } else {
-    this.shuffle.filter(Shuffle.ALL_ITEMS);
-  }
+	if (this.hasActiveFilters()) {
+		this.shuffle.filter(this.itemPassesFilters.bind(this));
+	} else {
+		this.shuffle.filter(Shuffle.ALL_ITEMS);
+	}
 };
 
 /**
@@ -127,9 +175,9 @@ StoryShuffle.prototype.filter = function () {
  * @return {boolean}
  */
 StoryShuffle.prototype.hasActiveFilters = function () {
-  return Object.keys(this.filters).some(function (key) {
-    return this.filters[key].length > 0;
-  }, this);
+	return Object.keys(this.filters).some(function (key) {
+		return this.filters[key].length > 0;
+	}, this);
 };
 
 /**
@@ -138,24 +186,24 @@ StoryShuffle.prototype.hasActiveFilters = function () {
  * @return {boolean} Whether it satisfies all current filters.
  */
 StoryShuffle.prototype.itemPassesFilters = function (element) {
-  var shapes = this.filters.shapes;
-  var colors = this.filters.colors;
-  var shape = element.getAttribute('data-shape');
-  var color = element.getAttribute('data-color');
+	var formats = this.filters.formats;
+	var countries = this.filters.countries;
+	var format = element.getAttribute('data-shape');
+	var country = element.getAttribute('data-color');
 
-  // If there are active shape filters and this shape is not in that array.
-  if (shapes.length > 0 && !shapes.includes(shape)) {
-    return false;
-  }
+	// If there are active shape filters and this shape is not in that array.
+	if (formats.length > 0 && !formats.includes(format)) {
+		return false;
+	}
 
-  // If there are active color filters and this color is not in that array.
-  if (colors.length > 0 && !colors.includes(color)) {
-    return false;
-  }
+	// If there are active color filters and this color is not in that array.
+	if (countries.length > 0 && !countries.includes(country)) {
+		return false;
+	}
 
-  return true;
+	return true;
 };
 
 document.addEventListener('DOMContentLoaded', function () {
-  window.StoryShuffle = new StoryShuffle(document.querySelector('.js-shuffle'));
+	window.StoryShuffle = new StoryShuffle(document.querySelector('.js-shuffle'));
 });
