@@ -38,17 +38,10 @@ module.exports = {
                 test: /\.(s*)css$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
-			{
-				test: /\.(png|svg|jpg|gif)$/,
-				use: ['file-loader']
-<<<<<<< HEAD
-=======
-			},
-			{
-				test: /\.html$/,
-				use: ['html-loader']
->>>>>>> Fred
-			}
+      			{
+      				test: /\.(png|svg|jpg|gif)$/,
+      				use: ['file-loader']
+      			}
         ]
     }
 };
