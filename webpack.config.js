@@ -41,6 +41,13 @@ module.exports = {
 			{
 				test: /\.(png|svg|jpg|gif)$/,
 				use: ['file-loader']
+<<<<<<< HEAD
+=======
+			},
+			{
+				test: /\.html$/,
+				use: ['html-loader']
+>>>>>>> Fred
 			}
         ]
     }

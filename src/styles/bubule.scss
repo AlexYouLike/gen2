@@ -1,0 +1,55 @@
+@import 'mixins';
+
+.bubule{
+    display: flex;
+    padding: 15px;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    & > * {
+        margin:10px;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+}
+
+  .bubule_texte{
+    text-align: center;
+    color:#c1cbcf;
+    margin-top: 10%;
+    font-family: "OpenSans-SemiBold", sans-serif;
+  }
+  
+  .bubule1{
+    @include bubule('../image/travel.jpg');
+  }
+  
+  .bubule2{
+    @include bubule('../image/fashion.jpg');
+  }
+  
+  .bubule3{
+    @include bubule('../image/food.jpg');
+
+  }
+  
+  .bubule4{
+    @include bubule('../image/car.jpg');
+  }
+  
+  .bubule5{
+   @include bubule('../image/tech.jpg');
+  }
+  
+  .bubule6{
+    @include bubule('../image/woman.jpg');
+  }
+  
+  .bubule7{
+    @include bubule('../image/healthy.jpg');
+  }
+  
+  .bubule8{
+    @include bubule('../image/sport.jpg');
+  }

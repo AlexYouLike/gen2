@@ -1,9 +1,10 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Go Go Gadget</title>
+		<title>Stories Catalog</title>
 	</head>
 	<body>
+<<<<<<< HEAD
 
 		<div>
       <div class="filter-group filter-group--compound js-colors">
@@ -54,4 +55,67 @@
 
 
 	</body>
+=======
+		<div id="menu">
+	  <img id="close" style="width:30px ;height: 37px;" src="../image/close.svg" alt="search">
+	  <h2>test</h2>
+	  
+		</div>
+		<div id="wrapper">
+		  <header>
+
+			<img class="logo" src="../image/logo.png" alt="logo">
+			<h1 class="logo_title">Stories</br> Catalog</h1>
+			<nav>
+			  <ul class="nav_links">
+				<li><a href="##"><img src="../image/heart.svg" alt="heart"></a></li>
+				<li id="click_filter"><a href="##"><img style="width:30px ;height: 37px;" src="../image/filter.svg" alt="filter"></a></li>
+				<li><a href="##"><img src="../image/search.svg" alt="search"></a></li>
+			  </ul>
+			</nav>
+		  </header>
+	  
+		  <div class="bubule">
+	  
+			<div class="bubule_container">
+			  <div class="bubule1"></div>
+			  <div class="bubule_texte">#travel</div>
+			</div>
+			<div class="bubule_container">
+			  <div class="bubule2"></div>
+			  <div class="bubule_texte">#fashion</div>
+			</div><div class="bubule_container">
+			  <div class="bubule3"></div>
+			  <div class="bubule_texte">#food</div>
+			</div><div class="bubule_container">
+			  <div class="bubule4"></div>
+			  <div class="bubule_texte">#car</div>
+			</div><div class="bubule_container">
+			  <div class="bubule5"></div>
+			  <div class="bubule_texte">#tech</div>
+			</div><div class="bubule_container">
+			  <div class="bubule6"></div>
+			  <div class="bubule_texte">#woman</div>
+			</div><div class="bubule_container">
+			  <div class="bubule7"></div>
+			  <div class="bubule_texte">#healthy</div>
+			</div><div class="bubule_container">
+			  <div class="bubule8"></div>
+			  <div class="bubule_texte">#sports</div>
+			</div>
+		  </div>
+		</div>
+	  
+	  <script>
+	  Array.from(document.querySelectorAll("#click_filter, #close")).forEach(function(el){
+		el.onclick=function() {  
+		  document.querySelector("#wrapper").classList.toggle('menu_visible') 
+		}
+	  }) 
+	  </script>
+	  
+	  
+	  
+	  </body>
+>>>>>>> Fred
 </html>

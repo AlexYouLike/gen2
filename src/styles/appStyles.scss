@@ -1,6 +1,13 @@
 @import 'themeColors';
+<<<<<<< HEAD
 @import 'tiles';
 @import 'test';
+=======
+@import 'bubule';
+@import 'menu';
+@import 'header';
+@import 'wrapper';
+>>>>>>> Fred
 
 $theme-font: verdana, sans-serif;
 
@@ -37,3 +44,8 @@ body {
 .aspect--16x9 {
   padding-bottom: 56.25%;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }

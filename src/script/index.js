@@ -1,8 +1,14 @@
 import _ from 'lodash';
 import '../styles/appStyles.scss';
 import Shuffle from 'shufflejs';
+<<<<<<< HEAD
 import storylog from '../json/catalogData.json';
+=======
+import catalog from '../json/catalogData.json';
+import sidebar from './sidebar';
+>>>>>>> Fred
 
+sidebar();
 
 console.log(storylog);
 
