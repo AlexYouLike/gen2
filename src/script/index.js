@@ -1,12 +1,9 @@
 import _ from 'lodash';
 import '../styles/appStyles.scss';
 import Shuffle from 'shufflejs';
-<<<<<<< HEAD
 import storylog from '../json/catalogData.json';
-=======
-import catalog from '../json/catalogData.json';
 import sidebar from './sidebar';
->>>>>>> Fred
+
 
 sidebar();
 
@@ -20,33 +17,19 @@ function setAttributes(el, attrs) {
 
 
 	for(var i = 0; i < storylog.length; i++) {
-		let fig = document.createElement('figure');
-		fig.classList.add('js-item', 'img-item', 'col-3@sm', 'col-3@xs');
+		let el = document.createElement('div');
 
-		let divOut = document.createElement('div');
-		divOut.classList.add('aspect', 'aspect--16x9');
 
-		let divInn = document.createElement('div');
-		divInn.classList.add('aspect__inner');
-
-		let image = document.createElement('img');
-		image.src = storylog[i].thumbnail;
-
-		let figcaption = document.createElement('figcaption');
-		figcaption.innerHTML = storylog[i].brand_name;
-
-		setAttributes(fig, {
+		setAttributes(el, {
+			'class': 'tile',
 			'data-shape': storylog[i].format.toLowerCase(),
 			'data-color': storylog[i].geo.toLowerCase(),
 			'data-category': storylog[i].category.toLowerCase()
 		})
 
-		fig.appendChild(divOut);
-		divOut.appendChild(divInn);
-		divInn.appendChild(image);
-		fig.appendChild(figcaption);
 
-		document.getElementById('main_container').appendChild(fig);
+
+		document.getElementById('main_container').appendChild(el);
 	}
 
 //let sizer = document.createElement('div');

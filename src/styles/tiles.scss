@@ -1,33 +1,7 @@
 
-.whatever{
+.tile{
   width:300px;
-  height:300px;
+  height:600px;
+  background-color:grey;
   margin:10px;
-  background-color:grey;
-  &[data-color='green']{
-    background-color:green;
-  }
-  &[data-color='blue']{
-    background-color:blue;
-  }
-  &[data-color='red']{
-    background-color:red;
-  }
-  &[data-color='orange']{
-    background-color:orange;
-  }
-  &[data-shape]{
-    &:after{
-      content:attr(data-shape);
-      display:block;
-      color:#FFFFFF;
-      line-height:300px;
-      text-align:center;
-      font-size:20px;
-    }
-  }
-}
-
-.active{
-  background-color:grey;
 }
