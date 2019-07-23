@@ -2,52 +2,23 @@ import _ from 'lodash';
 import '../styles/appStyles.scss';
 import Shuffle from 'shufflejs';
 import storylog from '../json/catalogData.json';
-import sidebar from './sidebar';
+import { sidebarToggle,  setAttributes} from './utils';
 
+sidebarToggle()
 
-sidebar();
+for(var i = 0; i < storylog.length; i++) {
+	let el = document.createElement('div');
 
-console.log(storylog);
-
-function setAttributes(el, attrs) {
-	for(var key in attrs) {
-		el.setAttribute(key, attrs[key]);
-	}
-}
-
-
-	for(var i = 0; i < storylog.length; i++) {
-		let el = document.createElement('div');
-
-
-		setAttributes(el, {
-			'class': 'tile',
-			'data-shape': storylog[i].format.toLowerCase(),
-			'data-color': storylog[i].geo.toLowerCase(),
-			'data-category': storylog[i].category.toLowerCase()
-		})
-
-
-
-		document.getElementById('main_container').appendChild(el);
-	}
-
-//let sizer = document.createElement('div');
-//sizer.classList.add('col-1@sm the-sizer')
-//document.getElementById('main_container').appendChild(sizer);
-
-
-/*
-for(var i = 0; i < 30; i++) {
-	let div = document.createElement('div')
-	setAttributes(div, {
-		'class': 'whatever',
-		'data-shape': ['circle', 'diamond', 'triangle', 'square'][Math.floor(Math.random() * 4)],
-		'data-color': ['green', 'blue', 'red', 'orange'][Math.floor(Math.random() * 4)]
+	setAttributes(el, {
+		'class': 'tile',
+		'data-shape': storylog[i].format.toLowerCase(),
+		'data-color': storylog[i].geo.toLowerCase(),
+		'data-category': storylog[i].category.toLowerCase()
 	})
-	document.getElementById('main_container').appendChild(div)
+
+	document.getElementById('main_container').appendChild(el);
 }
-*/
+
 
 
 
