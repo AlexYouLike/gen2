@@ -1,12 +1,11 @@
 @import 'themeColors';
 @import 'bubule';
+@import 'menu';
+@import 'header';
+@import 'wrapper';
 
-$theme-font: verdana, sans-serif;
 
-body {
-    font: $theme-font;
-    background-color: $themeColor-Light;
-    h1, h2 {
-        color: $themeColor-Dark;
-    }
+* {
+  box-sizing: border-box;
+  margin: 0;
 }

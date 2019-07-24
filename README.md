@@ -4,12 +4,12 @@
   </a>
 </p>
 
-# Catalog de Stories 
+# Catalog de Stories
 
 
 > A single page HTML site displaying social widget demos
 
-[![npm badge](https://img.shields.io/static/v1.svg?label=npm&message=6.9.2&style=flat-square&color=#83cd29)](https://github.com/npm/cli) [![node.js badge](https://img.shields.io/static/v1.svg?label=nodejs&message=v10.16.0&style=flat-square&color=#CD040B)](https://nodejs.org/en/) 
+[![npm badge](https://img.shields.io/static/v1.svg?label=npm&message=6.9.2&style=flat-square&color=#83cd29)](https://github.com/npm/cli) [![node.js badge](https://img.shields.io/static/v1.svg?label=nodejs&message=v10.16.0&style=flat-square&color=#CD040B)](https://nodejs.org/en/)
 
 
 ---
@@ -57,7 +57,7 @@ $ cd src/styles
 
 - The main  `scss` file is `appStyles.scss`
 
-You can either create new scss files in the styles directory, and then import them to the `appStyles` file via 
+You can either create new scss files in the styles directory, and then import them to the `appStyles` file via
 ```scss
 @import 'path of your scss file'
 ```
@@ -81,3 +81,7 @@ or you can just code directly in the `appStyles.scss` file.
 
 - **Is it normal to have both a proxy and a port for the BrowserSyncPlugin in webpack.config.js ?**
     - Yes. In order to use awesome features of both [Webpack Dev Server](https://github.com/webpack/webpack-dev-server) and [BrowserSync](https://www.npmjs.com/package/browser-sync-webpack-plugin), we exploit BrowserSync's [proxy option](http://www.browsersync.io/docs/options/#option-proxy). We basically proxy the output from the Webpack Dev Server through BrowserSync to get the best out of both.
+
+
+## LOGO
+https://drive.google.com/drive/folders/1x9LbjsKUtIqPofOuxTTtYkXxU8qHei3U

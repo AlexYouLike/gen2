@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
     mode: 'development',
@@ -26,7 +27,11 @@ module.exports = {
         }, {
             reload: false,
             injectCss: true
-        })
+        }),
+        new CopyWebpackPlugin([{
+          from: 'src/image',
+          to : 'image'
+        }])
     ],
     output: {
         filename: '[name].bundle.js',
@@ -34,14 +39,17 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.(s*)css$/,
-                use: ['style-loader', 'css-loader', 'sass-loader']
-            },
-			{
-				test: /\.(png|svg|jpg|gif)$/,
-				use: ['file-loader']
-			}
+          {
+            test: /\.(s*)css$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
+          },
+    			{
+    				test: /\.(png|svg|jpe?g|gif)$/,
+    				use: [{
+              loader: 'file-loader',
+              options: {}
+            }]
+    			}
         ]
     }
 };

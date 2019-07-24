@@ -1,17 +1,14 @@
 
-.shape{
-  width:25%;
-  height:200px;
-  &.shape--blue{
-    background-color:blue;
-  }
-  &.shape--red{
-    background-color:red;
-  }
-  &.shape--green{
-    background-color:green;
-  }
-  &.shape--orange{
-    background-color:orange;
-  }
+.tile{
+  width:300px;
+  height:600px;
+  background-color:grey;
+  margin:10px;
+  position:relative;
+}
+
+.thumbnail{
+  display:block;
+  width:100%;
+  height:auto;
 }

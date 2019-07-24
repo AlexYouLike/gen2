@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+  }
+
+  li, a,{
+    font-weight: 500;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+  }
+
+  .logo{
+    cursor: pointer;
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+  }
+  
+  .logo_title{
+    flex: auto;
+    margin-left: 2%;
+    font-family: "Montserrat-Bold", sans-serif;
+  }
+  
+  .nav_links{
+    list-style: none;
+  }
+  
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    width:70px;
+  }
+  
+  
+  .nav_links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav_links li a:hover {
+    color:red;
+  }

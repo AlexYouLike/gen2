@@ -1,0 +1,11 @@
+#wrapper{
+    background-color: #FFF;
+    z-index: 1;
+    transition-duration:0.3s;
+    min-height: 100vh;
+    position: static;
+    transform: translateX(0%);
+  }
+  #wrapper.menu_visible{
+    transform: translateX(20%);
+  }

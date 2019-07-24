@@ -1,67 +1,119 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Go Go Gadget</title>
+		<title>Stories Catalog</title>
 	</head>
 	<body>
-		<div id="menu">
-	  <img id="close" style="width:30px ;height: 37px;" src="assets/image/close.svg" alt="search">
-	  <h2>test</h2>
-	  
-		</div>
-		<div id="wrapper">
-		  <header>
-			<img class="logo" src="assets/image/logo.png" alt="logo">
-			<h1 class="logo_title">Stories</br> Catalog</h1>
-			<nav>
-			  <ul class="nav_links">
-				<li><a href="##"><img src="assets/image/heart.svg" alt="heart"></a></li>
-				<li id="click_filter"><a href="##"><img style="width:30px ;height: 37px;" src="assets/image/filter.svg" alt="filter"></a></li>
-				<li><a href="##"><img src="assets/image/search.svg" alt="search"></a></li>
-			  </ul>
-			</nav>
-		  </header>
-	  
-		  <div class="bubule">
-	  
-			<div class="bubule_container">
-			  <div class="bubule1"></div>
-			  <div class="bubule_texte">#travel</div>
-			</div>
-			<div class="bubule_container">
-			  <div class="bubule2"></div>
-			  <div class="bubule_texte">#fashion</div>
-			</div><div class="bubule_container">
-			  <div class="bubule3"></div>
-			  <div class="bubule_texte">#food</div>
-			</div><div class="bubule_container">
-			  <div class="bubule4"></div>
-			  <div class="bubule_texte">#car</div>
-			</div><div class="bubule_container">
-			  <div class="bubule5"></div>
-			  <div class="bubule_texte">#tech</div>
-			</div><div class="bubule_container">
-			  <div class="bubule6"></div>
-			  <div class="bubule_texte">#woman</div>
-			</div><div class="bubule_container">
-			  <div class="bubule7"></div>
-			  <div class="bubule_texte">#healthy</div>
-			</div><div class="bubule_container">
-			  <div class="bubule8"></div>
-			  <div class="bubule_texte">#sports</div>
-			</div>
-		  </div>
-		</div>
-	  
-	  <script>
-	  Array.from(document.querySelectorAll("#click_filter, #close")).forEach(function(el){
-		el.onclick=function() {  
-		  document.querySelector("#wrapper").classList.toggle('menu_visible') 
-		}
-	  }) 
-	  </script>
-	  
-	  
-	  
-	  </body>
+
+
+				<div id="menu">
+				  <img id="close" style="width:30px ;height: 37px;" src="../image/close.svg" alt="search">
+				  <h2>test</h2>
+				</div>
+
+				<div id="wrapper">
+				  <header>
+
+					<img class="logo" src="../image/logo.png" alt="logo">
+					<h1 class="logo_title">Stories</br> Catalog</h1>
+					<nav>
+					  <ul class="nav_links">
+						<li><a href="##"><img src="../image/heart.svg" alt="heart"></a></li>
+						<li id="click_filter"><a href="##"><img style="width:30px ;height: 37px;" src="../image/filter.svg" alt="filter"></a></li>
+						<li><a href="##"><img src="../image/search.svg" alt="search"></a></li>
+					  </ul>
+					</nav>
+				  </header>
+
+				  <div class="bubule js-categories">
+						<div class="bubule_container" data-value="travel">
+						  <div class="js-category bubule1"></div>
+						  <div class="bubule_texte">#travel</div>
+						</div>
+						<div class="bubule_container" data-value="fashion">
+						  <div class="js-category bubule2"></div>
+						  <div class="bubule_texte">#fashion</div>
+						</div>
+						<div class="bubule_container" data-value="food">
+						  <div class="js-category bubule3"></div>
+						  <div class="bubule_texte">#food</div>
+						</div>
+						<div class="bubule_container" data-value="car">
+						  <div class="js-category bubule4"></div>
+						  <div class="bubule_texte">#car</div>
+						</div>
+						<div class="bubule_container" data-value="tech">
+						  <div class="js-category bubule5"></div>
+						  <div class="bubule_texte">#tech</div>
+						</div>
+						<div class="bubule_container" data-value="woman">
+						  <div class="js-category bubule6"></div>
+						  <div class="bubule_texte">#woman</div>
+						</div>
+						<div class="bubule_container" data-value="healthy">
+						  <div class="js-category bubule7"></div>
+						  <div class="bubule_texte">#healthy</div>
+						</div>
+						<div class="bubule_container" data-value="sport">
+						  <div class="js-category bubule8"></div>
+						  <div class="bubule_texte">#sports</div>
+						</div>
+				  </div>
+
+
+
+					<!-- SHUFFLE -->
+					<div>
+			      <div class="filter-group filter-group--compound js-geo">
+			        <p class="filter-label">Country</p>
+			        <button class="btn btn--go" data-value="italy"><span class="visuallyhidden">IT</span></button>
+			        <button class="btn btn--primary" data-value="france"><span class="visuallyhidden">FR</span></button>
+			        <button class="btn btn--danger" data-value="spain"><span class="visuallyhidden">ES</span></button>
+			        <button class="btn btn--warning" data-value="germany"><span class="visuallyhidden">DE</span></button>
+			        <button class="btn btn--warning" data-value="uk"><span class="visuallyhidden">UK</span></button>
+			        <button class="btn btn--warning" data-value="usa"><span class="visuallyhidden">US</span></button>
+			      </div>
+			    </div>
+
+					<div>
+			      <div class="filter-group filter-group--compound js-formats">
+			        <p class="filter-label">Format</p>
+			        <span class="ib">
+			          <input type="checkbox" value="shopper" id="cb-shopper"> <label for="cb-shopper">shopper</label>
+			        </span>
+			        <span class="ib">
+			          <input type="checkbox" value="redirect" id="cb-redirect"> <label for="cb-redirect">redirect</label>
+			        </span>
+			        <span class="ib">
+			          <input type="checkbox" value="form" id="cb-form"> <label for="cb-form">form</label>
+			        </span>
+			        <span class="ib">
+			          <input type="checkbox" value="content" id="cb-content"> <label for="cb-content">content</label>
+			        </span>
+							<span class="ib">
+			          <input type="checkbox" value="offer" id="cb-offer"> <label for="cb-offer">Offer</label>
+			        </span>
+
+			      </div>
+			    </div>
+
+
+
+					<!-- start the images section here -->
+
+					<div class="row">
+						<div id="main_container" class="js-shuffle"></div>
+					</div>
+					<!-- SHUFFLE -->
+
+				</div>
+
+
+
+
+
+
+
+	</body>
+
 </html>
