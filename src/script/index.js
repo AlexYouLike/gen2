@@ -1,30 +1,19 @@
-import _ from 'lodash';
-import '../styles/appStyles.scss';
-import Shuffle from 'shufflejs';
-import storylog from '../json/catalogData.json';
-import { sidebarToggle,  setAttributes} from './utils';
+import _ from 'lodash'
+import '../styles/appStyles.scss'
+import storylog from '../json/catalogData.json'
+import { sidebarToggle, tilesGeneration } from './utils'
+
+import Shuffle from 'shufflejs'
 
 sidebarToggle()
 
-for(var i = 0; i < storylog.length; i++) {
-	let el = document.createElement('div');
-
-	setAttributes(el, {
-		'class': 'tile',
-		'data-shape': storylog[i].format.toLowerCase(),
-		'data-color': storylog[i].geo.toLowerCase(),
-		'data-category': storylog[i].category.toLowerCase()
-	})
-
-	document.getElementById('main_container').appendChild(el);
-}
-
-
+tilesGeneration(storylog)
 
 
 var StoryShuffle = function (element) {
 	this.formats = Array.from(document.querySelectorAll('.js-shapes input'));
 	this.countries = Array.from(document.querySelectorAll('.js-colors button'));
+	this.categories = Array.from(document.querySelectorAll('.js-categories .bubule_container'))
 
 	this.shuffle = new Shuffle(element, {
 		easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)', // easeOutQuart
@@ -34,19 +23,12 @@ var StoryShuffle = function (element) {
 	this.filters = {
 		formats: [],
 		countries: [],
+		categories: []
 	};
 
 	this._bindEventListeners();
 };
 
-
-StoryShuffle.prototype._createHTMLBlocks = function () {
-
-
-	// ELEMENT CREATION LOGIC GOES HERE
-
-
-};
 
 /**
  * Bind event listeners for when the filters change.
@@ -54,6 +36,7 @@ StoryShuffle.prototype._createHTMLBlocks = function () {
 StoryShuffle.prototype._bindEventListeners = function () {
 	this._onFormatChange = this._handleFormatChange.bind(this);
 	this._onCountryChange = this._handleCountryChange.bind(this);
+	this._onCategoryChange = this._handleCategoryChange.bind(this);
 
 	this.formats.forEach(function (input) {
 		input.addEventListener('change', this._onFormatChange);
@@ -62,6 +45,10 @@ StoryShuffle.prototype._bindEventListeners = function () {
 	this.countries.forEach(function (button) {
 		button.addEventListener('click', this._onCountryChange);
 	}, this);
+
+	this.categories.forEach(function (elem) {
+		elem.addEventListener('click', this._onCategoryChange);
+	}, this)
 };
 
 /**
@@ -87,6 +74,16 @@ StoryShuffle.prototype._getCurrentCountryFilters = function () {
 		return button.getAttribute('data-value');
 	});
 };
+
+// NEW HERE
+StoryShuffle.prototype._getCurrentCategoryFilters = function () {
+	return this.categories.filter(function (elem) {
+		console.log(elem);
+		return elem.classList.contains('active')
+	}).map(function (elem) {
+		return elem.getAttribute('data-value')
+	})
+}
 
 /**
  * A shape input check state changed, update the current filters and filte.r
@@ -117,6 +114,23 @@ StoryShuffle.prototype._handleCountryChange = function (evt) {
 	this.filters.countries = this._getCurrentCountryFilters();
 	this.filter();
 };
+
+StoryShuffle.prototype._handleCategoryChange = function (evt) {
+	var elem = evt.currentTarget
+
+	// Treat these buttons like radio buttons where only 1 can be selected.
+	if (elem.classList.contains('active')) {
+		elem.classList.remove('active');
+	} else {
+		this.categories.forEach(function (btn) {
+			btn.classList.remove('active');
+		});
+
+		elem.classList.add('active');
+	}
+
+
+}
 
 /**
  * Filter shuffle based on the current state of filters.
@@ -163,6 +177,8 @@ StoryShuffle.prototype.itemPassesFilters = function (element) {
 
 	return true;
 };
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
 	window.StoryShuffle = new StoryShuffle(document.querySelector('.js-shuffle'));
