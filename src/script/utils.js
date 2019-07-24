@@ -21,7 +21,9 @@ exports.tilesGeneration = (json) => {
 			'class': 'tile',
 			'data-shape': json[i].format.toLowerCase(),
 			'data-color': json[i].geo.toLowerCase(),
-			'data-category': json[i].category.toLowerCase()
+			'data-category': json[i].category.toLowerCase(),
+			'data-logo': json[i].logo,
+			'data-thumbnail': json[i].thumbnail,
 		})
 
 		document.getElementById('main_container').appendChild(el);

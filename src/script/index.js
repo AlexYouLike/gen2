@@ -5,14 +5,24 @@ import { sidebarToggle, tilesGeneration } from './utils'
 
 import Shuffle from 'shufflejs'
 
+
+let uniqCat = Array.from(storylog.map(e => e.category))
+console.log('there are', _.uniq(uniqCat).length, 'differents categories : ', _.uniq(uniqCat));
+
+let uniqGeo = Array.from(storylog.map(e => e.geo))
+console.log('there are', _.uniq(uniqGeo).length, 'differentes geos : ', _.uniq(uniqGeo));
+
+let uniqFormat = Array.from(storylog.map(e => e.format))
+console.log('there are', _.uniq(uniqFormat).length, 'differentes formats : ', _.uniq(uniqFormat));
+
 sidebarToggle()
 
 tilesGeneration(storylog)
 
 
 var StoryShuffle = function (element) {
-	this.formats = Array.from(document.querySelectorAll('.js-shapes input'));
-	this.countries = Array.from(document.querySelectorAll('.js-colors button'));
+	this.formats = Array.from(document.querySelectorAll('.js-formats input'));
+	this.countries = Array.from(document.querySelectorAll('.js-geo button'));
 	this.categories = Array.from(document.querySelectorAll('.js-categories .bubule_container'))
 
 	this.shuffle = new Shuffle(element, {
@@ -78,7 +88,6 @@ StoryShuffle.prototype._getCurrentCountryFilters = function () {
 // NEW HERE
 StoryShuffle.prototype._getCurrentCategoryFilters = function () {
 	return this.categories.filter(function (elem) {
-		console.log(elem);
 		return elem.classList.contains('active')
 	}).map(function (elem) {
 		return elem.getAttribute('data-value')
@@ -129,6 +138,8 @@ StoryShuffle.prototype._handleCategoryChange = function (evt) {
 		elem.classList.add('active');
 	}
 
+	this.filters.categories = this._getCurrentCategoryFilters();
+	this.filter();
 
 }
 
@@ -162,8 +173,10 @@ StoryShuffle.prototype.hasActiveFilters = function () {
 StoryShuffle.prototype.itemPassesFilters = function (element) {
 	var formats = this.filters.formats;
 	var countries = this.filters.countries;
+	var categories = this.filters.categories;
 	var format = element.getAttribute('data-shape');
 	var country = element.getAttribute('data-color');
+	var category = element.getAttribute('data-category')
 
 	// If there are active shape filters and this shape is not in that array.
 	if (formats.length > 0 && !formats.includes(format)) {
@@ -172,6 +185,11 @@ StoryShuffle.prototype.itemPassesFilters = function (element) {
 
 	// If there are active color filters and this color is not in that array.
 	if (countries.length > 0 && !countries.includes(country)) {
+		return false;
+	}
+
+	// If there are active color filters and this color is not in that array.
+	if (categories.length > 0 && !categories.includes(category)) {
 		return false;
 	}
 
