@@ -2,7 +2,7 @@ import _ from 'lodash'
 import '../styles/appStyles.scss'
 import storylog from '../json/catalogData.json'
 import { sidebarToggle, tilesGeneration } from './utils'
-
+import LazyLoad from "vanilla-lazyload"
 import Shuffle from 'shufflejs'
 
 
@@ -19,6 +19,10 @@ sidebarToggle()
 
 tilesGeneration(storylog)
 
+
+let lazyLoadInstance = new LazyLoad({
+	elements_selector: '.thumbnail'
+})
 
 var StoryShuffle = function (element) {
 	this.formats = Array.from(document.querySelectorAll('.js-formats input'));
@@ -152,6 +156,7 @@ StoryShuffle.prototype.filter = function () {
 	} else {
 		this.shuffle.filter(Shuffle.ALL_ITEMS);
 	}
+	lazyLoadInstance.update();
 };
 
 /**
