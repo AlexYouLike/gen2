@@ -7,9 +7,44 @@
 
 
 				<div id="menu">
-				  <img id="close" style="width:30px ;height: 37px;" src="../image/close.svg" alt="search">
-				  <h2>test</h2>
+				  <img id="close" src="../image/close.svg" alt="search">
+				  <h2 id="title_menu">Filters</h2>
+
+				 <div class="filter_group">
+						<div class="filter-group filter-group--compound js-geo">
+						  <p class="filter-label">Country</p>
+						  <button class="btn_go" data-value="italy"><span class="btn_element">IT</span></button>
+						  <button class="btn_go" data-value="france"><span class="btn_element">FR</span></button>
+						  <button class="btn_go" data-value="spain"><span class="btn_element">ES</span></button>
+						  <button class="btn_go" data-value="germany"><span class="btn_element">DE</span></button>
+						  <button class="btn_go" data-value="uk"><span class="btn_element">UK</span></button>
+						  <button class="btn_go" data-value="usa"><span class="btn_element">US</span></button>
+						</div>
+					  
+	  
+						
+						<div class="filter-group filter-group--compound js-formats">
+						  <p class="filter-label">Format</p>
+						  <span class="ib">
+							<input type="checkbox" value="shopper" id="cb-shopper"> <label for="cb-shopper">shopper</label>
+						  </span>
+						  <span class="ib">
+							<input type="checkbox" value="redirect" id="cb-redirect"> <label for="cb-redirect">redirect</label>
+						  </span>
+						  <span class="ib">
+							<input type="checkbox" value="form" id="cb-form"> <label for="cb-form">form</label>
+						  </span>
+						  <span class="ib">
+							<input type="checkbox" value="content" id="cb-content"> <label for="cb-content">content</label>
+						  </span>
+								  <span class="ib">
+							<input type="checkbox" value="offer" id="cb-offer"> <label for="cb-offer">Offer</label>
+						  </span>
+	  
+						</div>
+					  </div>
 				</div>
+			</div>
 
 				<div id="wrapper">
 				  <header>
@@ -59,43 +94,6 @@
 						  <div class="bubule_texte">#sports</div>
 						</div>
 				  </div>
-
-
-
-					<!-- SHUFFLE -->
-					<div>
-			      <div class="filter-group filter-group--compound js-geo">
-			        <p class="filter-label">Country</p>
-			        <button class="btn btn--go" data-value="italy"><span class="visuallyhidden">IT</span></button>
-			        <button class="btn btn--primary" data-value="france"><span class="visuallyhidden">FR</span></button>
-			        <button class="btn btn--danger" data-value="spain"><span class="visuallyhidden">ES</span></button>
-			        <button class="btn btn--warning" data-value="germany"><span class="visuallyhidden">DE</span></button>
-			        <button class="btn btn--warning" data-value="uk"><span class="visuallyhidden">UK</span></button>
-			        <button class="btn btn--warning" data-value="usa"><span class="visuallyhidden">US</span></button>
-			      </div>
-			    </div>
-
-					<div>
-			      <div class="filter-group filter-group--compound js-formats">
-			        <p class="filter-label">Format</p>
-			        <span class="ib">
-			          <input type="checkbox" value="shopper" id="cb-shopper"> <label for="cb-shopper">shopper</label>
-			        </span>
-			        <span class="ib">
-			          <input type="checkbox" value="redirect" id="cb-redirect"> <label for="cb-redirect">redirect</label>
-			        </span>
-			        <span class="ib">
-			          <input type="checkbox" value="form" id="cb-form"> <label for="cb-form">form</label>
-			        </span>
-			        <span class="ib">
-			          <input type="checkbox" value="content" id="cb-content"> <label for="cb-content">content</label>
-			        </span>
-							<span class="ib">
-			          <input type="checkbox" value="offer" id="cb-offer"> <label for="cb-offer">Offer</label>
-			        </span>
-
-			      </div>
-			    </div>
 
 
 

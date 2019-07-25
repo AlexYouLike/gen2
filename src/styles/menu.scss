@@ -9,3 +9,48 @@
     top:0;
     left: 0;
    }
+
+   #close{
+    width:30px;
+    height: 37px;
+    float:right;
+    margin-right: 10%;
+    margin-top: 5%;
+   }
+
+   #title_menu{
+       color:#B2BEC3;
+       font-family: "Montserrat Bold", sans-serif;
+       font-size: 24px;
+       margin-left: 10%;
+       margin-top: 5%;
+   }
+
+   .filter-label{
+    color: #B2BEC3;
+   }
+   
+   .filter_group{
+    margin: 30% 0 0 10%;
+    font-family: "OpenSans-SemiBold", sans-serif;
+   }
+
+   .btn_go{
+    background-color: #f1f2f6;
+    border: 0;
+    color: #B2BEC3;
+    width:30px;
+    height:30px; 
+    outline: 0;
+   }
+   .active, .btn_go:hover{
+    width:30px;
+    height:30px;
+    background-color:#FFF;
+    color:#050C1C;
+}
+
+.btn_element{
+font-size: 12px;
+}
+
