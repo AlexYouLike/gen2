@@ -5,6 +5,8 @@ function setAttributes(el, attrs) {
 	}
 }
 
+exports.setAttributes = setAttributes
+
 exports.sidebarToggle = () => {
   Array.from(document.querySelectorAll("#click_filter, #close")).forEach((el) => {
     el.onclick = () => {
@@ -13,9 +15,20 @@ exports.sidebarToggle = () => {
   })
 }
 
+function getParentWithClass(element, classname) {
+  if (element.className && element.className.split(' ').indexOf(classname) >= 0) {
+		return element
+	}
+	return element.parentNode && getParentWithClass(element.parentNode, classname);
+}
+
+exports.getParentWithClass = getParentWithClass
+
+
 exports.tilesGeneration = (json) => {
 	for(var i = 0; i < json.length; i++) {
 		let el = document.createElement('div')
+		let innerWrapper = document.createElement('div')
 		let thumbnail = document.createElement('img')
 		let logo = document.createElement('img')
 		let footer = document.createElement('div')
@@ -28,6 +41,11 @@ exports.tilesGeneration = (json) => {
 			'data-shape': json[i].format.toLowerCase(),
 			'data-color': json[i].geo.toLowerCase(),
 			'data-category': json[i].category.toLowerCase(),
+			'data-url': json[i].clip_url,
+		})
+
+		setAttributes(innerWrapper, {
+			'class': 'inner-wrapper'
 		})
 
 		setAttributes(thumbnail, {
@@ -56,8 +74,9 @@ exports.tilesGeneration = (json) => {
 			'class': 'tile-category'
 		})
 
-		el.appendChild(thumbnail)
-		el.appendChild(footer)
+		el.appendChild(innerWrapper)
+		innerWrapper.appendChild(thumbnail)
+		innerWrapper.appendChild(footer)
 		footer.appendChild(logo)
 		footer.appendChild(text)
 		text.appendChild(title)
