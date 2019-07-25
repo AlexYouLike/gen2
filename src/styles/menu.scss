@@ -29,7 +29,7 @@
    .filter-label{
     color: #B2BEC3;
    }
-   
+
    .filter_group{
     margin: 30% 0 0 10%;
     font-family: "OpenSans-SemiBold", sans-serif;
@@ -40,10 +40,10 @@
     border: 0;
     color: #B2BEC3;
     width:30px;
-    height:30px; 
+    height:30px;
     outline: 0;
    }
-   .active, .btn_go:hover{
+   .active-button, .btn_go:hover{
     width:30px;
     height:30px;
     background-color:#FFF;
@@ -53,4 +53,3 @@
 .btn_element{
 font-size: 12px;
 }
-
