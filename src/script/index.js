@@ -22,11 +22,24 @@ tilesGeneration(storylog)
 
 
 document.body.addEventListener('click', (e) => {
-	if(getParentWithClass(e.target, 'tile')) {
+	let it = true
+	if(!document.getElementsByClassName('clip-iframe').length && getParentWithClass(e.target, 'tile') && it) {
+		it = false
 		openStory(getParentWithClass(e.target, 'tile'))
+	}
+
+
+	if(document.getElementsByClassName('clip-iframe').length && it) {
+		it = false
+		document.getElementsByClassName('clip-iframe')[0].parentNode.removeChild(document.getElementsByClassName('clip-iframe')[0])
 	}
 })
 
+window.addEventListener('keyup', (e) => {
+	if(document.getElementsByClassName('clip-iframe').length && e.keyCode == 27) {
+		document.getElementsByClassName('clip-iframe')[0].parentNode.removeChild(document.getElementsByClassName('clip-iframe')[0])
+	}
+})
 
 let lazyLoadInstance = new LazyLoad({
 	elements_selector: '.thumbnail'
