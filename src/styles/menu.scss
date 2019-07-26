@@ -28,11 +28,17 @@
 
    .filter-label{
     color: #B2BEC3;
+    margin-bottom: 8%;
+    
    }
 
    .filter_group{
     margin: 30% 0 0 10%;
     font-family: "OpenSans-SemiBold", sans-serif;
+   }
+
+   .filter-group--compound{
+    margin-bottom: 20%;
    }
 
    .btn_go{
@@ -48,7 +54,7 @@
    .btn_format{
     font-family: "OpenSans-SemiBold", sans-serif;
     width:64px;
-    height: 34px;
+    height: 28px;
     background-color: #f1f2f6;
     border: 0;
     color: #B2BEC3;
@@ -57,7 +63,7 @@
 
     .btn_format:hover{
     width:64px;
-    height: 34px;
+    height: 28px;
     background-color:#FFF;
     color:#050C1C;
    }
