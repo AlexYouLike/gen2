@@ -49,7 +49,7 @@ exports.tilesGeneration = (json) => {
 		})
 
 		setAttributes(thumbnail, {
-			'class': 'thumbnail',
+			'class': 'thumbnail lazyload',
 			'data-src': json[i].thumbnail
 		})
 
@@ -58,7 +58,7 @@ exports.tilesGeneration = (json) => {
 		})
 
 		setAttributes(logo, {
-			'class': 'logo',
+			'class': 'logo lazyload',
 			'data-src': json[i].logo
 		})
 

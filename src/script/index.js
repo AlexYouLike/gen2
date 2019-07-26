@@ -42,7 +42,7 @@ window.addEventListener('keyup', (e) => {
 })
 
 let lazyLoadInstance = new LazyLoad({
-	elements_selector: '.thumbnail'
+	elements_selector: '.lazyload'
 })
 
 var StoryShuffle = function (element) {
