@@ -5,8 +5,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Audi/audi_thumb.png",
-   "logo": "../image/items/Audi/audi_logo.png"
+   "thumbnail": "image/items/Audi/audi_thumb.png",
+   "logo": "image/items/Audi/audi_logo.png"
  },
  {
    "brand_name": "Nissan",
@@ -14,8 +14,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nissan/nissan_thumb.png",
-   "logo": "../image/items/Nissan/nissan_logo.png"
+   "thumbnail": "image/items/Nissan/nissan_thumb.png",
+   "logo": "image/items/Nissan/nissan_logo.png"
  },
  {
    "brand_name": "Mercedes",
@@ -23,8 +23,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Mercedes/mercedes_thumb.png",
-   "logo": "../image/items/Mercedes/mercedes_logo.png"
+   "thumbnail": "image/items/Mercedes/mercedes_thumb.png",
+   "logo": "image/items/Mercedes/mercedes_logo.png"
  },
  {
    "brand_name": "Toyota",
@@ -32,8 +32,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Toyota/toyota_thumb.png",
-   "logo": "../image/items/Toyota/toyota_logo.png"
+   "thumbnail": "image/items/Toyota/toyota_thumb.png",
+   "logo": "image/items/Toyota/toyota_logo.png"
  },
  {
    "brand_name": "Seat",
@@ -41,8 +41,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Seat/seat_thumb.jpg",
-   "logo": "../image/items/Seat/seat_logo.png"
+   "thumbnail": "image/items/Seat/seat_thumb.jpg",
+   "logo": "image/items/Seat/seat_logo.png"
  },
  {
    "brand_name": "Volvo",
@@ -50,8 +50,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Volvo/volvo_thumb.jpg",
-   "logo": "../image/items/Volvo/volvo_logo.png"
+   "thumbnail": "image/items/Volvo/volvo_thumb.jpg",
+   "logo": "image/items/Volvo/volvo_logo.png"
  },
  {
    "brand_name": "BMW",
@@ -59,8 +59,8 @@
    "category": "car",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/BMW/BMW_thumb.jpg",
-   "logo": "../image/items/BMW/BMW_logo.png"
+   "thumbnail": "image/items/BMW/BMW_thumb.jpg",
+   "logo": "image/items/BMW/BMW_logo.png"
  },
  {
    "brand_name": "DS",
@@ -68,8 +68,8 @@
    "category": "car",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/DS/DS_thumb.jpg",
-   "logo": "../image/items/DS/DS_logo.png"
+   "thumbnail": "image/items/DS/DS_thumb.jpg",
+   "logo": "image/items/DS/DS_logo.png"
  },
  {
    "brand_name": "University of London ",
@@ -77,8 +77,8 @@
    "category": "divers",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/University-London/University_thumb.png",
-   "logo": "../image/items/University-London/University_logo.png"
+   "thumbnail": "image/items/University-London/University_thumb.png",
+   "logo": "image/items/University-London/University_logo.png"
  },
  {
    "brand_name": "Egyptian Elbows",
@@ -86,8 +86,8 @@
    "category": "divers",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Egyptianelbows/Egyptianelbows_thumb.png",
-   "logo": "../image/items/Egyptianelbows/Egyptianelbows_logo.png"
+   "thumbnail": "image/items/Egyptianelbows/Egyptianelbows_thumb.png",
+   "logo": "image/items/Egyptianelbows/Egyptianelbows_logo.png"
  },
  {
    "brand_name": "Éléctions Européennes",
@@ -95,8 +95,8 @@
    "category": "divers",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Electionseuro/Electionseuro_thumb.png",
-   "logo": "../image/items/Electionseuro/Electionseuro_logo.png"
+   "thumbnail": "image/items/Electionseuro/Electionseuro_thumb.png",
+   "logo": "image/items/Electionseuro/Electionseuro_logo.png"
  },
  {
    "brand_name": "Velux",
@@ -104,8 +104,8 @@
    "category": "divers",
    "geo": "germany",
    "format": "redirect",
-   "thumbnail": "../image/items/Velux/velux_thumb.jpg",
-   "logo": "../image/items/Velux/velux_logo.png"
+   "thumbnail": "image/items/Velux/velux_thumb.jpg",
+   "logo": "image/items/Velux/velux_logo.png"
  },
  {
    "brand_name": "Arte",
@@ -113,8 +113,8 @@
    "category": "divers",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Arte/arte_thumb.jpg",
-   "logo": "../image/items/Arte/arte_logo.png"
+   "thumbnail": "image/items/Arte/arte_thumb.jpg",
+   "logo": "image/items/Arte/arte_logo.png"
  },
  {
    "brand_name": "Yankees for Pepsi",
@@ -122,8 +122,8 @@
    "category": "divers",
    "geo": "USA",
    "format": "redirect",
-   "thumbnail": "../image/items/Yankees/yankees_thumb.jpg",
-   "logo": "../image/items/Yankees/yankees_logo.png"
+   "thumbnail": "image/items/Yankees/yankees_thumb.jpg",
+   "logo": "image/items/Yankees/yankees_logo.png"
  },
  {
    "brand_name": "The Guardian",
@@ -131,8 +131,8 @@
    "category": "divers",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Guardian/guardian_thumb.jpg",
-   "logo": "../image/items/Guardian/guardian_logo.png"
+   "thumbnail": "image/items/Guardian/guardian_thumb.jpg",
+   "logo": "image/items/Guardian/guardian_logo.png"
  },
  {
    "brand_name": "Parlement Européens",
@@ -140,8 +140,8 @@
    "category": "divers",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Parlement-euro/parlementeuro_thumb.jpg",
-   "logo": "../image/items/Parlement-euro/parlementeuro_logo.png"
+   "thumbnail": "image/items/Parlement-euro/parlementeuro_thumb.jpg",
+   "logo": "image/items/Parlement-euro/parlementeuro_logo.png"
  },
  {
    "brand_name": "West Midland Safari Park",
@@ -149,8 +149,8 @@
    "category": "divers",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/WestLand/westland_thumb.jpg",
-   "logo": "../image/items/WestLand/westland_logo.png"
+   "thumbnail": "image/items/WestLand/westland_thumb.jpg",
+   "logo": "image/items/WestLand/westland_logo.png"
  },
  {
    "brand_name": "Warner",
@@ -158,8 +158,8 @@
    "category": "divers",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Warner/warner_thumb.jpg",
-   "logo": "../image/items/Warner/warner_logo.png"
+   "thumbnail": "image/items/Warner/warner_thumb.jpg",
+   "logo": "image/items/Warner/warner_logo.png"
  },
  {
    "brand_name": "M Le Magazine",
@@ -167,8 +167,8 @@
    "category": "divers",
    "geo": "france",
    "format": "Content",
-   "thumbnail": "../image/items/M/lemonde_thumb.jpg",
-   "logo": "../image/items/M/lemonde_logo.png"
+   "thumbnail": "image/items/M/lemonde_thumb.jpg",
+   "logo": "image/items/M/lemonde_logo.png"
  },
  {
    "brand_name": "Givenchy",
@@ -176,8 +176,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Givenchy/givenchy_thumb1.jpg",
-   "logo": "../image/items/Givenchy/givenchy_logo.png"
+   "thumbnail": "image/items/Givenchy/givenchy_thumb1.jpg",
+   "logo": "image/items/Givenchy/givenchy_logo.png"
  },
  {
    "brand_name": "Givenchy",
@@ -185,8 +185,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "../image/items/Givenchy/givenchy_thumb2.jpg",
-   "logo": "../image/items/Givenchy/givenchy_logo.png"
+   "thumbnail": "image/items/Givenchy/givenchy_thumb2.jpg",
+   "logo": "image/items/Givenchy/givenchy_logo.png"
  },
  {
    "brand_name": "Kenzo",
@@ -194,8 +194,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "../image/items/Kenzo/kenzo_thumb1.jpg",
-   "logo": "../image/items/Kenzo/kenzo_logo.png"
+   "thumbnail": "image/items/Kenzo/kenzo_thumb1.jpg",
+   "logo": "image/items/Kenzo/kenzo_logo.png"
  },
  {
    "brand_name": "Kenzo",
@@ -203,8 +203,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Kenzo/kenzo_thumb2.jpg",
-   "logo": "../image/items/Kenzo/kenzo_logo.png"
+   "thumbnail": "image/items/Kenzo/kenzo_thumb2.jpg",
+   "logo": "image/items/Kenzo/kenzo_logo.png"
  },
  {
    "brand_name": "Mont Blanc",
@@ -212,8 +212,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/MontBlanc/montblanc_thumb.png",
-   "logo": "../image/items/MontBlanc/montblanc_logo.png"
+   "thumbnail": "image/items/MontBlanc/montblanc_thumb.png",
+   "logo": "image/items/MontBlanc/montblanc_logo.png"
  },
  {
    "brand_name": "Dior",
@@ -221,8 +221,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Dior/dior_thumb1.png",
-   "logo": "../image/items/Dior/dior_logo.png"
+   "thumbnail": "image/items/Dior/dior_thumb1.png",
+   "logo": "image/items/Dior/dior_logo.png"
  },
  {
    "brand_name": "Ralph Lauren",
@@ -230,8 +230,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/RalphLauren/ralphlauren_thumb2.png",
-   "logo": "../image/items/RalphLauren/ralphlauren_logo.png"
+   "thumbnail": "image/items/RalphLauren/ralphlauren_thumb2.png",
+   "logo": "image/items/RalphLauren/ralphlauren_logo.png"
  },
  {
    "brand_name": "Rolex",
@@ -239,8 +239,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Rolex/rolex_thumb.png",
-   "logo": "../image/items/Rolex/rolex_logo.png"
+   "thumbnail": "image/items/Rolex/rolex_thumb.png",
+   "logo": "image/items/Rolex/rolex_logo.png"
  },
  {
    "brand_name": "Hermès ",
@@ -248,8 +248,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Hermes/hermes_thumb.png",
-   "logo": "../image/items/Hermes/hermes_logo.png"
+   "thumbnail": "image/items/Hermes/hermes_thumb.png",
+   "logo": "image/items/Hermes/hermes_logo.png"
  },
  {
    "brand_name": "Patek Philippe",
@@ -257,8 +257,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/PatekPhilippe/patekphilippe_thumb.png",
-   "logo": "../image/items/PatekPhilippe/patekphilippe_logo.png"
+   "thumbnail": "image/items/PatekPhilippe/patekphilippe_thumb.png",
+   "logo": "image/items/PatekPhilippe/patekphilippe_logo.png"
  },
  {
    "brand_name": "Loewe",
@@ -266,8 +266,8 @@
    "category": "fashion",
    "geo": "spain",
    "format": "redirect",
-   "thumbnail": "../image/items/Loewe/loewe_thumb.jpg",
-   "logo": "../image/items/Loewe/loewe_logo.png"
+   "thumbnail": "image/items/Loewe/loewe_thumb.jpg",
+   "logo": "image/items/Loewe/loewe_logo.png"
  },
  {
    "brand_name": "Ralph Lauren",
@@ -275,8 +275,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/RalphLauren/ralphlauren_thumb1.png",
-   "logo": "../image/items/RalphLauren/ralphlauren_logo.png"
+   "thumbnail": "image/items/RalphLauren/ralphlauren_thumb1.png",
+   "logo": "image/items/RalphLauren/ralphlauren_logo.png"
  },
  {
    "brand_name": "Roche Bobois",
@@ -284,8 +284,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/RocheBobois/rochebobois_thumb.png",
-   "logo": "../image/items/RocheBobois/rochebobois_logo.png"
+   "thumbnail": "image/items/RocheBobois/rochebobois_thumb.png",
+   "logo": "image/items/RocheBobois/rochebobois_logo.png"
  },
  {
    "brand_name": "Cartier",
@@ -293,8 +293,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Cartier/cartier_thumb.jpg",
-   "logo": "../image/items/Cartier/cartier_logo.png"
+   "thumbnail": "image/items/Cartier/cartier_thumb.jpg",
+   "logo": "image/items/Cartier/cartier_logo.png"
  },
  {
    "brand_name": "Dolce & Gabbana",
@@ -302,8 +302,8 @@
    "category": "fashion",
    "geo": "italy",
    "format": "redirect",
-   "thumbnail": "../image/items/DolceGabana/dolcegabana_thumb.jpg",
-   "logo": "../image/items/DolceGabana/dolcegabana_logo.png"
+   "thumbnail": "image/items/DolceGabana/dolcegabana_thumb.jpg",
+   "logo": "image/items/DolceGabana/dolcegabana_logo.png"
  },
  {
    "brand_name": "Jaeger Lecoultre",
@@ -311,8 +311,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/JaegerLecoultre/jaegerlecoultre_thumb.jpg",
-   "logo": "../image/items/JaegerLecoultre/jaegerlecoultre_logo.png"
+   "thumbnail": "image/items/JaegerLecoultre/jaegerlecoultre_thumb.jpg",
+   "logo": "image/items/JaegerLecoultre/jaegerlecoultre_logo.png"
  },
  {
    "brand_name": "Van Cleef",
@@ -320,8 +320,8 @@
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Vcleef/vancleef_thumb.jpg",
-   "logo": "../image/items/Vcleef/vancleef_logo.png"
+   "thumbnail": "image/items/Vcleef/vancleef_thumb.jpg",
+   "logo": "image/items/Vcleef/vancleef_logo.png"
  },
  {
    "brand_name": "Dior",
@@ -329,8 +329,8 @@
    "category": "fashion",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Dior/dior_thumb2.jpg",
-   "logo": "../image/items/Dior/dior_logo.png"
+   "thumbnail": "image/items/Dior/dior_thumb2.jpg",
+   "logo": "image/items/Dior/dior_logo.png"
  },
  {
    "brand_name": "Sephora",
@@ -338,8 +338,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "Offer",
-   "thumbnail": "../image/items/Sephora/sephora_thumb.png",
-   "logo": "../image/items/Sephora/sephora_logo.png"
+   "thumbnail": "image/items/Sephora/sephora_thumb.png",
+   "logo": "image/items/Sephora/sephora_logo.png"
  },
  {
    "brand_name": "Le Tanneur",
@@ -347,8 +347,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/LeTanneur/letanneur_thumb.png",
-   "logo": "../image/items/LeTanneur/letanneur_logo.png"
+   "thumbnail": "image/items/LeTanneur/letanneur_thumb.png",
+   "logo": "image/items/LeTanneur/letanneur_logo.png"
  },
  {
    "brand_name": "Guerlain",
@@ -356,8 +356,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Guerlain/guerlain_thumb.png",
-   "logo": "../image/items/Guerlain/guerlain_logo.png"
+   "thumbnail": "image/items/Guerlain/guerlain_thumb.png",
+   "logo": "image/items/Guerlain/guerlain_logo.png"
  },
  {
    "brand_name": "Rad",
@@ -365,8 +365,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Rad/rad_thumb.png",
-   "logo": "../image/items/Rad/rad_logo.png"
+   "thumbnail": "image/items/Rad/rad_thumb.png",
+   "logo": "image/items/Rad/rad_logo.png"
  },
  {
    "brand_name": "Lacoste",
@@ -374,8 +374,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Lacoste/lacoste_thumb.png",
-   "logo": "../image/items/Lacoste/lacoste_logo.png"
+   "thumbnail": "image/items/Lacoste/lacoste_thumb.png",
+   "logo": "image/items/Lacoste/lacoste_logo.png"
  },
  {
    "brand_name": "Calzedonia",
@@ -383,8 +383,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Calzedonia/calzedonia_thumb.png",
-   "logo": "../image/items/Calzedonia/calzedonia_logo.png"
+   "thumbnail": "image/items/Calzedonia/calzedonia_thumb.png",
+   "logo": "image/items/Calzedonia/calzedonia_logo.png"
  },
  {
    "brand_name": "Swatch",
@@ -392,8 +392,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Swatch/swatch_thumb.png",
-   "logo": "../image/items/Swatch/swatch_logo.png"
+   "thumbnail": "image/items/Swatch/swatch_thumb.png",
+   "logo": "image/items/Swatch/swatch_logo.png"
  },
  {
    "brand_name": "Zalando",
@@ -401,8 +401,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Zalando/zalando_thumb2.png",
-   "logo": "../image/items/Zalando/zalando_logo.png"
+   "thumbnail": "image/items/Zalando/zalando_thumb2.png",
+   "logo": "image/items/Zalando/zalando_logo.png"
  },
  {
    "brand_name": "Labello",
@@ -410,8 +410,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Labello/labello_thumb.png",
-   "logo": "../image/items/Labello/labello_logo.png"
+   "thumbnail": "image/items/Labello/labello_thumb.png",
+   "logo": "image/items/Labello/labello_logo.png"
  },
  {
    "brand_name": "Swarovski",
@@ -419,8 +419,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Swarovski/swarovski_thumb.png",
-   "logo": "../image/items/Swarovski/swarovski_logo.png"
+   "thumbnail": "image/items/Swarovski/swarovski_thumb.png",
+   "logo": "image/items/Swarovski/swarovski_logo.png"
  },
  {
    "brand_name": "Benetton",
@@ -428,8 +428,8 @@
    "category": "mode-beauty",
    "geo": "italy",
    "format": "redirect",
-   "thumbnail": "../image/items/Benetton/benetton_thumb.png",
-   "logo": "../image/items/Benetton/benetton_logo.png"
+   "thumbnail": "image/items/Benetton/benetton_thumb.png",
+   "logo": "image/items/Benetton/benetton_logo.png"
  },
  {
    "brand_name": "El Corte Inglès",
@@ -437,8 +437,8 @@
    "category": "mode-beauty",
    "geo": "spain",
    "format": "redirect",
-   "thumbnail": "../image/items/ElCorteIngles/elcorteingles_thumb.png",
-   "logo": "../image/items/ElCorteIngles/elcorteingles_logo.png"
+   "thumbnail": "image/items/ElCorteIngles/elcorteingles_thumb.png",
+   "logo": "image/items/ElCorteIngles/elcorteingles_logo.png"
  },
  {
    "brand_name": "Quechua",
@@ -446,8 +446,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Quechua/quechua_thumb.jpg",
-   "logo": "../image/items/Quechua/quechua_logo.png"
+   "thumbnail": "image/items/Quechua/quechua_thumb.jpg",
+   "logo": "image/items/Quechua/quechua_logo.png"
  },
  {
    "brand_name": "Nike",
@@ -455,8 +455,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nike/nike_thumb2.jpg",
-   "logo": "../image/items/Nike/nike_logo.png"
+   "thumbnail": "image/items/Nike/nike_thumb2.jpg",
+   "logo": "image/items/Nike/nike_logo.png"
  },
  {
    "brand_name": "Bon Prix",
@@ -464,8 +464,8 @@
    "category": "mode-beauty",
    "geo": "germany",
    "format": "redirect",
-   "thumbnail": "../image/items/BonPrix/bonprix_thumb.jpg",
-   "logo": "../image/items/BonPrix/bonprix_logo.png"
+   "thumbnail": "image/items/BonPrix/bonprix_thumb.jpg",
+   "logo": "image/items/BonPrix/bonprix_logo.png"
  },
  {
    "brand_name": "Gymshark",
@@ -473,8 +473,8 @@
    "category": "mode-beauty",
    "geo": "UK",
    "format": "Shopper",
-   "thumbnail": "../image/items/Gymshark/gymshark_thumb.jpg",
-   "logo": "../image/items/Gymshark/gymshark_logo.png"
+   "thumbnail": "image/items/Gymshark/gymshark_thumb.jpg",
+   "logo": "image/items/Gymshark/gymshark_logo.png"
  },
  {
    "brand_name": "Klorane",
@@ -482,8 +482,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Klorane/klorane_thumb.jpg",
-   "logo": "../image/items/Klorane/klorane_logo.png"
+   "thumbnail": "image/items/Klorane/klorane_thumb.jpg",
+   "logo": "image/items/Klorane/klorane_logo.png"
  },
  {
    "brand_name": "Garnier",
@@ -491,8 +491,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Garnier/garnier_thumb2.jpg",
-   "logo": "../image/items/Garnier/garnier_logo.png"
+   "thumbnail": "image/items/Garnier/garnier_thumb2.jpg",
+   "logo": "image/items/Garnier/garnier_logo.png"
  },
  {
    "brand_name": "Garnier",
@@ -500,8 +500,8 @@
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Garnier/garnier_thumb1.jpg",
-   "logo": "../image/items/Garnier/garnier_logo.png"
+   "thumbnail": "image/items/Garnier/garnier_thumb1.jpg",
+   "logo": "image/items/Garnier/garnier_logo.png"
  },
  {
    "brand_name": "Aime Leon Dore",
@@ -509,8 +509,8 @@
    "category": "mode-beauty",
    "geo": "UK",
    "format": "Shopper",
-   "thumbnail": "../image/items/AimeLeonDore/AimeLeonDore_thumb.png",
-   "logo": "../image/items/AimeLeonDore/AimeLeonDore_logo.png"
+   "thumbnail": "image/items/AimeLeonDore/AimeLeonDore_thumb.png",
+   "logo": "image/items/AimeLeonDore/AimeLeonDore_logo.png"
  },
  {
    "brand_name": "Nike",
@@ -518,8 +518,8 @@
    "category": "mode-beauty",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Nike/nike_thumb1.png",
-   "logo": "../image/items/Nike/nike_logo.png"
+   "thumbnail": "image/items/Nike/nike_thumb1.png",
+   "logo": "image/items/Nike/nike_logo.png"
  },
  {
    "brand_name": "Wooop",
@@ -528,8 +528,8 @@
    "geo": "france",
    "format": "redirect",
    "thumbnail": "not found",
-   "thumbnail": "../image/items/Wooop/wooop_thumb.png",
-   "logo": "../image/items/Wooop/wooop_logo.jpg"
+   "thumbnail": "image/items/Wooop/wooop_thumb.png",
+   "logo": "image/items/Wooop/wooop_logo.jpg"
  },
  {
    "brand_name": "Bacardi",
@@ -537,8 +537,8 @@
    "category": "retail",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "../image/items/Bacardi/bacardi_thumb.png",
-   "logo": "../image/items/Bacardi/bacardi_logo.png"
+   "thumbnail": "image/items/Bacardi/bacardi_thumb.png",
+   "logo": "image/items/Bacardi/bacardi_logo.png"
  },
  {
    "brand_name": "Zalando",
@@ -546,8 +546,8 @@
    "category": "retail",
    "geo": "germany",
    "format": "redirect",
-   "thumbnail": "../image/items/Zalando/zalando_thumb1.png",
-   "logo": "../image/items/Zalando/zalando_logo.png"
+   "thumbnail": "image/items/Zalando/zalando_thumb1.png",
+   "logo": "image/items/Zalando/zalando_logo.png"
  },
  {
    "brand_name": "Leclerc",
@@ -555,8 +555,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Leclerc/leclerc_thumb.png",
-   "logo": "../image/items/Leclerc/leclerc_logo.png"
+   "thumbnail": "image/items/Leclerc/leclerc_thumb.png",
+   "logo": "image/items/Leclerc/leclerc_logo.png"
  },
  {
    "brand_name": "Nespresso",
@@ -564,8 +564,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nespresso/nespresso_thumb1.png",
-   "logo": "../image/items/Nespresso/nespresso_logo.png"
+   "thumbnail": "image/items/Nespresso/nespresso_thumb1.png",
+   "logo": "image/items/Nespresso/nespresso_logo.png"
  },
  {
    "brand_name": "Zuegg",
@@ -573,8 +573,8 @@
    "category": "retail",
    "geo": "italy",
    "format": "redirect",
-   "thumbnail": "../image/items/Zuegg/zuegg_thumb.png",
-   "logo": "../image/items/Zuegg/zuegg_logo.png"
+   "thumbnail": "image/items/Zuegg/zuegg_thumb.png",
+   "logo": "image/items/Zuegg/zuegg_logo.png"
  },
  {
    "brand_name": "Degrenne",
@@ -582,8 +582,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Degrenne/degrenne_thumb.png",
-   "logo": "../image/items/Degrenne/degrenne_logo.png"
+   "thumbnail": "image/items/Degrenne/degrenne_thumb.png",
+   "logo": "image/items/Degrenne/degrenne_logo.png"
  },
  {
    "brand_name": "Brita",
@@ -591,8 +591,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Brita/brita_thumb.jpg",
-   "logo": "../image/items/Brita/brita_logo.png"
+   "thumbnail": "image/items/Brita/brita_thumb.jpg",
+   "logo": "image/items/Brita/brita_logo.png"
  },
  {
    "brand_name": "Burger King",
@@ -600,8 +600,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/BurgerKing/bk_thumb.jpg",
-   "logo": "../image/items/BurgerKing/bk_logo.png"
+   "thumbnail": "image/items/BurgerKing/bk_thumb.jpg",
+   "logo": "image/items/BurgerKing/bk_logo.png"
  },
  {
    "brand_name": "Ferrero",
@@ -609,8 +609,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Ferrero/ferrero_thumb1.jpg",
-   "logo": "../image/items/Ferrero/ferrero_logo.png"
+   "thumbnail": "image/items/Ferrero/ferrero_thumb1.jpg",
+   "logo": "image/items/Ferrero/ferrero_logo.png"
  },
  {
    "brand_name": "Barilla",
@@ -618,8 +618,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Barilla/barilla_thumb.jpg",
-   "logo": "../image/items/Barilla/barilla_logo.png"
+   "thumbnail": "image/items/Barilla/barilla_thumb.jpg",
+   "logo": "image/items/Barilla/barilla_logo.png"
  },
  {
    "brand_name": "M&Ms",
@@ -627,8 +627,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/m&ms/m&ms_thumb.jpg",
-   "logo": "../image/items/m&ms/m&ms_logo.png"
+   "thumbnail": "image/items/m&ms/m&ms_thumb.jpg",
+   "logo": "image/items/m&ms/m&ms_logo.png"
  },
  {
    "brand_name": "Nestle",
@@ -636,8 +636,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nestle/nestle_thumb.jpg",
-   "logo": "../image/items/Nestle/nestle_logo.png"
+   "thumbnail": "image/items/Nestle/nestle_thumb.jpg",
+   "logo": "image/items/Nestle/nestle_logo.png"
  },
  {
    "brand_name": "Starbucks",
@@ -645,8 +645,8 @@
    "category": "retail",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Starbucks/starbucks_thumb.jpg",
-   "logo": "../image/items/Starbucks/starbucks_logo.png"
+   "thumbnail": "image/items/Starbucks/starbucks_thumb.jpg",
+   "logo": "image/items/Starbucks/starbucks_logo.png"
  },
  {
    "brand_name": "Ferrero",
@@ -654,8 +654,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Ferrero/ferrero_thumb2.jpg",
-   "logo": "../image/items/Ferrero/ferrero_logo.png"
+   "thumbnail": "image/items/Ferrero/ferrero_thumb2.jpg",
+   "logo": "image/items/Ferrero/ferrero_logo.png"
  },
  {
    "brand_name": "Grahams Dairy",
@@ -663,8 +663,8 @@
    "category": "retail",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Grahams/grahams_thumb.jpg",
-   "logo": "../image/items/Grahams/grahams_logo.png"
+   "thumbnail": "image/items/Grahams/grahams_thumb.jpg",
+   "logo": "image/items/Grahams/grahams_logo.png"
  },
  {
    "brand_name": "Campofrio",
@@ -672,8 +672,8 @@
    "category": "retail",
    "geo": "spain",
    "format": "redirect",
-   "thumbnail": "../image/items/Campofrio/campofrio_thumb.png",
-   "logo": "../image/items/Campofrio/campofrio_logo.png"
+   "thumbnail": "image/items/Campofrio/campofrio_thumb.png",
+   "logo": "image/items/Campofrio/campofrio_logo.png"
  },
  {
    "brand_name": "Nespresso",
@@ -681,8 +681,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nespresso/nespresso_thumb2.png",
-   "logo": "../image/items/Nespresso/nespresso_logo.png"
+   "thumbnail": "image/items/Nespresso/nespresso_thumb2.png",
+   "logo": "image/items/Nespresso/nespresso_logo.png"
  },
  {
    "brand_name": "Mc Donald's",
@@ -690,8 +690,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Mcdo/mcdo_thumb.jpg",
-   "logo": "../image/items/Mcdo/mcdo_logo.png"
+   "thumbnail": "image/items/Mcdo/mcdo_thumb.jpg",
+   "logo": "image/items/Mcdo/mcdo_logo.png"
  },
  {
    "brand_name": "Schweppes",
@@ -699,8 +699,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Schweppes/schweppes_thumb.jpg",
-   "logo": "../image/items/Schweppes/schweppes_logo.png"
+   "thumbnail": "image/items/Schweppes/schweppes_thumb.jpg",
+   "logo": "image/items/Schweppes/schweppes_logo.png"
  },
  {
    "brand_name": "Feed",
@@ -708,8 +708,8 @@
    "category": "retail",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Feed/feed_thumb.jpg",
-   "logo": "../image/items/Feed/feed_logo.png"
+   "thumbnail": "image/items/Feed/feed_thumb.jpg",
+   "logo": "image/items/Feed/feed_logo.png"
  },
  {
    "brand_name": "Coca cola",
@@ -717,8 +717,8 @@
    "category": "retail",
    "geo": "spain",
    "format": "redirect",
-   "thumbnail": "../image/items/Coca/coca_thumb.jpg",
-   "logo": "../image/items/Coca/coca_logo.png"
+   "thumbnail": "image/items/Coca/coca_thumb.jpg",
+   "logo": "image/items/Coca/coca_logo.png"
  },
  {
    "brand_name": "Orange",
@@ -726,8 +726,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Orange/orange_thumb.png",
-   "logo": "../image/items/Orange/orange_logo.png"
+   "thumbnail": "image/items/Orange/orange_thumb.png",
+   "logo": "image/items/Orange/orange_logo.png"
  },
  {
    "brand_name": "Grafo Map",
@@ -735,8 +735,8 @@
    "category": "technology",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/GrafoMap/grafomap_thumb.png",
-   "logo": "../image/items/GrafoMap/grafomap_logo.png"
+   "thumbnail": "image/items/GrafoMap/grafomap_thumb.png",
+   "logo": "image/items/GrafoMap/grafomap_logo.png"
  },
  {
    "brand_name": "Asus",
@@ -744,8 +744,8 @@
    "category": "technology",
    "geo": "spain",
    "format": "redirect",
-   "thumbnail": "../image/items/Asus/asus_thumb.png",
-   "logo": "../image/items/Asus/asus_logo.png"
+   "thumbnail": "image/items/Asus/asus_thumb.png",
+   "logo": "image/items/Asus/asus_logo.png"
  },
  {
    "brand_name": "Nikon",
@@ -753,8 +753,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nikon/nikon_thumb.jpg",
-   "logo": "../image/items/Nikon/nikon_logo.png"
+   "thumbnail": "image/items/Nikon/nikon_thumb.jpg",
+   "logo": "image/items/Nikon/nikon_logo.png"
  },
  {
    "brand_name": "Sony",
@@ -762,8 +762,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Sony/sony_thumb.jpg",
-   "logo": "../image/items/Sony/sony_logo.png"
+   "thumbnail": "image/items/Sony/sony_thumb.jpg",
+   "logo": "image/items/Sony/sony_logo.png"
  },
  {
    "brand_name": "Nokia",
@@ -771,8 +771,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Nokia/nokia_thumb.jpg",
-   "logo": "../image/items/Nokia/nokia_logo.png"
+   "thumbnail": "image/items/Nokia/nokia_thumb.jpg",
+   "logo": "image/items/Nokia/nokia_logo.png"
  },
  {
    "brand_name": "Helix Jump",
@@ -780,8 +780,8 @@
    "category": "technology",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Helix/helix_thumb.jpg",
-   "logo": "../image/items/Helix/helix_logo.png"
+   "thumbnail": "image/items/Helix/helix_thumb.jpg",
+   "logo": "image/items/Helix/helix_logo.png"
  },
  {
    "brand_name": "Huawei",
@@ -789,8 +789,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Huawei/huawei_thumb.jpg",
-   "logo": "../image/items/Huawei/huawei_logo.png"
+   "thumbnail": "image/items/Huawei/huawei_thumb.jpg",
+   "logo": "image/items/Huawei/huawei_logo.png"
  },
  {
    "brand_name": "Samsung",
@@ -798,8 +798,8 @@
    "category": "technology",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Samsung/samsung_thumb.jpg",
-   "logo": "../image/items/Samsung/samsung_logo.png"
+   "thumbnail": "image/items/Samsung/samsung_thumb.jpg",
+   "logo": "image/items/Samsung/samsung_logo.png"
  },
  {
    "brand_name": "Rimowa",
@@ -807,8 +807,8 @@
    "category": "travel",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "../image/items/Rimowa/rimowa_thumb.png",
-   "logo": "../image/items/Rimowa/rimowa_logo.png"
+   "thumbnail": "image/items/Rimowa/rimowa_thumb.png",
+   "logo": "image/items/Rimowa/rimowa_logo.png"
  },
  {
    "brand_name": "Club Med",
@@ -816,8 +816,8 @@
    "category": "travel",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "../image/items/ClubMed/clubmed_thumb2.png",
-   "logo": "../image/items/ClubMed/clubmed_logo.png"
+   "thumbnail": "image/items/ClubMed/clubmed_thumb2.png",
+   "logo": "image/items/ClubMed/clubmed_logo.png"
  },
  {
    "brand_name": "Club Med",
@@ -825,8 +825,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/ClubMed/clubmed_thumb1.png",
-   "logo": "../image/items/ClubMed/clubmed_logo.png"
+   "thumbnail": "image/items/ClubMed/clubmed_thumb1.png",
+   "logo": "image/items/ClubMed/clubmed_logo.png"
  },
  {
    "brand_name": "Omio",
@@ -834,8 +834,8 @@
    "category": "travel",
    "geo": "UK",
    "format": "redirect",
-   "thumbnail": "../image/items/Omio/omio_thumb.png",
-   "logo": "../image/items/Omio/omio_logo.png"
+   "thumbnail": "image/items/Omio/omio_thumb.png",
+   "logo": "image/items/Omio/omio_logo.png"
  },
  {
    "brand_name": "Air france",
@@ -843,8 +843,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/AirFrance/airfrance_thumb.png",
-   "logo": "../image/items/AirFrance/airfrance_logo.png"
+   "thumbnail": "image/items/AirFrance/airfrance_thumb.png",
+   "logo": "image/items/AirFrance/airfrance_logo.png"
  },
  {
    "brand_name": "Lufthansa",
@@ -852,8 +852,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Lufthansa/lufthansa_thumb.png",
-   "logo": "../image/items/Lufthansa/lufthansa_logo.png"
+   "thumbnail": "image/items/Lufthansa/lufthansa_thumb.png",
+   "logo": "image/items/Lufthansa/lufthansa_logo.png"
  },
  {
    "brand_name": "OT Norvége",
@@ -861,8 +861,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/OTNorvege/otnorvege_thumb.png",
-   "logo": "../image/items/OTNorvege/otnorvege_logo.png"
+   "thumbnail": "image/items/OTNorvege/otnorvege_thumb.png",
+   "logo": "image/items/OTNorvege/otnorvege_logo.png"
  },
  {
    "brand_name": "Pierre et vacances",
@@ -870,8 +870,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Pierre&Vac/Pierre&Vac_thumb.jpg",
-   "logo": "../image/items/Pierre&Vac/Pierre&Vac_logo.png"
+   "thumbnail": "image/items/Pierre&Vac/Pierre&Vac_thumb.jpg",
+   "logo": "image/items/Pierre&Vac/Pierre&Vac_logo.png"
  },
  {
    "brand_name": "OT Irlande",
@@ -879,8 +879,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/OTIrlande/otirlande_thumb.jpg",
-   "logo": "../image/items/OTIrlande/otirlande_logo.png"
+   "thumbnail": "image/items/OTIrlande/otirlande_thumb.jpg",
+   "logo": "image/items/OTIrlande/otirlande_logo.png"
  },
  {
    "brand_name": "Swiss",
@@ -888,8 +888,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Swiss/swiss_thumb.jpg",
-   "logo": "../image/items/Swiss/swiss_logo.png"
+   "thumbnail": "image/items/Swiss/swiss_thumb.jpg",
+   "logo": "image/items/Swiss/swiss_logo.png"
  },
  {
    "brand_name": "Tirol",
@@ -897,8 +897,8 @@
    "category": "travel",
    "geo": "germany",
    "format": "redirect",
-   "thumbnail": "../image/items/Tirol/tirol_thumb.jpg",
-   "logo": "../image/items/Tirol/tirol_logo.png"
+   "thumbnail": "image/items/Tirol/tirol_thumb.jpg",
+   "logo": "image/items/Tirol/tirol_logo.png"
  },
  {
    "brand_name": "SNCF",
@@ -906,7 +906,7 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/SNCF/sncf_thumb.jpg",
-   "logo": "../image/items/SNCF/sncf_logo.png"
+   "thumbnail": "image/items/SNCF/sncf_thumb.jpg",
+   "logo": "image/items/SNCF/sncf_logo.png"
  }
 ]

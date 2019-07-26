@@ -5,7 +5,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-    mode: 'development',
+    mode: 'production',
     entry: {
         app: './src/script/index.js',
         print: './src/script/print.js'
@@ -18,7 +18,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Output Management',
-			template: './src/view/index.html'
+			template: './src/index.html'
         }),
         new BrowserSyncPlugin({
             host: 'localhost',
