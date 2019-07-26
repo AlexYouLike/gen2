@@ -55,7 +55,7 @@
  },
  {
    "brand_name": "BMW",
-   "clip_url": "https://m.clipr.co/bmw-1-series/test/",
+   "clip_url": "https://m.clipr.co/bmw-1-series",
    "category": "car",
    "geo": "UK",
    "format": "redirect",
@@ -91,7 +91,7 @@
  },
  {
    "brand_name": "Éléctions Européennes",
-   "clip_url": "https://m.clipr.co/Elections-europeennes/test/",
+   "clip_url": "https://m.clipr.co/Elections-europeennes",
    "category": "divers",
    "geo": "france",
    "format": "redirect",
@@ -118,7 +118,7 @@
  },
  {
    "brand_name": "Yankees for Pepsi",
-   "clip_url": "https://m.clipr.co/yankees/test/",
+   "clip_url": "https://m.clipr.co/yankees",
    "category": "divers",
    "geo": "USA",
    "format": "redirect",
@@ -145,7 +145,7 @@
  },
  {
    "brand_name": "West Midland Safari Park",
-   "clip_url": "https://m.clipr.co/west-midlands-safari-park/test/",
+   "clip_url": "https://m.clipr.co/west-midlands-safari-park",
    "category": "divers",
    "geo": "UK",
    "format": "redirect",
@@ -163,7 +163,7 @@
  },
  {
    "brand_name": "M Le Magazine",
-   "clip_url": "https://m.clipr.co/m-le-magazine/test/",
+   "clip_url": "https://m.clipr.co/m-le-magazine",
    "category": "divers",
    "geo": "france",
    "format": "Content",
@@ -253,7 +253,7 @@
  },
  {
    "brand_name": "Patek Philippe",
-   "clip_url": "https://m.clipr.co/patek-philippe/test/",
+   "clip_url": "https://m.clipr.co/patek-philippe",
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
@@ -298,7 +298,7 @@
  },
  {
    "brand_name": "Dolce & Gabbana",
-   "clip_url": "https://m.clipr.co/demo-dolcegabbana/test/",
+   "clip_url": "https://m.clipr.co/demo-dolcegabbana",
    "category": "fashion",
    "geo": "italy",
    "format": "redirect",
@@ -370,7 +370,7 @@
  },
  {
    "brand_name": "Lacoste",
-   "clip_url": "https://m.clipr.co/lacoste-rg/test/",
+   "clip_url": "https://m.clipr.co/lacoste-rg",
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
@@ -388,7 +388,7 @@
  },
  {
    "brand_name": "Swatch",
-   "clip_url": "https://m.clipr.co/swatch/test/",
+   "clip_url": "https://m.clipr.co/swatch",
    "category": "mode-beauty",
    "geo": "france",
    "format": "redirect",
@@ -469,7 +469,7 @@
  },
  {
    "brand_name": "Gymshark",
-   "clip_url": "https://m.clipr.co/gym-shark/test/",
+   "clip_url": "https://m.clipr.co/gym-shark",
    "category": "mode-beauty",
    "geo": "UK",
    "format": "Shopper",
@@ -505,7 +505,7 @@
  },
  {
    "brand_name": "Aime Leon Dore",
-   "clip_url": "https://m.clipr.co/nike-blazer-mid-77/test/",
+   "clip_url": "https://m.clipr.co/nike-blazer-mid-77",
    "category": "mode-beauty",
    "geo": "UK",
    "format": "Shopper",
@@ -659,7 +659,7 @@
  },
  {
    "brand_name": "Grahams Dairy",
-   "clip_url": "https://m.clipr.co/grahams-dairy/test/",
+   "clip_url": "https://m.clipr.co/grahams-dairy",
    "category": "retail",
    "geo": "UK",
    "format": "redirect",
@@ -704,7 +704,7 @@
  },
  {
    "brand_name": "Feed",
-   "clip_url": "https://m.clipr.co/feed/test/",
+   "clip_url": "https://m.clipr.co/feed",
    "category": "retail",
    "geo": "france",
    "format": "redirect",
@@ -776,7 +776,7 @@
  },
  {
    "brand_name": "Helix Jump",
-   "clip_url": "https://m.clipr.co/helix-jump/test/",
+   "clip_url": "https://m.clipr.co/helix-jump",
    "category": "technology",
    "geo": "UK",
    "format": "redirect",
@@ -803,7 +803,7 @@
  },
  {
    "brand_name": "Rimowa",
-   "clip_url": "https://m.clipr.co/travel-fr/index.html",
+   "clip_url": "https://m.clipr.co/travel-fr",
    "category": "travel",
    "geo": "france",
    "format": "Form",
@@ -812,7 +812,7 @@
  },
  {
    "brand_name": "Club Med",
-   "clip_url": "https://m.clipr.co/clubmed-test/test/",
+   "clip_url": "https://m.clipr.co/clubmed-test",
    "category": "travel",
    "geo": "france",
    "format": "Form",
@@ -843,8 +843,8 @@
    "category": "travel",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "../image/items/Airfrance/airfrance_thumb.png",
-   "logo": "../image/items/Airfrance/airfrance_logo.png"
+   "thumbnail": "../image/items/AirFrance/airfrance_thumb.png",
+   "logo": "../image/items/AirFrance/airfrance_logo.png"
  },
  {
    "brand_name": "Lufthansa",
