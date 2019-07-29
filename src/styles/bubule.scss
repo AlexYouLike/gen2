@@ -2,10 +2,10 @@
 
 .bubule{
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
     padding: 15px;
     width: 1200px;
-    margin: 0 auto;
-    justify-content: center;
     & > * {
         margin:10px;
         padding: 15px;
@@ -23,11 +23,11 @@
 }
 
   .bubule_texte{
-    text-align: center;
     color:#c1cbcf;
-    margin-top: 10%;
     font-family: "OpenSans-SemiBold", sans-serif;
-  }
+    margin-top: 10%;
+    text-align: center;
+    }
 
   .bubule1{
     @include bubule('../image/travel.jpg');

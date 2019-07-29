@@ -1,31 +1,34 @@
 header{
+  align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 30px 5%;
   }
 
   li, a,{
+    color:#edf0f1;
     font-weight: 500;
     font-size: 16px;
-    color:#edf0f1;
     text-decoration: none;
   }
 
-  .logo{
+  .logo_header{
     cursor: pointer;
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
     border-radius:50px;
-    width:90px;
     height:90px;
+    -moz-border-radius:50px;
+    overflow:hidden;
+   -webkit-border-radius:50px;
+    width:90px;
+    
+   
   }
-  
+
   .logo_title{
     flex: auto;
-    margin-left: 2%;
     font-family: "Montserrat-Bold", sans-serif;
+    margin-left: 2%;
+    
   }
   
   .nav_links{
