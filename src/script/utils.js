@@ -10,7 +10,8 @@ exports.setAttributes = setAttributes
 exports.sidebarToggle = () => {
   Array.from(document.querySelectorAll("#click_filter, #close")).forEach((el) => {
     el.onclick = () => {
-      document.querySelector("#wrapper").classList.toggle('menu_visible')
+      document.querySelector("#wrapper").classList.toggle('menu_visible');
+      document.querySelector("#menu").classList.toggle('menu_visible')
     }
   })
 }

@@ -2,7 +2,10 @@ header{
   align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 30px 5%;
+    padding: 2em;
+    flex:1 1 90%;
+    width:90%;
+    margin:0 auto;
   }
 
   li, a,{
@@ -48,4 +51,21 @@ header{
   
   .nav_links li a:hover {
     color:red;
+  }
+
+  @media only screen and (max-width: 767px) {
+    header{
+      flex:0;
+      width:100%;
+      padding:1em .5em;
+    }
+    .nav_links li{
+      padding:0;
+      width:auto;
+    }
+    .logo_header{
+      width:72px;
+      height:72px;
+    }
+    .logo_title{font-size:1.25em;}
   }

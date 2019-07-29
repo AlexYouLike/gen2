@@ -5,7 +5,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 15px;
-    width: 1200px;
+    width: 90%;
     & > * {
         margin:10px;
         padding: 15px;
@@ -65,4 +65,15 @@
 
   .bubule8{
     @include bubule('../image/sport.jpg');
+  }
+
+  @media only screen and (max-width: 767px) {
+    .bubule_container .js-category{
+      width:60px;
+      height:60px;
+    }
+    .bubule_texte{font-size:12px;}
+    .bubule > *{
+      margin:10px 0;
+    }
   }

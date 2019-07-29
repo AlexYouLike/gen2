@@ -1,11 +1,22 @@
+body{display:flex;}
 #wrapper{
     background-color: #FFF;
     z-index: 1;
     transition-duration:0.3s;
     min-height: 100vh;
     position: static;
-    transform: translateX(0%);
+    display:flex;
+    flex:1 0 100%;
+    flex-direction: column;
+    transition:flex .3s ease;
   }
   #wrapper.menu_visible{
-    transform: translateX(20%);
+    flex:1 0 80%;
   }
+@media only screen and (max-width: 767px) {
+  #wrapper{max-width: 100%}
+    #wrapper.menu_visible{
+      width:0;
+      flex:0;
+    }
+}

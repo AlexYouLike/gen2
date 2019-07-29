@@ -1,8 +1,8 @@
-
+#main_container{padding:10px;}
 .tile{
   background-color:#FFF;
   min-height:600px;
-  padding:10px;
+  padding:2px;
   width:20%;
 
   .inner-wrapper{
@@ -48,6 +48,7 @@
   @media only screen and (max-width: 767px) {
     height:auto;
     width:100%;
+    padding:10px;
   }
   @media only screen and (min-width: 1920px) {
     width:14%;
