@@ -1,14 +1,17 @@
 #menu{
+    position: fixed;
     background-color: #f1f2f6;
     height: 100vh;
     overflow: hidden;
     display:flex;
     flex-direction:column;
     flex:0 0 0;
-    transition:flex .3s ease;
+    width:0;
+    transition:width .3s ease;
    }
    #menu.menu_visible{
     flex:1 0 20%;
+    width:20%;
   }
 
    #close{

@@ -1,4 +1,7 @@
-body{display:flex;}
+body{
+  display:flex;
+  flex-direction:column;
+}
 #wrapper{
     background-color: #FFF;
     z-index: 1;
@@ -7,16 +10,18 @@ body{display:flex;}
     position: static;
     display:flex;
     flex:1 0 100%;
+    width:100%;
+    align-self:flex-end;
     flex-direction: column;
-    transition:flex .3s ease;
+    transition:width .3s ease;
   }
   #wrapper.menu_visible{
     flex:1 0 80%;
+    width:80%;
   }
 @media only screen and (max-width: 767px) {
   #wrapper{max-width: 100%}
     #wrapper.menu_visible{
-      width:0;
-      flex:0;
+      display:none;
     }
 }
