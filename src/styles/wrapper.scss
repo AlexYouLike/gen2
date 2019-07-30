@@ -19,6 +19,9 @@ body{
     flex:1 0 80%;
     width:80%;
   }
+  #wrapper.menu_visible header.sticky{
+    width:80%;
+  }
 @media only screen and (max-width: 767px) {
   #wrapper{max-width: 100%}
     #wrapper.menu_visible{
@@ -28,6 +31,9 @@ body{
 @media only screen and (min-width: 1920px) {
     #wrapper.menu_visible{
     flex:1 0 90%;
+    width:90%;
+  }
+  #wrapper.menu_visible header.sticky{
     width:90%;
   }
 }
