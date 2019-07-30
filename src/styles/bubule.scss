@@ -22,6 +22,10 @@
 .bubule_container{
   filter:grayscale(1);
   transition-duration: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   &.active{
     filter:grayscale(0);
   }
@@ -71,6 +75,26 @@
     .bubule_container .js-category{
       width:60px;
       height:60px;
+    }
+    .bubule_texte{font-size:12px;}
+    .bubule > *{
+      margin:10px 0;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .bubule_container .js-category{
+      width:60px;
+      height:60px;
+    }
+    .bubule_texte{font-size:12px;}
+    .bubule > *{
+      margin:10px 0;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .bubule_container .js-category{
+      width:72px;
+      height:72px;
     }
     .bubule_texte{font-size:12px;}
     .bubule > *{

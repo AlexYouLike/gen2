@@ -86,5 +86,11 @@ font-size: 12px;
       width:100%;
     }
 }
+@media only screen and (min-width: 1920px) {
+    #menu.menu_visible{
+    flex:1 0 10%;
+    width:10%;
+  }
+}
 
 

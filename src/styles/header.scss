@@ -6,6 +6,7 @@ header{
     flex:1 1 90%;
     width:90%;
     margin:0 auto;
+    max-height:120px;
   }
 
   li, a,{
@@ -68,4 +69,11 @@ header{
       height:72px;
     }
     .logo_title{font-size:1.25em;}
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .logo_header{
+      width:72px;
+      height:72px;
+    }
+    .logo_title{font-size:1.5em;}
   }
