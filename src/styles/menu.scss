@@ -16,10 +16,12 @@
 
    #close{
     cursor:pointer;
-    align-self:flex-end;
+    /*align-self:flex-end;*/
     height: 37px;
     margin-right: 10%;
     margin-top: 5%;
+    position:absolute;
+    right:0;
     width:30px;
    }
 
