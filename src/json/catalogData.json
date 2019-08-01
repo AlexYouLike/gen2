@@ -2,7 +2,7 @@
  {
    "brand_name": "Audi",
    "clip_url": "https://m.clipr.co/audi-candide-thovex",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Audi/audi_thumb.jpg",
@@ -11,7 +11,7 @@
  {
    "brand_name": "Nissan",
    "clip_url": "https://m.clipr.co/nissan-leaf",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Nissan/nissan_thumb.jpg",
@@ -20,7 +20,7 @@
  {
    "brand_name": "Mercedes",
    "clip_url": "https://m.clipr.co/mercedes-fr-amg",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Mercedes/mercedes_thumb.jpg",
@@ -29,7 +29,7 @@
  {
    "brand_name": "Toyota",
    "clip_url": "https://m.clipr.co/toyota-supra",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Toyota/toyota_thumb.jpg",
@@ -38,7 +38,7 @@
  {
    "brand_name": "Seat",
    "clip_url": "https://m.clipr.co/seat",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Seat/seat_thumb.jpg",
@@ -47,7 +47,7 @@
  {
    "brand_name": "Volvo",
    "clip_url": "https://m.clipr.co/volvo",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Volvo/volvo_thumb.jpg",
@@ -56,7 +56,7 @@
  {
    "brand_name": "BMW",
    "clip_url": "https://m.clipr.co/bmw-1-series",
-   "category": "car",
+   "category": "automotive",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/BMW/BMW_thumb.jpg",
@@ -65,7 +65,7 @@
  {
    "brand_name": "DS",
    "clip_url": "https://m.clipr.co/ds-1",
-   "category": "car",
+   "category": "automotive",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/DS/DS_thumb.jpg",
@@ -74,7 +74,7 @@
  {
    "brand_name": "University of London ",
    "clip_url": "https://m.clipr.co/demo-university-of-london",
-   "category": "divers",
+   "category": "other",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/University-London/University_thumb.jpg",
@@ -83,7 +83,7 @@
  {
    "brand_name": "Egyptian Elbows",
    "clip_url": "https://m.clipr.co/egyptian-elbows",
-   "category": "divers",
+   "category": "other",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/Egyptianelbows/Egyptianelbows_thumb.jpg",
@@ -92,7 +92,7 @@
  {
    "brand_name": "Éléctions Européennes",
    "clip_url": "https://m.clipr.co/Elections-europeennes",
-   "category": "divers",
+   "category": "other",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Electionseuro/Electionseuro_thumb.jpg",
@@ -101,7 +101,7 @@
  {
    "brand_name": "Velux",
    "clip_url": "https://m.clipr.co/velux-de",
-   "category": "divers",
+   "category": "other",
    "geo": "germany",
    "format": "redirect",
    "thumbnail": "image/items/Velux/velux_thumb.jpg",
@@ -110,7 +110,7 @@
  {
    "brand_name": "Arte",
    "clip_url": "https://m.clipr.co/arte",
-   "category": "divers",
+   "category": "other",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Arte/arte_thumb.jpg",
@@ -119,7 +119,7 @@
  {
    "brand_name": "Yankees for Pepsi",
    "clip_url": "https://m.clipr.co/yankees",
-   "category": "divers",
+   "category": "other",
    "geo": "USA",
    "format": "redirect",
    "thumbnail": "image/items/Yankees/yankees_thumb.jpg",
@@ -128,7 +128,7 @@
  {
    "brand_name": "The Guardian",
    "clip_url": "https://m.clipr.co/alex-paikkos-wheeler",
-   "category": "divers",
+   "category": "other",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/Guardian/guardian_thumb.jpg",
@@ -137,7 +137,7 @@
  {
    "brand_name": "Parlement Européens",
    "clip_url": "https://m.clipr.co/parlement-europeen",
-   "category": "divers",
+   "category": "other",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Parlement-euro/parlementeuro_thumb.jpg",
@@ -146,7 +146,7 @@
  {
    "brand_name": "West Midland Safari Park",
    "clip_url": "https://m.clipr.co/west-midlands-safari-park",
-   "category": "divers",
+   "category": "other",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/WestLand/westland_thumb.jpg",
@@ -155,7 +155,7 @@
  {
    "brand_name": "Warner",
    "clip_url": "https://m.clipr.co/warner",
-   "category": "divers",
+   "category": "other",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Warner/warner_thumb.jpg",
@@ -164,7 +164,7 @@
  {
    "brand_name": "M Le Magazine",
    "clip_url": "https://m.clipr.co/m-le-magazine",
-   "category": "divers",
+   "category": "other",
    "geo": "france",
    "format": "Content",
    "thumbnail": "image/items/M/lemonde_thumb.jpg",
@@ -288,13 +288,13 @@
    "logo": "image/items/RocheBobois/rochebobois_logo.png"
  },
  {
-   "brand_name": "Cartier",
-   "clip_url": "https://m.clipr.co/cartier",
+   "brand_name": "automotivetier",
+   "clip_url": "https://m.clipr.co/automotivetier",
    "category": "fashion",
    "geo": "france",
    "format": "redirect",
-   "thumbnail": "image/items/Cartier/cartier_thumb.jpg",
-   "logo": "image/items/Cartier/cartier_logo.png"
+   "thumbnail": "image/items/automotivetier/automotivetier_thumb.jpg",
+   "logo": "image/items/automotivetier/automotivetier_logo.png"
  },
  {
    "brand_name": "Dolce & Gabbana",
@@ -532,13 +532,13 @@
    "logo": "image/items/Wooop/wooop_logo.jpg"
  },
  {
-   "brand_name": "Bacardi",
-   "clip_url": "https://m.clipr.co/bacardi-form-b",
+   "brand_name": "Baautomotivedi",
+   "clip_url": "https://m.clipr.co/baautomotivedi-form-b",
    "category": "retail",
    "geo": "france",
    "format": "Form",
-   "thumbnail": "image/items/Bacardi/bacardi_thumb.jpg",
-   "logo": "image/items/Bacardi/bacardi_logo.png"
+   "thumbnail": "image/items/Baautomotivedi/baautomotivedi_thumb.jpg",
+   "logo": "image/items/Baautomotivedi/baautomotivedi_logo.png"
  },
  {
    "brand_name": "Zalando",
@@ -560,7 +560,7 @@
  },
  {
    "brand_name": "Nespresso",
-   "clip_url": "https://m.clipr.co/carte-noire",
+   "clip_url": "https://m.clipr.co/automotivete-noire",
    "category": "retail",
    "geo": "france",
    "format": "redirect",
