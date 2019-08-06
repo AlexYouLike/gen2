@@ -2,7 +2,7 @@
 #main_container{padding:10px;}
 .tile{
   background-color:#FFF;
-  min-height:600px;
+  height:auto;
   padding:10px;
   width:20%;
   cursor:pointer;
@@ -16,6 +16,7 @@
       display:block;
       height:auto;
       width:100%;
+      border-radius: 10px;
     }
     .logo{
       border-radius:50px;
