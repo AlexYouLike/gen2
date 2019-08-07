@@ -36,6 +36,9 @@ exports.tilesGeneration = (json) => {
 		let text = document.createElement('div')
 		let title = document.createElement('div')
 		let category = document.createElement('div')
+		let linksContainer = document.createElement('nav')
+		let eyeLogo = document.createElement('img')
+		eyeLogo.setAttribute("src", "image/eye.svg")
 
 		setAttributes(el, {
 			'class': 'tile',
@@ -75,14 +78,24 @@ exports.tilesGeneration = (json) => {
 			'class': 'tile-category'
 		})
 
+		setAttributes(linksContainer, {
+			'class': 'links-container'
+		})
+
+		setAttributes(eyeLogo, {
+			'class': 'eye'
+		})
+
 		el.appendChild(innerWrapper)
 		innerWrapper.appendChild(thumbnail)
 		innerWrapper.appendChild(footer)
 		footer.appendChild(logo)
 		footer.appendChild(text)
+		footer.appendChild(linksContainer)
 		text.appendChild(title)
 		title.innerHTML = json[i].brand_name.toLowerCase()
 		text.appendChild(category)
+		linksContainer.appendChild(eyeLogo)
 		category.innerHTML = '#' + json[i].category.toLowerCase()
 
 		document.getElementById('main_container').appendChild(el);

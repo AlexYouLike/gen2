@@ -21,7 +21,6 @@
     .logo{
       border-radius:50px;
       cursor: pointer;
-      float: left;
       overflow:hidden;
       -webkit-border-radius:50px;
       -moz-border-radius:50px; 
@@ -31,17 +30,24 @@
     }
 
     .text-wrapper{
-      padding: 6% 0 0 0%;
       position:relative;
     }
-
-    .text-wrapper:after{
-      content:url(../image/eye.svg);
+    .text-wrapper,
+    .logo,
+    .links-container{
+      display:inline-block;
+      vertical-align: middle;
+    }
+    .footer{position:relative;}
+    .links-container{
       position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .links-container .eye{
       width: 28px;
       height:28px;
-      right: 0;
-      top: 1em;
     }
 
     .tile-title{
