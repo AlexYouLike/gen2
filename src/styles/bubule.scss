@@ -38,36 +38,36 @@
     text-align: center;
     }
 
-  .bubule1{
+  #bubule1{
     @include bubule('../image/travel.jpg');
   }
 
-  .bubule2{
+  #bubule2{
     @include bubule('../image/fashion.jpg');
   }
 
-  .bubule3{
+  #bubule3{
     @include bubule('../image/food.jpg');
 
   }
 
-  .bubule4{
+  #bubule4{
     @include bubule('../image/car.jpg');
   }
 
-  .bubule5{
+  #bubule5{
    @include bubule('../image/tech.jpg');
   }
 
-  .bubule6{
+  #bubule6{
     @include bubule('../image/woman.jpg');
   }
 
-  .bubule7{
+  #bubule7{
     @include bubule('../image/healthy.jpg');
   }
 
-  .bubule8{
+  #bubule8{
     @include bubule('../image/sport.jpg');
   }
 
