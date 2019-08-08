@@ -19,12 +19,10 @@
       border-radius: 10px;
     }
     .logo{
-      border-radius:50px;
+      border-radius:50%;
       cursor: pointer;
-      overflow:hidden;
-      -webkit-border-radius:50px;
-      -moz-border-radius:50px; 
-      margin: 2%;
+      overflow:hidden; 
+      margin-right:.5em;
       width:54px;
       height:54px;
     }
@@ -38,7 +36,10 @@
       display:inline-block;
       vertical-align: middle;
     }
-    .footer{position:relative;}
+    .footer{
+      position:relative;
+      padding-top:.5em;
+    }
     .links-container{
       position: absolute;
       right: 0;
