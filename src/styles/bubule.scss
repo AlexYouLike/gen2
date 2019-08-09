@@ -26,14 +26,14 @@
     overflow:hidden;
 }
 .bubule_container{
-  filter:grayscale(1);
+  filter:grayscale(0);
   transition-duration: 0.3s;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &.active{
-    filter:grayscale(0);
+  &.disabled{
+    filter:grayscale(1);
   }
 }
 

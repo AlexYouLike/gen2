@@ -142,14 +142,16 @@ StoryShuffle.prototype._handleCategoryChange = function (evt) {
 
 	if (elem.classList.contains('active')) {
 		elem.classList.remove('active');
+		elem.classList.remove('disabled');
 	} else {
 		this.categories.forEach(function (btn) {
 			btn.classList.remove('active');
+			btn.classList.add('disabled');
 		});
 
 		elem.classList.add('active');
+		elem.classList.remove('disabled');
 	}
-
 	this.filters.categories = this._getCurrentCategoryFilters();
 	this.filter();
 
@@ -160,6 +162,10 @@ StoryShuffle.prototype.filter = function () {
 		this.shuffle.filter(this.itemPassesFilters.bind(this));
 	} else {
 		this.shuffle.filter(Shuffle.ALL_ITEMS);
+		var elements = document.querySelectorAll(".bubule_container");
+		for (var i = 0; i < elements.length; i++) {
+   			elements[i].classList.remove('disabled');
+		}
 	}
 	lazyLoadInstance.update();
 };

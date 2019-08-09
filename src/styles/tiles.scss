@@ -11,13 +11,27 @@
     height:100%;
     position:relative;
     width:100%;
+    border-radius: 10px;
 
     .thumbnail{
       display:block;
       height:auto;
       width:100%;
       border-radius: 10px;
+      transform: scale(1);
+      transition:transform 100ms ease;
     }
+    .thumbnail:hover{
+      transform: scale(1.2);
+      transition:transform 20s ease;
+    }
+
+    .thumbnail-wrapper{
+      border-radius: 10px;
+      overflow: hidden;
+      min-height:400px;
+    }
+
     .logo{
       border-radius:50%;
       cursor: pointer;

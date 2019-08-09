@@ -30,6 +30,7 @@ exports.tilesGeneration = (json) => {
 	for(var i = 0; i < json.length; i++) {
 		let el = document.createElement('div')
 		let innerWrapper = document.createElement('div')
+		let thumbnailWrapper = document.createElement('div')
 		let thumbnail = document.createElement('img')
 		let logo = document.createElement('img')
 		let footer = document.createElement('div')
@@ -50,6 +51,10 @@ exports.tilesGeneration = (json) => {
 
 		setAttributes(innerWrapper, {
 			'class': 'inner-wrapper'
+		})
+
+		setAttributes(thumbnailWrapper, {
+			'class': 'thumbnail-wrapper'
 		})
 
 		setAttributes(thumbnail, {
@@ -87,7 +92,8 @@ exports.tilesGeneration = (json) => {
 		})
 
 		el.appendChild(innerWrapper)
-		innerWrapper.appendChild(thumbnail)
+		innerWrapper.appendChild(thumbnailWrapper)
+		thumbnailWrapper.appendChild(thumbnail)
 		innerWrapper.appendChild(footer)
 		footer.appendChild(logo)
 		footer.appendChild(text)
