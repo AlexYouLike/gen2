@@ -5,13 +5,14 @@
   transform: translate(-50%,-50%);
   width:150px;
   height:150px;
+  overflow: hidden;
 }
 
 #page{    
   display: flex;
   flex-direction: column;}
 
-.spinner {
+/*.spinner {
   margin: 0;
   width: 70px;
   text-align: center;
@@ -51,4 +52,4 @@
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
   }
-}
+}*/
