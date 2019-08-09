@@ -1,5 +1,29 @@
 [
  {
+   "brand_name": "Louis Vuitton",
+   "clip_url": "https://m.clipr.co/louis-vuitton-la",
+   "category": "fashion",
+   "geo": "uk",
+   "format": "redirect",
+   "thumbnail": "image/items/LouisVuitton/louis-vuitton_thumb.jpg",
+   "logo": "image/items/LouisVuitton/louis-vuitton_logo.png"
+ },{
+   "brand_name": "Nood",
+   "clip_url": "https://m.clipr.co/nood",
+   "category": "technology",
+   "geo": "uk",
+   "format": "shopper",
+   "thumbnail": "image/items/Nood/nood_thumb.jpg",
+   "logo": "image/items/Nood/nood_logo.png"
+ },{
+   "brand_name": "Apple",
+   "clip_url": "https://m.clipr.co/apple-watch-amazon",
+   "category": "technology",
+   "geo": "france",
+   "format": "shopper",
+   "thumbnail": "image/items/Apple/apple_thumb.jpg",
+   "logo": "image/items/Apple/apple_logo.png"
+ },{
    "brand_name": "Audi",
    "clip_url": "https://m.clipr.co/audi-candide-thovex",
    "category": "automotive",
@@ -686,7 +710,7 @@
  },
  {
    "brand_name": "Mc Donald's",
-   "clip_url": "https://m.clipr.co/mcdonalds",
+   "clip_url": "https://m.clipr.co/mcdonalds-1",
    "category": "retail",
    "geo": "france",
    "format": "redirect",

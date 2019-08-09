@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 	<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="robots" content="noindex, nofollow">
 		<title>Stories Catalog</title>
 		<link rel="icon" href="image/favicon.png" type="image/x-icon">
 	</head>
@@ -39,15 +40,12 @@
 
 				<div id="wrapper">
 				  <header>
-
-					<a onclick="window.top.window.scrollTo(0,0);"><img class="logo_header" src="image/logo.png" alt="logo"></a>
-					<h1 class="logo_title">Stories</br> Catalog</h1>
-					<nav>
-					  <ul class="nav_links">
-						<!--<li><a href="##"><img src="image/heart.svg" alt="heart"></a></li>-->
-						<li id="click_filter"><a href="##"><img style="width:30px ;height: 37px;" src="image/filter.svg" alt="filter"></a></li>
-						<!--<li><a href="##"><img src="image/search.svg" alt="search"></a></li>-->
-					  </ul>
+					<a onclick="window.top.window.scrollTo(0,0);"><img id="logo_header" src="image/logo.png" alt="logo"></a>
+					<h1 id="logo_title">Stories</br> Catalog</h1>
+					<nav id="menu_filters">
+						<!--<a id="fav_filter" href="#"><img src="image/heart.svg" alt="heart"></a>-->
+						<a id="click_filter" class="last"><img src="image/filter.svg" alt="filter"></a>
+						<!--<a id="search_filter" href="#" class="last"><img src="image/search.svg" alt="search"></a>-->
 					</nav>
 				  </header>
 
@@ -103,17 +101,18 @@
 				</div>
 		
 </div>
-
-<script>
-var myVar;
-function loader() {
-  myVar = setTimeout(showPage, 4000);
-}
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("page").style.opacity = "1";
-}
-</script>
+<!-- Loader script -->
+		<script>
+		var myVar;
+		function loader() {
+		  myVar = setTimeout(showPage, 4000);
+		}
+		function showPage() {
+		  document.getElementById("loader").style.display = "none";
+		  document.getElementById("page").style.opacity = "1";
+		}
+		</script>
+<!-- end loader script-->
 	</body>
 
 

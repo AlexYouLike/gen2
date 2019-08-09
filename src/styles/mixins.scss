@@ -1,13 +1,4 @@
 @mixin bubule($background){
     background-image:url($background);
     background-size: cover;
-    border-radius:50px;
-    cursor: pointer;
-    height:90px;
-    overflow:hidden;
-    -moz-border-radius:50px;
-    -webkit-border-radius:50px;
-    width:90px;
-    
-
 }
