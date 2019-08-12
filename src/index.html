@@ -108,6 +108,7 @@
 		  myVar = setTimeout(showPage, 4000);
 		}
 		function showPage() {
+		  document.body.style.overflow = "scroll";
 		  document.getElementById("loader").style.display = "none";
 		  document.getElementById("page").style.opacity = "1";
 		}
