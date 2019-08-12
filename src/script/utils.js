@@ -92,8 +92,8 @@ exports.tilesGeneration = (json) => {
 		})
 
 		el.appendChild(innerWrapper)
-		innerWrapper.appendChild(thumbnailWrapper)
 		thumbnailWrapper.appendChild(thumbnail)
+		innerWrapper.appendChild(thumbnailWrapper)
 		innerWrapper.appendChild(footer)
 		footer.appendChild(logo)
 		footer.appendChild(text)
