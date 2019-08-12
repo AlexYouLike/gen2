@@ -49,6 +49,7 @@ var StoryShuffle = function (element) {
 	this.formats = Array.from(document.querySelectorAll('.js-formats button'));
 	this.countries = Array.from(document.querySelectorAll('.js-geo button'));
 	this.categories = Array.from(document.querySelectorAll('.js-categories .bubule_container'))
+	this.message = document.querySelector('.js-message');
 
 	this.shuffle = new Shuffle(element, {
 		easing: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)',
@@ -166,6 +167,12 @@ StoryShuffle.prototype.filter = function () {
 		for (var i = 0; i < elements.length; i++) {
    			elements[i].classList.remove('disabled');
 		}
+	}
+	if(this.shuffle.visibleItems == 0){
+    	this.message.innerHTML = "No items found";
+	}
+	else{
+	    this.message.innerHTML ="";
 	}
 	lazyLoadInstance.update();
 };

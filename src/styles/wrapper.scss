@@ -4,6 +4,15 @@ body{
   font-family: "Montserrat-Bold", sans-serif;
   overflow:hidden;
 }
+#noitems_message{
+      color:#b2BEC3;
+      font-family: "OpenSans-SemiBold", sans-serif;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5em;
+    }
 #wrapper{
     background-color: #FFF;
     z-index: 1;
