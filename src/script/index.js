@@ -214,6 +214,7 @@ window.addEventListener('scroll', checkHeader);
 
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
 	window.StoryShuffle = new StoryShuffle(document.querySelector('.js-shuffle'));
 });
