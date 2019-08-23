@@ -2,7 +2,7 @@
  {
    "brand_name": "Louis Vuitton",
    "clip_url": "https://m.clipr.co/louis-vuitton-la",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "uk",
    "format": "redirect",
    "thumbnail": "image/items/LouisVuitton/louis-vuitton_thumb.jpg",
@@ -197,7 +197,7 @@
  {
    "brand_name": "Givenchy",
    "clip_url": "https://m.clipr.co/givenchy-defile-printemps-ete-2019",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Givenchy/givenchy_thumb1.jpg",
@@ -206,7 +206,7 @@
  {
    "brand_name": "Givenchy",
    "clip_url": "https://m.clipr.co/accessoires-givenchy",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "Form",
    "thumbnail": "image/items/Givenchy/givenchy_thumb2.jpg",
@@ -215,7 +215,7 @@
  {
    "brand_name": "Kenzo",
    "clip_url": "https://m.clipr.co/kenzo-defile",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "Form",
    "thumbnail": "image/items/Kenzo/kenzo_thumb1.jpg",
@@ -224,7 +224,7 @@
  {
    "brand_name": "Kenzo",
    "clip_url": "https://m.clipr.co/kenzo-the-everything",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Kenzo/kenzo_thumb2.jpg",
@@ -233,7 +233,7 @@
  {
    "brand_name": "Mont Blanc",
    "clip_url": "https://m.clipr.co/red-by-mont-blanc",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/MontBlanc/montblanc_thumb.jpg",
@@ -242,7 +242,7 @@
  {
    "brand_name": "Dior",
    "clip_url": "https://m.clipr.co/dior-newyearchinese",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Dior/dior_thumb1.jpg",
@@ -251,7 +251,7 @@
  {
    "brand_name": "Ralph Lauren",
    "clip_url": "https://m.clipr.co/ralph-lauren",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/RalphLauren/ralphlauren_thumb2.jpg",
@@ -260,7 +260,7 @@
  {
    "brand_name": "Rolex",
    "clip_url": "https://m.clipr.co/rolex-deepsea",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Rolex/rolex_thumb.jpg",
@@ -269,7 +269,7 @@
  {
    "brand_name": "Hermès ",
    "clip_url": "https://m.clipr.co/hermes-home",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Hermes/hermes_thumb.jpg",
@@ -278,7 +278,7 @@
  {
    "brand_name": "Patek Philippe",
    "clip_url": "https://m.clipr.co/patek-philippe",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/PatekPhilippe/patekphilippe_thumb.jpg",
@@ -287,7 +287,7 @@
  {
    "brand_name": "Loewe",
    "clip_url": "https://m.clipr.co/loewe-es",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "spain",
    "format": "redirect",
    "thumbnail": "image/items/Loewe/loewe_thumb.jpg",
@@ -296,7 +296,7 @@
  {
    "brand_name": "Ralph Lauren",
    "clip_url": "https://m.clipr.co/rl",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/RalphLauren/ralphlauren_thumb1.jpg",
@@ -305,7 +305,7 @@
  {
    "brand_name": "Roche Bobois",
    "clip_url": "https://m.clipr.co/rochebobois",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/RocheBobois/rochebobois_thumb.jpg",
@@ -314,7 +314,7 @@
  {
    "brand_name": "Cartier",
    "clip_url": "https://m.clipr.co/Cartier",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Cartier/cartier_thumb.jpg",
@@ -323,7 +323,7 @@
  {
    "brand_name": "Dolce & Gabbana",
    "clip_url": "https://m.clipr.co/demo-dolcegabbana",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "italy",
    "format": "redirect",
    "thumbnail": "image/items/DolceGabana/dolcegabana_thumb.jpg",
@@ -332,7 +332,7 @@
  {
    "brand_name": "Jaeger Lecoultre",
    "clip_url": "https://m.clipr.co/jaeger-lecoultre",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/JaegerLecoultre/jaegerlecoultre_thumb.jpg",
@@ -341,7 +341,7 @@
  {
    "brand_name": "Van Cleef",
    "clip_url": "https://m.clipr.co/van-cleef",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "france",
    "format": "redirect",
    "thumbnail": "image/items/Vcleef/vancleef_thumb.jpg",
@@ -350,7 +350,7 @@
  {
    "brand_name": "Dior",
    "clip_url": "https://m.clipr.co/dior-lvmh-inter",
-   "category": "fashion",
+   "category": "luxe",
    "geo": "UK",
    "format": "redirect",
    "thumbnail": "image/items/Dior/dior_thumb2.jpg",
