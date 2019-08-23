@@ -65,6 +65,23 @@ or you can just code directly in the `appStyles.scss` file.
 
 ---
 
+## Deploy
+
+> Build the project
+```shell
+$ npm run build
+```
+> browse to the directory
+```shell
+$ cd dist
+```
+> Deploy 
+```shell
+rsync -av . support@www.nativestories.io:/var/www/www.nativestories.io/
+```
+
+---
+
 ## Team
 
 | <a href="https://github.com/AlexYouLike" target="_blank">**Alexandra Castillo**</a> | <a href="http://github.com/david-ayl" target="_blank">**David Tessier**</a> | <a href="http://github.com/Fred-ayl" target="_blank">**Fred Pires**</a> | <a href="http://github.com/JC-Adyoulike" target="_blank">**Julien Cadeau**</a> |
