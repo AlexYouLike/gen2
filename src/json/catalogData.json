@@ -1,5 +1,157 @@
 [
- {
+{
+   "brand_name": "Bauhaus",
+   "clip_url": "https://m.clipr.co/bauhaus",
+   "category": "other",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Bauhaus/Bauhaus_thumb.jpg",
+   "logo": "image/items/Bauhaus/Bauhaus_logo.png"
+ },{
+   "brand_name": "Lidl",
+   "clip_url": "https://adyoulike.clipr.co/lidl-de-demo",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Lidl/Lidl_thumb.jpg",
+   "logo": "image/items/Lidl/Lidl_logo.png"
+ },{
+   "brand_name": "Nivea",
+   "clip_url": "https://m.clipr.co/nivea-de-test",
+   "category": "mode-beauty",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Nivea/Nivea_thumb.jpg",
+   "logo": "image/items/Nivea/Nivea_logo.png"
+ },{
+   "brand_name": "Bosch",
+   "clip_url": "https://m.clipr.co/bosch-de",
+   "category": "technology",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Bosch/Bosch_thumb.jpg",
+   "logo": "image/items/Bosch/Bosch_logo.png"
+ },{
+   "brand_name": "Tchibo",
+   "clip_url": "https://m.clipr.co/tchibo-de-test",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Tchibo/Tchibo_thumb.jpg",
+   "logo": "image/items/Tchibo/Tchibo_logo.png"
+ },{
+   "brand_name": "Deloitte",
+   "clip_url": "https://adyoulike.clipr.co/demo-deloitte-karriere-de",
+   "category": "other",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Deloitte/Deloitte_thumb.jpg",
+   "logo": "image/items/Deloitte/Deloitte_logo.png"
+ },{
+   "brand_name": "AboutYou",
+   "clip_url": "https://m.clipr.co/aboutyou",
+   "category": "mode-beauty",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/AboutYou/AboutYou_thumb.jpg",
+   "logo": "image/items/AboutYou/AboutYou_logo.png"
+ },{
+   "brand_name": "Volkswagen",
+   "clip_url": "https://m.clipr.co/volkswagen-de",
+   "category": "automotive",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Volkswagen/Volkswagen_thumb.jpg",
+   "logo": "image/items/Volkswagen/Volkswagen_logo.png"
+ },{
+   "brand_name": "Eurowings",
+   "clip_url": "https://m.clipr.co/eurowings-demo",
+   "category": "travel",
+   "geo": "germany",
+   "format": "Content",
+   "thumbnail": "image/items/Eurowings/Eurowings_thumb.jpg",
+   "logo": "image/items/Eurowings/Eurowings_logo.png"
+ },{
+   "brand_name": "Urlaubspiraten",
+   "clip_url": "https://adyoulike.clipr.co/urlaubspiraten-de",
+   "category": "travel",
+   "geo": "germany",
+   "format": "Offer",
+   "thumbnail": "image/items/Urlaubspiraten/Urlaubspiraten_thumb.jpg",
+   "logo": "image/items/Urlaubspiraten/Urlaubspiraten_Logo.png"
+ },{
+   "brand_name": "KaptenSon",
+   "clip_url": "https://adyoulike.clipr.co/kapten-son",
+   "category": "other",
+   "geo": "germany",
+   "format": "Offer",
+   "thumbnail": "image/items/KaptenSon/KaptenSon_thumb.jpg",
+   "logo": "image/items/KaptenSon/KaptenSon_logo.png"
+ },{
+   "brand_name": "BebeYoungCare",
+   "clip_url": "https://adyoulike.clipr.co/bebe-young-care-de",
+   "category": "mode-beauty",
+   "geo": "germany",
+   "format": "Form",
+   "thumbnail": "image/items/BebeYoungCare/BebeYoungCare_thumb.jpg",
+   "logo": "image/items/BebeYoungCare/BebeYoungCare_logo.png"
+ },{
+   "brand_name": "Douglas",
+   "clip_url": "https://m.clipr.co/douglas-demo",
+   "category": "mode-beauty",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Douglas/Douglas_thumb.jpg",
+   "logo": "image/items/Douglas/Douglas_Logo.png"
+ },{
+   "brand_name": "OttoSuit",
+   "clip_url": "https://m.clipr.co/otto",
+   "category": "other",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/OttoSuit/OttoSuit_thumb.png",
+   "logo": "image/items/OttoSuit/Otto_logo.png"
+ },{
+   "brand_name": "OttoSummer",
+   "clip_url": "https://m.clipr.co/ottode",
+   "category": "other",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/OttoSummer/OttoSummer_thumb.jpg",
+   "logo": "image/items/OttoSummer/Otto_logo.png"
+ },{
+   "brand_name": "HugoBoss",
+   "clip_url": "https://m.clipr.co/hugo-boss-demo",
+   "category": "mode-beauty",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/HugoBoss/HugoBoss_thumb.jpg",
+   "logo": "image/items/HugoBoss/HugoBoss_logo.png"
+ },{
+   "brand_name": "Nordsee",
+   "clip_url": "https://m.clipr.co/nordsee-demo",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Nordsee/NordSee_thumb.jpg",
+   "logo": "image/items/Nordsee/NordSee_logo.png"
+ },{
+   "brand_name": "RitterSport",
+   "clip_url": "https://adyoulike.clipr.co/ritter-sport-de",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/RitterSport/RitterSport_thumb.jpg",
+   "logo": "image/items/RitterSport/RitterSport_logo.png"
+ },{
+   "brand_name": "Pringles",
+   "clip_url": "https://adyoulike.clipr.co/pringles-de",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Pringles/Pringles_thumb.jpg",
+   "logo": "image/items/Pringles/Pringles_logo.png"
+ },{
    "brand_name": "Nood",
    "clip_url": "https://m.clipr.co/nood",
    "category": "technology",
