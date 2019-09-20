@@ -18,7 +18,7 @@ console.log('there are', _.uniq(uniqFormat).length, 'differents formats : ', _.u
 
 sidebarToggle()
 
-tilesGeneration(storylog)
+tilesGeneration(_.shuffle(storylog))
 
 
 document.body.addEventListener('click', (e) => {
@@ -207,7 +207,7 @@ StoryShuffle.prototype.itemPassesFilters = function (element) {
 };
 
 // Sticky Header
-var checkHeader = _.throttle(() => { 
+var checkHeader = _.throttle(() => {
     let scrollPosition = Math.round(window.scrollY);
     if (scrollPosition > 100){
         document.querySelector('header').classList.add('sticky');
