@@ -1,8 +1,48 @@
 [
 {
+   "brand_name": "Airbnb",
+   "clip_url": "https://adyoulike.clipr.co/airbnb-de",
+   "category": "travel",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Airbnb/Airbnb_thumb.jpg",
+   "logo": "image/items/Airbnb/Airbnb_logo.png"
+ },{
+   "brand_name": "Chanel",
+   "clip_url": "https://adyoulike.clipr.co/chanel-de",
+   "category": "luxe",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Chanel/Chanel_thumb.jpg",
+   "logo": "image/items/Chanel/Chanel_logo.png"
+ },{
+   "brand_name": "BenAndJerry",
+   "clip_url": "https://adyoulike.clipr.co/ben-jerrys",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/BenAndJerry/BenAndJerry_thumb.jpg",
+   "logo": "image/items/BenAndJerry/BenAndJerry_logo.png"
+ },{
+   "brand_name": "Activia",
+   "clip_url": "https://adyoulike.clipr.co/activia-de",
+   "category": "retail",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Activia/Activia_thumb.jpg",
+   "logo": "image/items/Activia/Activia_logo.png"
+ },{
+   "brand_name": "Pampers",
+   "clip_url": "https://adyoulike.clipr.co/pampers-de",
+   "category": "other",
+   "geo": "germany",
+   "format": "redirect",
+   "thumbnail": "image/items/Pampers/Pampers_thumb.jpg",
+   "logo": "image/items/Pampers/Pampers_logo.png"
+ },{
    "brand_name": "Bauhaus",
    "clip_url": "https://m.clipr.co/bauhaus",
-   "category": "other",
+   "category": "retail",
    "geo": "germany",
    "format": "redirect",
    "thumbnail": "image/items/Bauhaus/Bauhaus_thumb.jpg",
@@ -82,7 +122,7 @@
  },{
    "brand_name": "KaptenSon",
    "clip_url": "https://adyoulike.clipr.co/kapten-son",
-   "category": "other",
+   "category": "retail",
    "geo": "germany",
    "format": "Offer",
    "thumbnail": "image/items/KaptenSon/KaptenSon_thumb.jpg",
@@ -106,7 +146,7 @@
  },{
    "brand_name": "OttoSuit",
    "clip_url": "https://m.clipr.co/otto",
-   "category": "other",
+   "category": "retail",
    "geo": "germany",
    "format": "redirect",
    "thumbnail": "image/items/OttoSuit/OttoSuit_thumb.png",
@@ -114,7 +154,7 @@
  },{
    "brand_name": "OttoSummer",
    "clip_url": "https://m.clipr.co/ottode",
-   "category": "other",
+   "category": "retail",
    "geo": "germany",
    "format": "redirect",
    "thumbnail": "image/items/OttoSummer/OttoSummer_thumb.jpg",
