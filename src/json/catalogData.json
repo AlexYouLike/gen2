@@ -1,5 +1,61 @@
 [
 {
+   "brand_name": "Official Charts",
+   "clip_url": "https://m.clipr.co/official-charts-in-view-demo",
+   "category": "other",
+   "geo": "uk",
+   "format": "Content",
+   "thumbnail": "image/items/OfficialCharts/OfficialCharts_thumb.jpg",
+   "logo": "image/items/OfficialCharts/OfficialCharts_logo.png"
+ },{
+   "brand_name": "FC Barcelona",
+   "clip_url": "https://m.clipr.co/fc-barcelona",
+   "category": "other",
+   "geo": "spain",
+   "format": "Content",
+   "thumbnail": "image/items/FCBarcelona/FCBarcelona_thumb.jpg",
+   "logo": "image/items/FCBarcelona/FCBarcelona_logo.png"
+ },{
+   "brand_name": "Getting Personal",
+   "clip_url": "https://m.clipr.co/getting-personal",
+   "category": "mode-beauty",
+   "geo": "uk",
+   "format": "Offer",
+   "thumbnail": "image/items/GettingPersonal/GettingPersonal_thumb.jpg",
+   "logo": "image/items/GettingPersonal/GettingPersonal_logo.png"
+ },{
+   "brand_name": "Zara",
+   "clip_url": "https://m.clipr.co/zara-es-offer",
+   "category": "mode-beauty",
+   "geo": "spain",
+   "format": "Offer",
+   "thumbnail": "image/items/Zara/zara_thumb.jpg",
+   "logo": "image/items/Zara/zara_logo.png"
+ },{
+   "brand_name": "Business Insider",
+   "clip_url": "https://m.clipr.co/business-insider-prime",
+   "category": "other",
+   "geo": "uk",
+   "format": "Form",
+   "thumbnail": "image/items/BusinessInsider/BusinessInsider_thumb.jpg",
+   "logo": "image/items/BusinessInsider/BusinessInsider_logo.png"
+ },{
+   "brand_name": "HP",
+   "clip_url": "https://m.clipr.co/hp-native-demo",
+   "category": "technology",
+   "geo": "spain",
+   "format": "Form",
+   "thumbnail": "image/items/HP/hp_thumb.jpg",
+   "logo": "image/items/HP/hp_logo.png"
+ },{
+   "brand_name": "Rad",
+   "clip_url": "https://m.clipr.co/madame-chic",
+   "category": "mode-beauty",
+   "geo": "france",
+   "format": "redirect",
+   "thumbnail": "image/items/Rad/rad_thumb2.jpg",
+   "logo": "image/items/Rad/rad_logo.png"
+ },{
    "brand_name": "Airbnb",
    "clip_url": "https://adyoulike.clipr.co/airbnb-de",
    "category": "travel",
