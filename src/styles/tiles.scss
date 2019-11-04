@@ -17,6 +17,7 @@
       display:block;
       height:100%;
       width:100%;
+      object-fit: cover;
       border-radius: 10px;
       transform: scale(1);
       transition:transform 100ms ease;
@@ -38,7 +39,7 @@
     .logo{
       border-radius:50%;
       cursor: pointer;
-      overflow:hidden; 
+      overflow:hidden;
       margin-right:.5em;
       width:54px;
       height:54px;
@@ -80,7 +81,7 @@
     overflow: hidden;
     white-space: normal;
     width: 160px;
-      
+
     }
 
     .tile-category{
@@ -89,7 +90,7 @@
       font-size: 12px;
     }
 
-    
+
 
   }
   @media only screen and (max-width: 767px) {
@@ -107,7 +108,7 @@
     width:14%;
     padding:20px;
   }
-  
+
 }
 
 @media
@@ -133,4 +134,3 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     min-height:500px;
     padding:15px;}
 }
-
