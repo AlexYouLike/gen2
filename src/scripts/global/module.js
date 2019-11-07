@@ -1,0 +1,2 @@
+
+exports.vari = 'variable1'
