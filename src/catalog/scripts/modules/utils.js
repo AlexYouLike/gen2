@@ -5,9 +5,7 @@ function setAttributes(el, attrs) {
 	}
 }
 
-exports.setAttributes = setAttributes
-
-exports.sidebarToggle = () => {
+function sidebarToggle() {
   Array.from(document.querySelectorAll("#click_filter, #close")).forEach((el) => {
     el.onclick = () => {
       document.querySelector("#wrapper").classList.toggle('menu_visible');
@@ -23,10 +21,7 @@ function getParentWithClass(element, classname) {
 	return element.parentNode && getParentWithClass(element.parentNode, classname);
 }
 
-exports.getParentWithClass = getParentWithClass
-
-
-exports.tilesGeneration = (json) => {
+function tilesGeneration(json) {
 	for(var i = 0; i < json.length; i++) {
 		let el = document.createElement('div')
 		let innerWrapper = document.createElement('div')

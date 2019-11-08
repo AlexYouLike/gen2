@@ -1,5 +1,5 @@
 
-exports.assets = [{
+var assets = [{
    "brand_name": "Official Charts",
    "clip_url": "https://m.clipr.co/official-charts-in-view-demo",
    "category": "other",

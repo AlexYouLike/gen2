@@ -52,20 +52,18 @@ function images(cb) {
   cb()
 }
 
-// TODO je crois qu'il faut ajouter les modules car sinon browserify les trouve pas...
+// TODO virer browserify...
 
 function js(cb) {
+
   routes.forEach(route => {
-    return browserify({
-      entries: [`${route.src}scripts/main.js`]
-    })
-    .bundle()
-    .pipe(source('main.js'))
-    .pipe(buffer())
-    .pipe(dest(`${route.dist}scripts/`))
-    .pipe(browserSync.reload({stream:true}))
+    return src(route.js)
+      .pipe(concat('main.js'))
+      .pipe(dest(`${route.dist}scripts/`))
+      .pipe(browserSync.reload({stream:true}))
   })
   cb()
+
 }
 
 function serve() {

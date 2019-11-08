@@ -1,7 +1,5 @@
-const { setAttributes } = require('./utils')
 
-
-exports.openStory = function(tile) {
+function openStory(tile) {
   let clipUrl = tile.getAttribute('data-url')
 
   let clipIframe = document.createElement('iframe')

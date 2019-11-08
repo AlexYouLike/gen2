@@ -1,23 +1,16 @@
-const _ =  import('lodash')
-const { storylog } = import('./modules/catalogData')
-const Shuffle = import('shufflejs')
-const LazyLoad = import("vanilla-lazyload")
-const { sidebarToggle, tilesGeneration, getParentWithClass } = import('./modules/utils')
-const { openStory } = import('./modules/stories')
 
-
-let uniqCat = Array.from(storylog.map(e => e.category))
+let uniqCat = Array.from(assets.map(e => e.category))
 console.log('there are', _.uniq(uniqCat).length, 'differents categories : ', _.uniq(uniqCat));
 
-let uniqGeo = Array.from(storylog.map(e => e.geo))
+let uniqGeo = Array.from(assets.map(e => e.geo))
 console.log('there are', _.uniq(uniqGeo).length, 'differents geos : ', _.uniq(uniqGeo));
 
-let uniqFormat = Array.from(storylog.map(e => e.format))
+let uniqFormat = Array.from(assets.map(e => e.format))
 console.log('there are', _.uniq(uniqFormat).length, 'differents formats : ', _.uniq(uniqFormat));
 
 sidebarToggle()
 
-tilesGeneration(_.shuffle(storylog))
+tilesGeneration(_.shuffle(assets))
 
 
 document.body.addEventListener('click', (e) => {
