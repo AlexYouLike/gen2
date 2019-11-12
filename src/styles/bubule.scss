@@ -45,36 +45,36 @@
     }
 
   #bubule1{
-    @include bubule('../images/travel.jpg');
+    @include bubule('../image/travel.jpg');
   }
 
   #bubule2{
-    @include bubule('../images/fashion.jpg');
+    @include bubule('../image/fashion.jpg');
   }
 
   #bubule3{
-    @include bubule('../images/retail.jpg');
+    @include bubule('../image/retail.jpg');
 
   }
 
   #bubule4{
-    @include bubule('../images/car.jpg');
+    @include bubule('../image/car.jpg');
   }
 
   #bubule5{
-   @include bubule('../images/tech.jpg');
+   @include bubule('../image/tech.jpg');
   }
 
   #bubule6{
-    @include bubule('../images/woman.jpg');
+    @include bubule('../image/woman.jpg');
   }
 
   #bubule7{
-    @include bubule('../images/healthy.jpg');
+    @include bubule('../image/healthy.jpg');
   }
 
   #bubule8{
-    @include bubule('../images/sport.jpg');
+    @include bubule('../image/sport.jpg');
   }
 
   @media only screen and (max-width: 767px) {
