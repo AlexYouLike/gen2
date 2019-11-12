@@ -1,0 +1,4 @@
+@mixin bubule($background){
+    background-image:url($background);
+    background-size: cover;
+}

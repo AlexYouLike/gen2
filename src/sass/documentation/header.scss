@@ -1,0 +1,50 @@
+header{
+  &.sticky{
+    background-color:#FFFFFF;
+    .inner-header{
+      padding:.5em 0em;
+    }
+    #logo_header{
+      width: 48px;
+      height: 48px;
+    }
+  }
+  position:fixed;
+  z-index:2;
+  width:100%;
+}
+
+.inner-header{
+  width:90%;
+  margin:0 auto;
+  display: flex!important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  flex: 1 1 90%;
+  width: 90%;
+  margin: 0 auto;
+  max-height: 120px;
+  transition: all 300ms ease;
+}
+#logo_header{
+  width: 72px;
+  height: 72px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+#logo_title{
+  font-family: "Montserrat-Bold", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  flex: auto;
+  line-height: 1;
+  font-size: 1.5em;
+}
+#menu_filters{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#909090;
+}

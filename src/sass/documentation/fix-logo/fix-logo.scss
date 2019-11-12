@@ -1,0 +1,50 @@
+
+@import '../colors';
+
+
+.footer{
+  &.show{
+    transform:translateY(0%);
+  }
+  transition-duration:0.3s;
+  transform:translateY(100%);
+  position:fixed;
+  text-align:center;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color:$salmon;
+  color:#000000;
+}
+
+.fixed-icon{
+  width:60px;
+  display:block;
+  position:fixed;
+  left:10px;
+  z-index:2;
+  background-color: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  transition-duration:0.3s;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+  &:hover{
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.3);
+  }
+  padding: 15px;
+  img{
+    display:block;
+    width:100%;
+    height:auto;
+  }
+  &.bottom{
+    &.ayl{
+      bottom:60px!important;
+    }
+    &.inst{
+      bottom: 60px!important;
+      left: 80px;
+    }
+  }
+
+}
