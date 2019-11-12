@@ -1,8 +1,3 @@
-<p align="center">
-  <a href="admin.adyoulike.com">
-    <img src="/git_imgs/soc-story-logo.gif?raw=true" width="350"/>
-  </a>
-</p>
 
 # Catalog de Stories
 
