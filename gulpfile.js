@@ -5,7 +5,8 @@ var settings = {
 	styles: true,
 	svgs: true,
 	copy: true,
-	reload: true
+	reload: true,
+	images: true
 };
 
 var paths = {
@@ -27,6 +28,10 @@ var paths = {
 	copy: {
 		input: 'src/copy/**/*',
 		output: 'dist/'
+	},
+	images: {
+		input: 'src/images/**/*',
+		output: 'dist/images/'
 	},
 	reload: './dist/'
 };
@@ -170,6 +175,15 @@ var copyFiles = function (done) {
 
 };
 
+var copyImages = function (done) {
+
+	if (!settings.images) return done();
+
+	return src(paths.images.input)
+		.pipe(dest(paths.images.output))
+
+}
+
 var startServer = function (done) {
 
 	if (!settings.reload) return done();
@@ -191,7 +205,7 @@ var reloadBrowser = function (done) {
 };
 
 var watchSource = function (done) {
-	watch(paths.input, series(exports.default, reloadBrowser));
+	watch(paths.input, series(exports.dev, reloadBrowser));
 	done();
 };
 
@@ -202,9 +216,21 @@ exports.default = series(
 		lintScripts,
 		buildStyles,
 		buildSVGs,
+		copyImages,
 		copyFiles
 	)
 );
+
+exports.dev = series(
+	cleanDist,
+	parallel(
+		buildScripts,
+		lintScripts,
+		buildStyles,
+		buildSVGs,
+		copyFiles
+	)
+)
 
 exports.watch = series(
 	exports.default,
