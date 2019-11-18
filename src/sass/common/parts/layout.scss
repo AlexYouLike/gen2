@@ -1,4 +1,4 @@
-
+@import 'colors';
 
 
 h1{
@@ -15,13 +15,13 @@ p{
   font-size:0.9rem;
 }
 .border-left-color{
-  border-color: #F5C19A;
+  border-color: $salmon;
   border-width: 0 0 0 4px;
   border-style: solid;
   padding: 0 0 0 20px;
 }
 .border-right-color{
-  border-color: #F5C19A;
+  border-color: $salmon;
   border-width: 0 4px 0 0;
   border-style: solid;
   padding: 0 0 0 20px;
@@ -32,14 +32,14 @@ p{
 
 .adpreview{
   .color1{
-    color:#404040;
+    color:$grey-text;
   }
   .bleft{
-    border-left:1px solid #404040;
+    border-left:1px solid $grey-text;
     padding-left:2rem;
   }
   .bgcolor3{
-    background-color: #404040;
+    background-color: $grey-text;
     color:#FFFFFF;
     text-transform:uppercase;
   }
@@ -50,14 +50,14 @@ p{
 
 .story{
   .color1{
-    color:#404040;
+    color:$grey-text;
   }
   .bleft{
-    border-left:1px solid #404040;
+    border-left:1px solid $grey-text;
     padding-left:2rem;
   }
   .bgcolor3{
-    background-color: #404040;
+    background-color: $grey-text;
     color:#FFFFFF;
     text-transform:uppercase;
     &.thead{
@@ -108,7 +108,7 @@ header{
   }
 }
 .text-color-s{
-  color:#F5C19A;
+  color:$salmon;
 }
 .image-schema{
   overflow:hidden;
@@ -116,7 +116,7 @@ header{
   box-shadow:1px 1px 10px rgba(0,0,0,0.5);
 }
 .colorgrey{
-  color:#404040;
+  color:$grey-text;
 }
 .custom-table.table{
   font-size:0.7rem;
@@ -137,7 +137,7 @@ a{
     padding-left:2rem;
   }
   h5{
-    color: #404040;
+    color: $grey-text;
   }
 }
 
@@ -146,7 +146,7 @@ a{
     padding-left:2rem;
   }
   h5{
-    color: #404040;
+    color: $grey-text;
   }
 }
 

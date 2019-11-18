@@ -247,7 +247,8 @@
 
 		this.updateClass = function (type, newClass, currentClass) {
 			if (type == 1) {
-				if(location.hash.substr(1) == '4'){
+
+				if(document.querySelectorAll('#main > section').length - 1 == location.hash.substr(1)){
 					document.getElementsByClassName('footer')[0].classList.add('show');
 				}
 				else if(location.hash.substr(1) == '0'){

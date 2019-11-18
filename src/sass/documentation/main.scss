@@ -1,20 +1,8 @@
 @import 'scroll/fullPageScrollPureJS';
-@import 'colors';
 @import 'fix-logo/fix-logo';
 @import 'layout';
 @import 'first-slide/first-slide';
 @import 'responsive/resp';
 @import 'scroll/dotoverride';
-@import 'fonts';
 @import 'header';
 @import 'animations';
-
-
-body {
-  font-family: 'gotham-book', arial, sans-serif!important;
-  font-weight: 200;
-  font-size: 22px;
-  color: $grey-text;
-  transition: opacity .4s;
-  height: 100%;
-}

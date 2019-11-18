@@ -222,7 +222,6 @@ exports.default = series(
 );
 
 exports.dev = series(
-	cleanDist,
 	parallel(
 		buildScripts,
 		lintScripts,
