@@ -19,6 +19,12 @@ header.sticky{
   display:none;
 }
 
+.footer.show{
+  background-color:rgba(255,255,255,0.5);
+  z-index:1;
+  box-shadow:10px 10px 15px #000000;
+}
+
 .title-first{
   font-size:40px;
   .title{
