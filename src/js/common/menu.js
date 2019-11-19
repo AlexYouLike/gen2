@@ -50,4 +50,17 @@
 
   }
 
+  document.addEventListener('scroll', () => {
+
+
+   let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
+   if(scrollTop > 200) {
+      document.getElementsByTagName('header')[0].classList.add('sticky')
+   }
+   else {
+      document.getElementsByTagName('header')[0].classList.remove('sticky')
+   }
+
+ })
+
 })()

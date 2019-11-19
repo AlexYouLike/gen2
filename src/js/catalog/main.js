@@ -201,6 +201,7 @@ StoryShuffle.prototype.itemPassesFilters = function (element) {
 };
 
 // Sticky Header
+/*
 var checkHeader = _.throttle(() => {
     let scrollPosition = Math.round(window.scrollY);
     if (scrollPosition > 100){
@@ -211,6 +212,7 @@ var checkHeader = _.throttle(() => {
     }
 }, 300);
 window.addEventListener('scroll', checkHeader);
+*/
 //
 
 

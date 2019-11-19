@@ -247,8 +247,13 @@
 
 		this.updateClass = function (type, newClass, currentClass) {
 			if (type == 1) {
-
-				if(document.querySelectorAll('#main > section').length - 1 == location.hash.substr(1)){
+				if(location.hash.substr(1) != 0) {
+					document.getElementsByTagName('header')[0].classList.add('sticky')
+				}
+				else if (location.hash.substr(1) == 0){
+					document.getElementsByTagName('header')[0].classList.remove('sticky')
+				}
+				else if(document.querySelectorAll('#main > section').length - 1 == location.hash.substr(1)){
 					document.getElementsByClassName('footer')[0].classList.add('show');
 				}
 				else{
