@@ -251,11 +251,7 @@
 				if(document.querySelectorAll('#main > section').length - 1 == location.hash.substr(1)){
 					document.getElementsByClassName('footer')[0].classList.add('show');
 				}
-				else if(location.hash.substr(1) == '0'){
-					document.getElementsByTagName('header')[0].classList.remove('sticky');
-				}
 				else{
-					document.getElementsByTagName('header')[0].classList.add('sticky');
 					document.getElementsByClassName('footer')[0].classList.remove('show');
 				}
 				return currentClass += ' ' + newClass;

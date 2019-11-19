@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 2em;
     flex:1 1 90%;
@@ -43,10 +43,9 @@ header{
   }
 
   #logo_title{
-    flex: auto;
     font-size:1.7em;
     line-height:1;
-    
+
   }
   header.sticky #logo_title{
     font-size:1em;
@@ -55,7 +54,7 @@ header{
     width:48px;
     height:48px;
   }
-  
+
   #menu_filters{
     display:flex;
     align-items:center;

@@ -1,0 +1,109 @@
+
+@media only screen and (max-width: 767px) {
+
+}
+
+#bmenu{
+  position:fixed;
+  background-color:rgba(255,255,255,0);
+  border-top: 2px solid rgba(245,193,154,0);
+  border-bottom: 2px solid rgba(245,193,154,0);
+  top:30px;
+  right:30px;
+  transition-duration:0.3s;
+  max-width:30px;
+  width:100%;
+  overflow:hidden;
+  cursor:pointer;
+  z-index:2;
+  .burger{
+    transition-duration:0.3s;
+    display:inline-block;
+    width:30px;
+    height:4px;
+    background-color:rgba(0,0,0,1);
+    opacity:1;
+    position:relative;
+    margin:13px 0;
+    &:before, &:after{
+      top:0;
+      bottom:0;
+      transition-duration:0.3s;
+      content:'';
+      display:block;
+      position:absolute;
+      left:0;
+      width:30px;
+      height:4px;
+      background-color:#000000;
+      transform:rotate(0deg);
+    }
+    &:before{
+      top:-10px;
+      bottom:auto;
+    }
+    &:after{
+      top:auto;
+      bottom:-10px;
+    }
+  }
+}
+.close-menu{
+  &#bmenu{
+
+    background-color:rgba(255,255,255,1);
+    border-top: 2px solid rgba(245,193,154,1);
+    border-bottom: 2px solid rgba(245,193,154,1);
+    overflow:visible;
+    right:0px;
+    max-width:100%;
+    width:100%;
+    .burger{
+      background-color:rgba(0,0,0,0);
+      &:before{
+        top:0;
+        bottom:0;
+        transform:rotate(-45deg);
+      }
+      &:after{
+        top:0;
+        bottom:0;
+        transform:rotate(45deg);
+      }
+    }
+    .entry-wrapper{
+      pointer-events:all;
+      opacity:1;
+    }
+  }
+}
+
+.entry-wrapper{
+  &:before{
+    content:'';
+    display:block;
+    width:50%;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  pointer-events: none;
+  position:relative;
+  display:block;
+  transition-duration:0.3s;
+  opacity:0;
+  padding:0 0 30px 0;
+  .menu_entry{
+    min-width:300px;
+    display:block;
+    margin:0!important;
+    line-height:2rem;
+    text-align:center;
+    transition-duration:0.3s;
+    color:#000000;
+    &:hover{
+      color:#f5c19a;
+    }
+  }
+}

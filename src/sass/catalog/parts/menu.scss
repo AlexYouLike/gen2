@@ -8,6 +8,7 @@
     flex:0 0 0;
     width:0;
     transition:width .3s ease;
+    z-index:10;
    }
    #menu.menu_visible{
     flex:1 0 20%;
@@ -36,7 +37,7 @@
    .filter-label{
     color: #B2BEC3;
     margin-bottom: 8%;
-    
+
    }
 
    .filter_group{
@@ -95,5 +96,3 @@ font-size: 12px;
     width:10%;
   }
 }
-
-
