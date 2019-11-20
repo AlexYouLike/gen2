@@ -10,17 +10,14 @@
   font-style: normal;
 }
 
-/*@font-face {
-  font-family: 'Gotham';
-  src: url('../font/Gotham-Ultra.eot');
-  src: url('../font/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
-       url('../font/Gotham-Ultra.svg#Gotham-Ultra') format('svg'),
-       url('../font/Gotham-Ultra.ttf') format('truetype'),
-       url('../font/Gotham-Ultra.woff') format('woff'),
-       url('../font/Gotham-Ultra.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}*/
+header{
+  position:fixed!important;
+  background-color:rgba(255,255,255,0.7);
+}
+
+#left_part{
+  padding-top:120px;
+}
 
 *{
 	margin:0;
@@ -94,13 +91,13 @@ header{
 #left_part h1{
 	font-size:3em;
 	text-transform: uppercase;
-	margin-bottom:1em;
+	margin-bottom:10px;
 }
 
 
 #left_part ul{
 	list-style: none;
-	margin:4em auto;
+	margin:1em auto;
 	flex:1 0 80%;
 	max-width: 80%;
 	text-align: justify;
@@ -151,6 +148,7 @@ header{
 #logos_container nav::-webkit-scrollbar {    display: none;}
 
 form.container{
+  margin-top:10px!important;
 	display: flex;
 	flex-direction: column;
 	flex:1 0 50%;

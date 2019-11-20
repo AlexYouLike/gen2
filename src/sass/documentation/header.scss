@@ -1,4 +1,6 @@
 header{
+  position:fixed!important;
+  background-color:rgba(255,255,255,0.7);
   &.sticky{
     background-color:#FFFFFF;
     .inner-header{

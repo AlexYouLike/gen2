@@ -54,7 +54,7 @@
 		location.hash = 0;
 		this.changeCurrentPosition(anchor);
 		this.registerIeTags();
-		document.querySelectorAll('#main > section')[anchor].classList.add('visible')
+		if(document.querySelectorAll('#main > section')[anchor]) document.querySelectorAll('#main > section')[anchor].classList.add('visible')
 	};
 
 	/**

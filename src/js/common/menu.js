@@ -24,8 +24,12 @@
 
   if(menu) {
 
-    menu.onclick = (e) => {
-      if(e.target.getAttribute('class') == 'burger' || e.target.getAttribute('id') == 'bmenu') menu.classList.toggle('close-menu')
+    var over = document.createElement('div')
+    over.setAttribute('id', 'toggle-menu')
+    menu.appendChild(over)
+
+    document.body.onclick = (e) => {
+      if(e.target.getAttribute('id') == 'toggle-menu') menu.classList.toggle('close-menu')
     }
 
     let burger = document.createElement('div')
@@ -51,7 +55,6 @@
   }
 
   document.addEventListener('scroll', () => {
-
 
    let scrollTop = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop
    if(scrollTop > 200) {
