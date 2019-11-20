@@ -7,6 +7,12 @@
 		<title>Stories Catalog</title>
 		<link rel="icon" href="images/favicon.png" type="images/x-icon">
 		<link rel="stylesheet" type="text/css" href="./css/catalog/main.css">
+		<style>
+      .menu_entry[title='Catalogue'] {
+        color:#f5c19a!important;
+				pointer-events:none;
+      }
+    </style>
 	</head>
 	<body onload="loader();">
 
@@ -61,7 +67,7 @@
 						<a class="logo-wrapper" onclick="window.top.window.scrollTo(0,0);"><img id="logo_header" src="images/logo.png" alt="logo"></a>
 						<h1 id="logo_title">Stories</br> Catalog</h1>
 						<nav id="menu_filters">
-							<a id="click_filter" class="last"><img src="/images/filter.svg" alt="filter"></a>
+							<a id="click_filter" class="last"><img src="./images/filter.svg" alt="filter"></a>
 						</nav>
 						<div id="bmenu"></div>
 				  </header>

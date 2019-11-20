@@ -32,6 +32,7 @@
       if(e.target.getAttribute('id') == 'toggle-menu') menu.classList.toggle('close-menu')
     }
 
+
     let burger = document.createElement('div')
     burger.setAttribute('class', 'burger')
     menu.appendChild(burger)
@@ -42,10 +43,10 @@
 
     entries.forEach(entry => {
 
-      if(document.location.pathname == entry.href) return
+      let redirect = (document.location.host == 'public.adyoulike.com') ? 'http://public.adyoulike.com/catalog' + entry.href : entry.href
 
       let a = document.createElement('a')
-      a.setAttribute('href', entry.href)
+      a.setAttribute('href', redirect)
       a.setAttribute('title', entry.title)
       a.setAttribute('class', 'menu_entry')
       a.innerHTML = entry.title
