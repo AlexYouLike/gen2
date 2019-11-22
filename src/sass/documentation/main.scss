@@ -6,3 +6,100 @@
 @import 'scroll/dotoverride';
 @import 'header';
 @import 'animations';
+
+body{
+  font-family:'gotham-book', sans-serif;
+}
+.manhattan-bg{
+  background-color:#f5c19a;
+}
+.manhattan-color{
+  color:#f5c19a;
+}
+
+.format-img{
+  display:block;
+  border-radius:20px;
+  max-height:60vh;
+}
+.format-main-title{
+  padding:80px 0 30px 0;
+  text-align:center;
+  font-size:1.7rem;
+  color:#FFFFFF;
+}
+.format-title{
+  text-align:center;
+  font-family: 'gotham-medium', sans-serif;
+  margin-bottom:20px;
+}
+.format-redirect{
+  font-family:"gotham-medium", sans-serif!important;
+  text-align:center;
+  margin-top:20px;
+  a{
+    color:#000000;
+    text-transform:uppercase;
+    &:hover{
+      color:#000000;
+    }
+  }
+}
+
+
+.tech-title{
+  text-align:center;
+  .subtitle{
+    color:#f5c19a;
+  }
+}
+.tech-detail{
+  padding:50px 0 0 0;
+}
+
+.tech-slide{
+  .adpreview{
+    padding:80px;
+  }
+  .image-center{
+    padding:80px;
+  }
+}
+.tech-desc{
+  text-align:left;
+  margin:30px 0 0 0;
+}
+@media only screen and (max-width: 767px) {
+  .tech-desc{
+    font-size:0.8rem;
+  }
+  .tech-bullet-title{
+    margin:15px 0!important;
+  }
+  .tech-detail{
+    padding:10px 0 0 0;
+  }
+}
+.tech-bullet{
+  text-transform:uppercase;
+  background-color:#000000;
+  padding:5px 10px;
+  color:#FFFFFF;
+  display:inline-block;
+  z-index:2;
+  position:relative;
+  box-shadow:6px 6px 0px #f5c19a;
+}
+.tech-bullet-title{
+  margin:30px 0;
+}
+
+.bullet-requirement{
+  margin:10px 0;
+}
+.partner-buttons{
+  transition-duration:0.3s;
+  &:hover{
+    background-color:#f3b98c;
+  }
+}

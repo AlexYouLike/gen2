@@ -43,7 +43,7 @@
 
     entries.forEach(entry => {
 
-      let redirect = (document.location.host == 'public.adyoulike.com') ? 'http://public.adyoulike.com/catalog' + entry.href : entry.href
+      let redirect = (document.location.host == 'public.adyoulike.com') ? 'http://public.adyoulike.com/story-catalogue' + entry.href : entry.href
 
       let a = document.createElement('a')
       a.setAttribute('href', redirect)

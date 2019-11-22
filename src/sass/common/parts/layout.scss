@@ -44,6 +44,15 @@ p{
     text-transform:uppercase;
   }
 }
+@media only screen and (max-width: 767px) {
+  .adpreview{
+    padding:25px 50px 0px 50px !important;
+  }
+  .tech-bullet{
+    font-size:0.8em;
+  }
+}
+
 .tuppercase{
   text-transform:uppercase;
 }
@@ -158,14 +167,11 @@ a{
   .partner-wrapper.d-flex {
     display:block!important;
   }
-  .partner-logo{
-    width:100%!important;
-  }
 }
 
 
 .partner-logo{
   display:block;
-  width:30%;
+  width:100%;
   height:auto;
 }
