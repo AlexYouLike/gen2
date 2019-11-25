@@ -1,0 +1,16 @@
+
+.dots{
+  li{
+    a{
+      transition-duration:0.5s;
+      &.active{
+        &:before{
+          background-color:rgba(100, 100, 100, 0.30);
+        }
+      }
+      &:before{
+        background-color:rgba(100, 100, 100, 0.30);
+      }
+    }
+  }
+}

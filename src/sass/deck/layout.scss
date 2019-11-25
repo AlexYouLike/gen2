@@ -1,0 +1,174 @@
+
+
+
+h1{
+  font-family:'gotham-book', 'Arial', sans-serif!important;
+}
+
+h5{
+  font-size:2.2rem!important;
+  font-family:'gotham-medium', 'Arial', sans-serif;
+  margin-bottom:0!important;
+}
+p{
+  margin-bottom:0!important;
+  font-size:0.9rem;
+}
+.border-left-color{
+  border-color: #F5C19A;
+  border-width: 0 0 0 4px;
+  border-style: solid;
+  padding: 0 0 0 20px;
+}
+.border-right-color{
+  border-color: #F5C19A;
+  border-width: 0 4px 0 0;
+  border-style: solid;
+  padding: 0 0 0 20px;
+}
+.text-container{
+  padding-top:4rem
+}
+
+.adpreview{
+  .color1{
+    color:#404040;
+  }
+  .bleft{
+    border-left:1px solid #404040;
+    padding-left:2rem;
+  }
+  .bgcolor3{
+    background-color: #404040;
+    color:#FFFFFF;
+    text-transform:uppercase;
+  }
+}
+.tuppercase{
+  text-transform:uppercase;
+}
+
+.story{
+  .color1{
+    color:#404040;
+  }
+  .bleft{
+    border-left:1px solid #404040;
+    padding-left:2rem;
+  }
+  .bgcolor3{
+    background-color: #404040;
+    color:#FFFFFF;
+    text-transform:uppercase;
+    &.thead{
+      .th{
+        border-bottom:0px;
+      }
+    }
+  }
+}
+
+
+.full-height{
+  height:100%;
+}
+
+.container{
+  margin-top:3rem;
+}
+.image-center{
+  img{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    max-width:500px;
+  }
+}
+header{
+  a{
+    margin-left:32px;
+    &:hover{
+      text-decoration:none!important;
+    }
+  }
+}
+
+.dots li a:before{
+  background-color: rgba(245, 193, 154, 0.3)!important
+}
+.dots li a.active:before{
+  background-color: rgba(245, 193, 154, 0.5)!important
+}
+
+
+.anchor-wrapper{
+  a{
+    width:100%;
+    margin-bottom:3rem;
+  }
+}
+.text-color-s{
+  color:#F5C19A;
+}
+.image-schema{
+  height:auto;
+  width:100%;
+  max-width:60%;
+  overflow:hidden;
+  border-radius:7px;
+  box-shadow:1px 1px 10px rgba(0,0,0,0.5);
+}
+.colorgrey{
+  color:#404040;
+}
+.custom-table.table{
+  font-size:0.7rem;
+  overflow: hidden;
+  td{
+    border-top:0;
+  }
+}
+a{
+  color:inherit;
+  &:visited{
+    color:inherit;
+  }
+}
+
+.adpreview-text{
+  & > p{
+    padding-left:2rem;
+  }
+  h5{
+    color: #404040;
+  }
+}
+
+.story-text{
+  & > p{
+    padding-left:2rem;
+  }
+  h5{
+    color: #404040;
+  }
+}
+
+.padding-container{
+  padding:0px 40px 40px 40px!important;
+}
+
+@media only screen and (max-width: 767px) {
+  .partner-wrapper.d-flex {
+    display:block!important;
+  }
+  .partner-logo{
+    width:100%!important;
+  }
+}
+
+
+.partner-logo{
+  display:block;
+  width:30%;
+  height:auto;
+}

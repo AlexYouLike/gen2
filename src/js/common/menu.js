@@ -17,6 +17,10 @@
       title: 'Technical Specs'
     },
     {
+      href: '/deck/',
+      title: 'Product'
+    },
+    {
       href: '/demo/',
       title: 'Request demo'
     }

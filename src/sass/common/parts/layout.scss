@@ -103,6 +103,8 @@ header{
 }
 
 .dots li a:before{
+  transition-duration:0.3s;
+  border:1px solid #FFFFFF;
   background-color: rgba(245, 193, 154, 0.3)!important
 }
 .dots li a.active:before{
