@@ -67,4 +67,45 @@
 
  })
 
+  if(document.location.href.indexOf('nativestories.io') == -1 && document.location.href.indexOf('study') == -1) {
+
+    let colors = [
+      {
+        'name': 'Bleached Coral',
+        'value': '#f4f8fb'
+      },
+      {
+        'name': 'Deep Blue',
+        'value': '#4D6995'
+      },
+      {
+        'name': 'Manhattan',
+        'value': '#F5C19A'
+      },
+      {
+        'name': 'White',
+        'value': '#FFFFFF'
+      }
+    ]
+
+    let toggles = document.createElement('div');
+    toggles.setAttribute('style', 'position:fixed;left:-3px;top:50%;transform:translateY(-50%);padding:20px;display:flex;flex-direction:column;')
+    toggles.id = 'toggleswrapper'
+    colors.forEach((color) => {
+      let col = document.createElement('div');
+      col.setAttribute('style', 'background-color:' + color.value + ';border-color:' + color.value + ';')
+      col.setAttribute('data-name', color.name)
+      col.setAttribute('data-value', color.value)
+      toggles.appendChild(col)
+      col.addEventListener('click', (t) => {
+        console.log('click');
+        Array.from(document.getElementsByClassName('background-color')).forEach(bg => {
+          bg.style.backgroundColor = color.value;
+        })
+      })
+    })
+    document.body.appendChild(toggles)
+
+  }
+
 })()

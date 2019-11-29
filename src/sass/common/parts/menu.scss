@@ -193,8 +193,7 @@ header{
   padding:0;
   height:30px;
   .menu_entry{
-    font:normal normal 500 normal 16px / 32px 'gotham-book', sans-serif;
-     padding:0 15px;
+    padding:0 15px;
     display:block;
     margin:0;
     line-height:2rem;
@@ -222,6 +221,7 @@ header{
       }
       &.close-menu{
          .entry-wrapper{
+           font-family: "gotham-book", sans-serif;
             display:block;
             position:fixed;
             top:0;
