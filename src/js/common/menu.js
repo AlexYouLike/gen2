@@ -19,6 +19,10 @@
     {
       href: '/demo/',
       title: 'Request demo'
+    },
+    {
+      href: '/deck/',
+      title: 'Product'
     }
   ]
 
