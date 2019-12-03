@@ -233,3 +233,83 @@ p.format-desc{
 .barchart-wrapper{
   height:350px;
 }
+.correct-mark{
+  font-size:15px;
+}
+.custom-table.table td{
+  border:1px solid #f3f2f2;
+}
+.brand-image{
+  height: 60px;
+  width:auto;
+  margin:20px 0;
+}
+.bullet-parag-wrapper{
+  width:80%;
+  margin:0 auto;
+  font-size:13px;
+}
+.bullet-title{
+  font-family:"gotham-medium", sans-serif;
+  font-size:2em;
+  color:#F5C19A;
+  text-transform:uppercase;
+}
+.bullet-parag{
+  font-family:"gotham-book", sans-serif;
+  font-size:1.2em;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .king-wrapper{
+    font-size:30px;
+    text-align:center;
+    margin:20px 0 0 0;
+    &.text-right{
+      text-align: center!important;
+      margin: 0 auto;
+    }
+    &.text-center{
+      margin:0 auto;
+    }
+  }
+  .image-graph{
+    width:100%;
+  }
+  /*
+  .d-md-block{
+    display:block!important;
+  }
+  */
+  .graph-text{
+    &.ml-5{
+      margin-top:25px;
+      margin-left:0!important;
+      text-align:center;
+    }
+  }
+  .banner-title{
+    max-width: 90%;
+    font-size: 1.6rem;
+    margin: 0 auto;
+  }
+  .chart-wrapper{
+    margin:20px auto 0 auto;
+    width:90%;
+  }
+  .filler{
+    padding-top:30%;
+  }
+  .chart-title{
+    max-width:90%;
+    margin:0 auto 10px auto;
+  }
+  .bullet-parag-wrapper.my-5{
+    margin-top:0.9rem!important;
+    margin-bottom:1.4rem!important;
+  }
+  .bullet-title{
+    margin-bottom:0!important;
+  }
+}

@@ -71,7 +71,7 @@
 
  })
 
-  if(document.location.href.indexOf('nativestories.io') == -1 && document.location.href.indexOf('study') == -1) {
+  if(document.location.href.indexOf('nativestories.io') == -1 && document.location.href.indexOf('study') == -1 && document.location.href.indexOf('deck') == -1) {
 
     let colors = [
       {
