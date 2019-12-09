@@ -14,7 +14,7 @@
       }
     </style>
 	</head>
-	<body onload="loader();">
+	<body>
 
 		<div class="loader-wrapper">
 			<iframe id="loader" src="images/loader/index.html" frameborder="0"></iframe>
@@ -123,15 +123,24 @@
 
 <!-- Loader script -->
 		<script>
-			var myVar;
-			function loader() {
-			  myVar = setTimeout(showPage, 4000);
-			}
-			function showPage() {
-			  document.body.style.overflow = "scroll";
-			  document.getElementById("loader").style.display = "none";
-			  document.getElementsByClassName("loader-wrapper")[0].style.display = "none";
-			}
+			function sizeStories() {
+		    Array.from(document.getElementsByClassName('thumbnail-wrapper')).forEach(thumbnail => {
+		      thumbnail.setAttribute('style', 'height:' + thumbnail.offsetWidth * 1.8 + 'px!important')
+		    })
+		  }
+
+		  window.addEventListener('resize', sizeStories)
+
+			document.addEventListener("DOMContentLoaded", function(event) {
+				sizeStories()
+				setTimeout(function(){
+					document.body.style.overflow = "scroll"
+					document.getElementById("loader").style.display = "none"
+					document.getElementsByClassName("loader-wrapper")[0].style.display = "none"
+				}, 2000)
+			})
+
+
 		</script>
 <!-- end loader script-->
 <!-- forcer scroll top on load-->
