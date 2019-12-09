@@ -100,21 +100,26 @@ header{
 	margin:1em auto;
 	flex:1 0 80%;
 	max-width: 80%;
-	text-align: justify;
 }
 #left_part ul li{margin:2em 0;}
 #left_part ul li:before{
-	content:' ';
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:0;
+	content:'';
 	background:#000000;
 	width:32px;
 	height:32px;
 	-webkit-mask: url(../../../demo/images/check.svg) no-repeat 50% 50%;
-  	mask: url(../img/check.svg) no-repeat 50% 50%;
-  	-webkit-mask-size: cover;
-  	mask-size: cover;
-  	display: inline-block;
-  	vertical-align: middle;
-  	margin-right:10px;
+	mask: url(../img/check.svg) no-repeat 50% 50%;
+	-webkit-mask-size: cover;
+	mask-size: cover;
+	display: block;
+}
+#left_part ul li{
+  padding:0 0 0 40px;
+  position:relative;
 }
 #left_part ul li span{
 	display:inline-block;
