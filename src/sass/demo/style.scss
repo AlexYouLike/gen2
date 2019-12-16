@@ -120,10 +120,11 @@ header{
 #left_part ul li{
   padding:0 0 0 40px;
   position:relative;
+  display:block;
+  text-align:left;
 }
 #left_part ul li span{
-	display:inline-block;
-	vertical-align: middle;
+	display:block;
 	max-width:90%;
 }
 #logos_container{
