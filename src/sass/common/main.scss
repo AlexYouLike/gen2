@@ -6,6 +6,44 @@
 
 
 /* Colors layout */
+section{
+  overflow:hidden;
+}
+.animated{
+  transition-duration:0.6s;
+  opacity:0;
+  &.from-left{
+    transform:translateX(-100vw) translateY(0%);
+  }
+  &.from-right{
+    transform:translateX(100vw) translateY(0%);
+  }
+  &.from-top{
+    transform:translateX(0%) translateY(-100vh);
+  }
+  &.from-bottom{
+    transform:translateX(0%) translateY(100vh);
+  }
+  &.delay-1{
+    transition-delay:0.2s;
+  }
+  &.delay-2{
+    transition-delay:0.4s;
+  }
+  &.delay-3{
+    transition-delay:0.6s;
+  }
+  &.delay-4{
+    transition-delay:0.8s;
+  }
+}
+
+section.visible{
+  .animated{
+    transform:translateX(0vw) translateY(0vh)!important;
+    opacity:1;
+  }
+}
 
 .background-color{
   transition-duration:0.3s;
