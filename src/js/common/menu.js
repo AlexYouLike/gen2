@@ -6,7 +6,7 @@
   var entries = [
     {
       href: '/',
-      title: 'Catalogue'
+      title: 'Catalog'
     },
     {
       href: '/study/',
