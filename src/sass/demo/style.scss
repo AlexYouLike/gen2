@@ -101,7 +101,10 @@ header{
 	flex:1 0 80%;
 	max-width: 80%;
 }
-#left_part ul li{margin:2em 0;}
+#left_part ul li{
+  line-height:1;
+  margin:2em 0;
+}
 #left_part ul li:before{
   position:absolute;
   top:50%;
@@ -124,6 +127,7 @@ header{
   text-align:left;
 }
 #left_part ul li span{
+  line-height:1.2;
 	display:block;
 	max-width:90%;
 }
@@ -132,26 +136,41 @@ header{
 	text-align:center;
 }
 
+.tech-slideshow {
+  height:100px!important;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 200px;
+  width: 2526px;
+  background: url('../../images/brandlogo.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 18s linear infinite;
+}
+
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+
+
 #logos_container span{
 	text-transform: uppercase;
 	margin:1em;
 }
-
-#logos_container img{
-	margin:2em 1em;
-	max-width:100px;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#logos_container nav{
-	display: flex;
-	overflow-x: auto;
-	align-items: center;
-	max-width: 95%;
-}
-
-#logos_container nav::-webkit-scrollbar {    display: none;}
 
 form.container{
   margin-top:10px!important;
