@@ -146,23 +146,50 @@ header{
 }
 
 .tech-slideshow > div {
-  height: 200px;
-  width: 2526px;
+  height: 87px;
+  width: 1126px;
   background: url('../../images/brandlogo.png');
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   transform: translate3d(0, 0, 0);
+  background-size:contain;
+  animation: moveSlideshow 35s linear infinite;
+  &.mover-2{
+    animation: moveSlideshow2 35s linear infinite;
+  }
 }
-.tech-slideshow .mover-1 {
-  animation: moveSlideshow 18s linear infinite;
-}
-
 
 @keyframes moveSlideshow {
-  100% {
-    transform: translateX(-66.6666%);
+  0% {
+    transform:translateX(-0);
+    opacity:1;
+  }
+  50% {
+    transform: translateX(-1126px);
+    opacity:1;
+  }
+  51% {
+    transform: translateX(-1126px);
+    opacity:0;
+  }
+  52% {
+    transform: translateX(1126px);
+    opacity:0,
+  }
+  53% {
+    transform: translateX(1126px);
+    opacity:1,
+  }
+}
+@keyframes moveSlideshow2 {
+  0%{
+    transform:translateX(1126px);
+    opacity:1;
+  }
+  100%{
+    transform:translateX(-1126px);
+    opacity:1;
   }
 }
 
