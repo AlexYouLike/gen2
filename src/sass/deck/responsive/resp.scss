@@ -1,6 +1,26 @@
 
 
 @media only screen and (max-width: 767px) {
+
+  .ivsayl-tile{
+    font-size: 8px!important;
+  }
+
+  .ivsayl-icon{
+    display:block;
+    width: 25px!important;
+  }
+
+  .ivsayl-h4{
+    font-size: 1.4rem;
+  }
+  .ivsayl-h5{
+    font-size: 16px!important;
+  }
+  .ivsayl-h6{
+    font-size: 20px;
+  }
+
   header{
     background-color:#FFFFFF;
     .inner-header{
