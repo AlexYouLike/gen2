@@ -2,12 +2,12 @@
 
 
 h1{
-  font-family:'gotham-book', 'Arial', sans-serif!important;
+  font-family:'Eina01', sans-serif!important;
 }
 
 h5{
   font-size:2.2rem!important;
-  font-family:'gotham-medium', 'Arial', sans-serif;
+  font-family:'Eina01', sans-serif;
   margin-bottom:0!important;
 }
 p{
@@ -15,13 +15,13 @@ p{
   font-size:0.9rem;
 }
 .border-left-color{
-  border-color: #F5C19A;
+  border-color: #111;
   border-width: 0 0 0 4px;
   border-style: solid;
   padding: 0 0 0 20px;
 }
 .border-right-color{
-  border-color: #F5C19A;
+  border-color: #111;
   border-width: 0 4px 0 0;
   border-style: solid;
   padding: 0 0 0 20px;
@@ -94,10 +94,10 @@ header{
 }
 
 .dots li a:before{
-  background-color: rgba(245, 193, 154, 0.3)!important
+  background-color: #AEAEAE!important
 }
 .dots li a.active:before{
-  background-color: rgba(245, 193, 154, 0.5)!important
+  background-color: #111!important
 }
 
 
@@ -108,7 +108,7 @@ header{
   }
 }
 .text-color-s{
-  color:#F5C19A;
+  color:#111;
 }
 .image-schema{
   height:auto;

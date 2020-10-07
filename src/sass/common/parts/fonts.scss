@@ -1,45 +1,37 @@
 @font-face {
- font-family: "gotham-book";
- src: url("./../../fonts/Gotham-Book.otf") format("opentype");
+  font-family: 'Eina01';
+  src: url('../../../fonts/Eina01-Regular.eot');
+  src: url('../../../fonts/Eina01-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../../../fonts/Eina01-Regular.svg#Eina01-Regular') format('svg'),
+       url('../../../fonts/Eina01-Regular.ttf') format('truetype'),
+       url('../../../fonts/Eina01-Regular.woff') format('woff'),
+       url('../../../fonts/Eina01-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
- font-family: "gotham-light";
- src: url("./../../fonts/Gotham-Light.otf") format("opentype");
-}
-
-@font-face {
- font-family: "gotham-medium";
- src: url("./../../fonts/Gotham-Medium.otf") format("opentype");
-}
-
-@font-face {
- font-family: "gotham-thin";
- src: url("./../../fonts/Gotham-Thin.otf") format("opentype");
+  font-family: 'Eina01';
+  src: url('../../../fonts/Eina01-SemiBold.eot');
+  src: url('../../../fonts/Eina01-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('../../../fonts/Eina01-SemiBold.svg#Eina01-SemiBold') format('svg'),
+       url('../../../fonts/Eina01-SemiBold.ttf') format('truetype'),
+       url('../../../fonts/Eina01-SemiBold.woff') format('woff'),
+       url('../../../fonts/Eina01-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
 }
 
 
-@font-face {
- font-family: "gotham-ultra";
- src: url("./../../fonts/Gotham-Ultra.otf") format("opentype");
-}
 
 @font-face {
- font-family: "gotham-narrow-black";
- src: url("./../../fonts/GothamNarrow-Black.otf") format("opentype");
-}
-
-@font-face {
- font-family: "gotham-narrow-book";
- src: url("./../../fonts/GothamNarrow-Book.otf") format("opentype");
-}
-
-@font-face {
- font-family: "gotham-narrow-thin";
- src: url("./../../fonts/GothamNarrow-Thin.otf") format("opentype");
-}
-
-@font-face {
- font-family: "gotham-narrow-ultra";
- src: url("./../../fonts/GothamNarrow-Ultra.otf") format("opentype");
+  font-family: 'Eina01';
+  src: url('../../../fonts/Eina01-Bold.eot');
+  src: url('../../../fonts/Eina01-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../../../fonts/Eina01-Bold.svg#Eina01-Bold') format('svg'),
+       url('../../../fonts/Eina01-Bold.ttf') format('truetype'),
+       url('../../../fonts/Eina01-Bold.woff') format('woff'),
+       url('../../../fonts/Eina01-Bold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
 }

@@ -9,8 +9,8 @@
       title: 'Catalog'
     },
     {
-      href: '/study/',
-      title: 'Study'
+      href: 'https://www.adyoulike.com/',
+      title: 'All native formats'
     },
     {
       href: '/documentation/',
@@ -19,10 +19,6 @@
     {
       href: '/demo/',
       title: 'Request demo'
-    },
-    {
-      href: '/deck/',
-      title: 'Product'
     }
   ]
 
@@ -85,7 +81,7 @@
       },
       {
         'name': 'Manhattan',
-        'value': '#F5C19A'
+        'value': '#000'
       },
       {
         'name': 'White',

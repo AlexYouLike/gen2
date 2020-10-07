@@ -35,10 +35,10 @@ header{
   }
 
   #logo_title{
-    font-size:1.7em;
+    font-size:1.5em;
     line-height:1;
-    font-family: "gotham-medium", "Arial", sans-serif !important;
-    font-weight:bold;
+    font-family: "Eina01", sans-serif !important;
+    font-weight:600;
 
   }
   header.sticky #logo_title{
@@ -120,7 +120,7 @@ header{
    flex-grow:1;
   background-color:rgba(255,255,255,0);
   transition-duration:0.3s;
-  height:30px;
+  height:36px;
   width:100%;
   overflow:hidden;
   cursor:pointer;
@@ -190,18 +190,21 @@ header{
   position:relative;
   transition-duration:0.3s;
   padding:0;
-  height:30px;
-  font-family:"gotham-book", sans-serif;
+  height:36px;
+  font-family:"Eina01", sans-serif;
   .menu_entry{
-    padding:0 15px;
+    padding:0;
     display:block;
     margin:0;
+    margin-right: 30px;
+    font-size:1.125em;
     line-height:2rem;
     text-align:center;
     transition-duration:0.3s;
+    font-weight: 400;
     color:#000000;
     &:hover{
-      color:#f5c19a;
+      font-weight:600;
     }
   }
 }
@@ -221,7 +224,7 @@ header{
       }
       &.close-menu{
          .entry-wrapper{
-           font-family: "gotham-book", sans-serif;
+           font-family: "Eina01", sans-serif;
             display:block;
             position:fixed;
             top:0;
