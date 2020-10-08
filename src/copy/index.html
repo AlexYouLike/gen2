@@ -13,17 +13,23 @@
 			    pointer-events: none;
 			}
 			a[href*="demo"]{
-				background:#111;
-				width:134px;
-				color:#fff !important;
-				font-size:.75em !important;
-				font-weight: 600 !important;
-				height:36px;
-				line-height: 36px !important;
-				text-align: center;
-				border-radius: 4px;
-				margin-right:0 !important;
-			}
+        background:#111;
+        width:134px;
+        color:#fff !important;
+        font-size:.75em !important;
+        font-weight: 600 !important;
+        height:36px;
+        line-height: 36px !important;
+        text-align: center;
+        border-radius: 4px;
+        margin-right:0 !important;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+      a[href*="demo"]:hover{
+        border-radius: 30px !important;
+      }
 		</style>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

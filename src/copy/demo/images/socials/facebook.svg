@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1264.000000, -5847.000000)" id="Footer">
+            <g transform="translate(-1.000000, 5198.000000)">
+                <polygon id="Rectangle-Copy-28" fill="none" points="1 350 738 350 1445 350 1445 822 1 822"></polygon>
+                <g id="Reseaux" transform="translate(1152.000000, 640.000000)" fill="#7B7B7B" fill-rule="nonzero">
+                    <path d="M120.985782,12.3415828 L122.556351,12.3415828 L122.556351,9.6061684 C122.285391,9.56889336 121.353515,9.48502452 120.268238,9.48502452 C118.003779,9.48502452 116.452564,10.9093611 116.452564,13.5272157 L116.452564,15.9364735 L113.953703,15.9364735 L113.953703,18.9944603 L116.452564,18.9944603 L116.452564,26.6888885 L119.516285,26.6888885 L119.516285,18.9951772 L121.914074,18.9951772 L122.294709,15.9371903 L119.515569,15.9371903 L119.515569,13.8304338 C119.516285,12.9465853 119.754272,12.3415828 120.985782,12.3415828 L120.985782,12.3415828 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

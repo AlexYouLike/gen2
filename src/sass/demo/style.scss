@@ -110,8 +110,25 @@ header{
 .container{
 	flex:1 0 85%;
 	max-width:85%;
-	margin:auto;
+	margin:auto !important;
   font-weight: 600;
+}
+
+#main_demo{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#main_demo .row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex:0;
+  width:100%;
 }
 
 #left_part h1{
@@ -157,9 +174,10 @@ header{
 	max-width:90%;
 }
 #logos_container{
-	margin:1em 0;
 	text-align:center;
+  flex-direction: column;
 }
+
 
 .tech-slideshow {
   height:100px!important;
@@ -275,11 +293,93 @@ form.container{
 	width:40%;
 	padding:0;
 }
+.bx-wrapper{
+  background:none !important;
+  border:none !important;
+  box-shadow:none !important;
+}
+.slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+#logos_container h5{
+  font-size:2.625em;
+  font-weight:600;
+}
+#logos_container nav {
+  width:100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+#logos_container nav img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 2em;
+    max-width: 150px;
+}
 
 footer{
-	width:48px;
-	height:48px;
-	position:absolute;
-	left:15px;
-	bottom:15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    font-size: 12px;
+    background: #F0F0F0;
+    display:flex !important;
+    justify-content: center;
+    align-content: center;
+}
+footer a{
+  color:inherit !important;
+  font-size:12px !important;
+  font-weight:400 !important;
+}
+footer .row {
+    max-width: 90% !important;
+    flex:1 0 90% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin:auto;
+}
+#copyrights {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 450px;
+    flex: 1 1 450px;
+    max-width: 450px;
+    margin-right: auto;
+}
+#socials {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 315px;
+    flex: 1 1 315px;
+    max-width: 315px;
+    margin-left: auto;
+}
+#socials span, #socials nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+#socials span {
+    margin-right: 27px;
+}
+#socials a {
+    margin-right: 37px;
 }
