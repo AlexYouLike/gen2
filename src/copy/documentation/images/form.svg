@@ -1,0 +1,27 @@
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Form icon</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.066667 0 0 0 0 0.066667 0 0 0 0 0.066667 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Native-Stories" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1059.000000, -4393.000000)" id="One-product,-4-mobile-experiences">
+            <g transform="translate(245.000000, 3761.000000)">
+                <g id="Mobile-experiences">
+                    <g id="Group-13" transform="translate(49.533800, 618.000000)">
+                        <g filter="url(#filter-1)" id="Icon-Content">
+                            <g transform="translate(762.000000, 0.000000)">
+                                <g id="Form-icon" transform="translate(4.000000, 15.955575)" fill="#111111" fill-rule="nonzero">
+                                    <path d="M10.5,-0.5 C11.0522847,-0.5 11.5,-0.0522847498 11.5,0.5 C11.5,1.01283584 11.1139598,1.43550716 10.6166211,1.49327227 L10.5,1.5 L0.5,1.5 C-0.0522847498,1.5 -0.5,1.05228475 -0.5,0.5 C-0.5,-0.0128358391 -0.11395981,-0.435507161 0.383378875,-0.493272269 L0.5,-0.5 L10.5,-0.5 Z" id="Line-4"></path>
+                                    <path d="M12.5,3.5 C13.0522847,3.5 13.5,3.94771525 13.5,4.5 C13.5,5.01283584 13.1139598,5.43550716 12.6166211,5.49327227 L12.5,5.5 L0.5,5.5 C-0.0522847498,5.5 -0.5,5.05228475 -0.5,4.5 C-0.5,3.98716416 -0.11395981,3.56449284 0.383378875,3.50672773 L0.5,3.5 L12.5,3.5 Z" id="Line-4-Copy"></path>
+                                    <path d="M8.5,7.5 C9.05228475,7.5 9.5,7.94771525 9.5,8.5 C9.5,9.01283584 9.11395981,9.43550716 8.61662113,9.49327227 L8.5,9.5 L0.5,9.5 C-0.0522847498,9.5 -0.5,9.05228475 -0.5,8.5 C-0.5,7.98716416 -0.11395981,7.56449284 0.383378875,7.50672773 L0.5,7.5 L8.5,7.5 Z" id="Line-4-Copy-2"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

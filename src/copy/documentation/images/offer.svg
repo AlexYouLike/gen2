@@ -1,0 +1,23 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Offer icon</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.066667 0 0 0 0 0.066667 0 0 0 0 0.066667 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Native-Stories" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-802.000000, -4390.000000)" id="One-product,-4-mobile-experiences">
+            <g transform="translate(245.000000, 3761.000000)">
+                <g id="Mobile-experiences">
+                    <g id="Group-13" transform="translate(49.533800, 618.000000)">
+                        <g filter="url(#filter-1)" id="Icon-Offer">
+                            <g transform="translate(504.000000, 0.000000)">
+                                <path d="M13.1624764,10.7859156 L18.1624764,14.3573442 C18.6880686,14.7327672 19,15.3389089 19,15.9848111 L19,26.9555754 C19,28.0601449 18.1045695,28.9555754 17,28.9555754 L7,28.9555754 C5.8954305,28.9555754 5,28.0601449 5,26.9555754 L5,15.9848111 C5,15.3389089 5.31193137,14.7327672 5.83752361,14.3573442 L10.8375236,10.7859156 C11.5329187,10.2892049 12.4670813,10.2892049 13.1624764,10.7859156 Z M12,14.9555754 C11.1576056,14.9555754 10.47471,15.6384709 10.47471,16.4808654 C10.47471,17.3232598 11.1576056,18.0061554 12,18.0061554 C12.8423944,18.0061554 13.52529,17.3232598 13.52529,16.4808654 C13.52529,15.6384709 12.8423944,14.9555754 12,14.9555754 Z" id="Offer-icon" fill="#FFFFFF" transform="translate(12.000000, 19.684479) rotate(-40.000000) translate(-12.000000, -19.684479) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
