@@ -8,13 +8,13 @@
 @import 'animations';
 
 body{
-  font-family:'gotham-book', sans-serif;
+  font-family:'Eina01', sans-serif;
 }
 .manhattan-bg{
-  background-color:#f5c19a;
+  background-color:#111;
 }
 .manhattan-color{
-  color:#f5c19a;
+  color:#111;
 }
 
 .format-img{
@@ -28,11 +28,11 @@ body{
 }
 .format-title{
   text-align:center;
-  font-family: 'gotham-medium', sans-serif;
+  font-family: 'Eina01', sans-serif;
   margin-bottom:20px;
 }
 .format-redirect{
-  font-family:"gotham-medium", sans-serif!important;
+  font-family:"Eina01", sans-serif!important;
   text-align:center;
   margin-top:20px;
   a{
@@ -51,7 +51,7 @@ body{
 .tech-title{
   text-align:center;
   .subtitle{
-    color:#f5c19a;
+    color:#111;
   }
 }
 .tech-detail{
@@ -89,7 +89,6 @@ body{
   display:inline-block;
   z-index:2;
   position:relative;
-  box-shadow:6px 6px 0px #f5c19a;
 }
 .tech-bullet-title{
   margin:30px 0;

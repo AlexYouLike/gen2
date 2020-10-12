@@ -778,7 +778,7 @@ var assets = [{
  },
  {
    "brand_name": "Nike",
-   "clip_url": "https://m.clipr.co/nike-1/test/",
+   "clip_url": "https://m.clipr.co/nike-1",
    "category": "mode-beauty",
    "geo": "UK",
    "format": "redirect",

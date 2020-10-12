@@ -9,7 +9,7 @@
 
 body{
   font-size:13px;
-  font-family:'gotham-book', serif!important;
+  font-family:'Eina01', serif!important;
 }
 .background-image{
   background-position:center;
@@ -50,7 +50,7 @@ header{
 }
 
 .key-number{
-  font-family:"gotham-narrow-medium", sans-serif!important;
+  font-family:"Eina01", sans-serif!important;
   font-size:2.5em;
   line-height:1.2em;
 }
@@ -80,10 +80,10 @@ header{
   max-height:60vh;
 }
 .phone-text{
-  font-family:"gotham-medium", sans-serif!important;
+  font-family:"Eina01", sans-serif!important;
 }
 .phone-baseline{
-  font-family:"gotham-medium", sans-serif!important;
+  font-family:"Eina01", sans-serif!important;
   text-align:center;
   margin-top:50px;
 }
@@ -162,7 +162,7 @@ header{
       content:"";
       display:block;
       height:100%;
-      background-color:#F5C19A;
+      background-color:#111;
       transition-duration:1.5s;
     }
   }
@@ -188,7 +188,7 @@ header{
  }
 }
 .key-text{
-  font-family: "gotham-medium", sans-serif;
+  font-family: "Eina01", sans-serif;
 }
 .top-arrow{
   background-color:$salmon;
@@ -314,7 +314,7 @@ header{
 .svg-circle circle {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s linear;
-  stroke: #f5c19a;
+  stroke: #111;
   stroke-width: 10px;
   &:last-of-type{
     stroke-dashoffset:0;
