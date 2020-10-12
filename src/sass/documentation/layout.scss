@@ -257,20 +257,26 @@ UPDATE
     margin-right: 5em;
     position: relative;
 }
-.video_container:after {
-    content: '';
-    display: block;
-    width: 95%;
-    height: 95%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.preview_video {
     border-radius: 30px;
     -webkit-box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.22);
     box-shadow: 10px 10px 41px 0px rgba(0, 0, 0, 0.22);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+}
+
+.video_info img{
+  width:24px;
+  height:24px;
+  margin-right:10px;
+}
+.video_info img,
+.video_info span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.video_info{
+  font-size:1.375em;
+  font-weight: 600;
+  margin:1em auto 0;
 }
 
 footer{

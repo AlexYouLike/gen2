@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="35px" viewBox="0 0 24 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon-Native Video</title>
+    <g id="Native-Video" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-493.000000, -211.000000)" fill="#111111" id="Native-video">
+            <g transform="translate(184.500000, 165.400000)">
+                <g id="Title" transform="translate(91.000000, 0.000000)">
+                    <path d="M218,47.8848688 L218,78.4913169 C218,79.5958864 218.895431,80.4913169 220,80.4913169 C220.447309,80.4913169 220.881706,80.3413654 221.233763,80.0654287 L240.10774,65.2723122 C240.977098,64.5909235 241.129477,63.333795 240.448088,62.464437 C240.36221,62.3548681 240.265126,62.2545651 240.158416,62.1651594 L221.28444,46.3518279 C220.437765,45.6424514 219.176336,45.753754 218.466959,46.6004291 C218.165311,46.9604607 218,47.4151728 218,47.8848688 Z" id="Icon-Native-Video"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
