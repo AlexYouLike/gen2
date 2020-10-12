@@ -9,12 +9,13 @@
       title: 'Catalog'
     },
     {
-      href: 'https://www.adyoulike.com/',
-      title: 'All native formats'
-    },
-    {
       href: '/documentation/',
       title: 'Technical Specs'
+    },
+    {
+      href: 'https://www.adyoulike.com/',
+      title: 'All native formats',
+      target: '_blank'
     },
     {
       href: '/demo/',
