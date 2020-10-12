@@ -50,6 +50,9 @@
       a.setAttribute('href', redirect)
       a.setAttribute('title', entry.title)
       a.setAttribute('class', 'menu_entry')
+      if(entry.target) {
+        a.setAttribute('target', entry.target)
+      }
       a.innerHTML = entry.title
       entryWrapper.appendChild(a)
     })
