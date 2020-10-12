@@ -212,9 +212,13 @@ UPDATE
     color: #111;
     padding: 0;
     margin: auto;
+    position: relative;
 }
 #native-solutions h5{margin:0 auto;}
-#native-solutions > div{padding:0;}
+#native-solutions > div{
+  padding:0;
+  max-height:calc(100vh - 85px);
+}
 #videos_slider {
     width: 100%;
     margin: 2em auto 0;
