@@ -210,7 +210,7 @@ UPDATE
     align-items: center;
     text-align: center;
     color: #111;
-    padding: 60px 0 80px 0;
+    padding: 80px 0 80px 0;
     margin: auto;
     position: relative;
     box-sizing:border-box;
@@ -233,6 +233,25 @@ UPDATE
 #native-solutions #videos_slider{
   margin:0;
   padding: 2em;
+}
+#native-solutions .preview_video{
+  width:100%;
+}
+#native-solutions .video_container{
+  max-width:15vw;
+  height:calc(15vw * 2.22);
+}
+#native-solutions .mockup{
+  max-width:120%;
+  left:-10%;
+  top:0;
+  position:absolute;
+}
+#native-solutions .video_info{
+  position:absolute;
+  bottom:-80px;
+  font-size: 15px;
+  width: 100%;
 }
 #videos_slider .last{margin-right:0 !important;}
 .preview_video{
