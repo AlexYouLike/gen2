@@ -63,6 +63,11 @@
 		margin:10px;
 		max-width:70px;
 	}
+	#copyrights{
+		text-align: center;
+		max-width: 70%;
+		margin:0 auto 15px;
+	}
 }
 
 
@@ -194,7 +199,6 @@ body{
 		max-width:80% !important;
 	}
 	#logos_container img{max-width:79px;}
-	footer{right:15px;top:15px;left:initial;bottom:initial;}
 
 }
 
@@ -234,7 +238,6 @@ body{
 		text-align:left;
 	}
 	#logos_container img{max-width:79px;}
-	footer{right:15px;top:15px;left:initial;bottom:initial;display:none!important;}
 
 }
 
