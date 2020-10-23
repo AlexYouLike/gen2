@@ -46,7 +46,10 @@
     }
   }
   section{
-    padding-top:100px;
+    padding-top:0px;
+    .row{
+      zoom:0.9;
+    }
   }
   .first-slide{
     padding-top:0px;
