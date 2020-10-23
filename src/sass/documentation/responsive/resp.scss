@@ -1,8 +1,8 @@
 
 @media only screen and (min-width: 1100px) {
   #native-solutions .video_container{
-    max-width:110px;
-    height:calc(110px * 2.22);
+    max-width:150px;
+    height:calc(150px * 2.22);
   }
 }
 @media only screen and (max-width: 767px) {
@@ -95,6 +95,7 @@
     width:100%;
     padding:0 2em;
     justify-content: flex-start;
+    overflow: visible;
     overflow-x: scroll;
   }
   .video_container{flex:0 0 200px;}
