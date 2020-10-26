@@ -51,7 +51,8 @@
 
 
 @media only screen and (max-width: 767px) {
-	header{margin:40px 0;}
+	header{margin:40px auto!important;}
+	header.sticky{margin:0px 0!important;}
 	.col,
 	.row{flex:0 !important;}
 	#main_demo{display: block;}
