@@ -51,8 +51,10 @@
 
 
 @media only screen and (max-width: 767px) {
+	header{margin:40px 0;}
 	.col,
 	.row{flex:0 !important;}
+	#main_demo{display: block;}
 	#main_demo .row{flex-direction: column;}
 	#logos_container h5 {font-size:1.5em !important;}
 	#logos_container nav {
