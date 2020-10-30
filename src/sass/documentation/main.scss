@@ -7,6 +7,9 @@
 @import 'header';
 @import 'animations';
 
+html{
+  overflow:scroll;
+}
 body{
   font-family:'Eina01', sans-serif;
 }
